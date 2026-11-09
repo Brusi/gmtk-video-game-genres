@@ -149,7 +149,7 @@ function renderGallery() {
 
     grid.appendChild(card);
 
-    // Create Sparkline Chart
+    // Create Sparkline Chart with straight segmented lines and visible axes
     const ctx = document.getElementById(`sparkline-${idx}`).getContext('2d');
     const dataPoints = years.map(y => g.history[y] || 0);
 
@@ -160,16 +160,21 @@ function renderGallery() {
         datasets: [{
           data: dataPoints,
           borderColor: color,
-          backgroundColor: `${color}20`,
+          backgroundColor: `${color}18`,
           borderWidth: 2,
           pointRadius: 0,
+          pointHoverRadius: 4,
           fill: true,
-          tension: 0.3
+          tension: 0 // straight segmented line, no wobbly bezier
         }]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
+        interaction: {
+          mode: 'index',
+          intersect: false
+        },
         plugins: {
           legend: { display: false },
           tooltip: {
@@ -180,8 +185,33 @@ function renderGallery() {
           }
         },
         scales: {
-          x: { display: false },
-          y: { display: false, min: 0 }
+          x: {
+            display: true,
+            grid: {
+              color: 'rgba(255, 255, 255, 0.04)',
+              drawTicks: false
+            },
+            ticks: {
+              color: '#8c96ac',
+              font: { size: 10 },
+              maxTicksLimit: 6,
+              maxRotation: 0
+            }
+          },
+          y: {
+            display: true,
+            beginAtZero: true,
+            grid: {
+              color: 'rgba(255, 255, 255, 0.04)',
+              drawTicks: false
+            },
+            ticks: {
+              color: '#8c96ac',
+              font: { size: 10 },
+              precision: 0,
+              maxTicksLimit: 4
+            }
+          }
         }
       }
     });
@@ -222,7 +252,7 @@ function openGenreModal(g) {
         backgroundColor: 'rgba(255, 71, 87, 0.15)',
         borderWidth: 2.5,
         fill: true,
-        tension: 0.25,
+        tension: 0,
         pointBackgroundColor: '#ff4757',
         pointRadius: 3,
         pointHoverRadius: 6
@@ -435,7 +465,7 @@ function renderCompareChart() {
       borderColor: color,
       backgroundColor: `${color}15`,
       borderWidth: 2.5,
-      tension: 0.3,
+      tension: 0,
       fill: false,
       pointRadius: 2,
       pointHoverRadius: 5

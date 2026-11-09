@@ -333,9 +333,10 @@ main {
 }
 
 .genre-sparkline-wrapper {
-  height: 120px;
+  height: 180px;
   width: 100%;
-  margin-top: auto;
+  margin-top: 6px;
+  margin-bottom: 6px;
   position: relative;
 }
 
