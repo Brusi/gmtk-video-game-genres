@@ -291,52 +291,47 @@ const GENRE_RULES = [
     ]
   },
 
-  // 20. Computer RPG (CRPG)
+  // 20. Computer Role-Playing (CRPG)
   {
-    canonical: 'Computer RPG',
-    subgenres: ['Western RPG', 'Dungeon Crawler'],
+    canonical: 'Computer Role-Playing',
+    subgenres: ['Western RPG', 'Dungeon Crawler', 'MMORPG'],
     patterns: [
       /\bcrpg\b/i,
       /\bcomputer role-playing\b/i,
       /\bwestern role-playing\b/i,
-      /\bdungeon crawl(?:er|ing)?\b/i
+      /\bwestern rpg\b/i,
+      /\bdungeon crawl(?:er|ing)?\b/i,
+      /\bmmorpg\b/i,
+      /\bmassively multiplayer online role-playing\b/i
     ]
   },
 
-  // 21. Japanese RPG (JRPG)
+  // 21. Japanese Role-Playing (JRPG)
   {
-    canonical: 'Japanese RPG',
-    subgenres: ['Turn-Based JRPG'],
+    canonical: 'Japanese Role-Playing',
+    subgenres: ['Turn-Based JRPG', 'Tactical RPG', 'Monster Tamer'],
     patterns: [
       /\bjrpg\b/i,
-      /\bjapanese role-playing\b/i
+      /\bjapanese role-playing\b/i,
+      /\bjapanese rpg\b/i,
+      /\btactical (?:role-playing|rpg)\b/i,
+      /\bstrategy (?:role-playing|rpg)\b/i,
+      /\bmonster-tam(?:ing|er)\b/i,
+      /\bmonster tamer\b/i,
+      /\bcreature collector\b/i
     ]
   },
 
-  // 22. Action RPG
+  // 22. Action Role-Playing (ARPG)
   {
-    canonical: 'Action RPG',
-    subgenres: ['Soulslike', 'Looter RPG', 'Monster Tamer'],
+    canonical: 'Action Role-Playing',
+    subgenres: ['Action RPG', 'Soulslike', 'Looter RPG', 'Dungeon Action'],
     patterns: [
       /\baction role-playing\b/i,
       /\baction rpg\b/i,
       /\barpg\b/i,
       /\bsoulslike\b/i,
-      /\blooter rpg\b/i,
-      /\bmonster tamer\b/i,
-      /\bmonster tam(?:ing|er)\b/i,
-      /\bcreature collector\b/i
-    ]
-  },
-
-  // 23. Role-Playing (General/Other RPG)
-  {
-    canonical: 'Role-Playing (General)',
-    subgenres: ['MMORPG'],
-    patterns: [
-      /\brole-playing(?: game| video game)?\b/i,
-      /\brpg\b/i,
-      /\bmmorpg\b/i
+      /\blooter rpg\b/i
     ]
   },
 
@@ -532,12 +527,8 @@ function classifyGenre(rawGenreStr) {
   }
   
   // Disambiguation
-  if (matched.has('Role-Playing (General)') && (matched.has('Japanese RPG') || matched.has('Action RPG') || matched.has('Computer RPG'))) {
-    matched.delete('Role-Playing (General)');
-  }
-  
   if (matched.has('Action') && matched.size > 1) {
-    const specificActions = ["Platformer", "Beat 'em up", "Fighting", "Hack and Slash", "First-Person Shooter", "Third-Person Shooter", "Shoot 'em up", "Top-Down Shooter", "Run and Gun", "Action-Adventure", "Action RPG"];
+    const specificActions = ["Platformer", "Beat 'em up", "Fighting", "Hack and Slash", "First-Person Shooter", "Third-Person Shooter", "Shoot 'em up", "Top-Down Shooter", "Run and Gun", "Action-Adventure", "Action Role-Playing"];
     if (specificActions.some(sa => matched.has(sa))) {
       matched.delete('Action');
     }

@@ -93,14 +93,36 @@ function runDatasetRebuild() {
       genres = genres.filter(x => x !== 'Action');
     }
 
-    // 8. RPGs: Computer RPG vs Japanese RPG vs Action RPG
-    if (/eye of the beholder|might and magic|wizardry|ultima|dungeon master|bard's tale|rogue|beneath apple manor/i.test(titleLower)) {
-      if (!genres.includes('Computer RPG')) genres.push('Computer RPG');
-      genres = genres.filter(x => x !== 'Role-Playing (General)' && x !== 'Action');
-    }
-    if (/dragon quest|final fantasy|ys |ys:|mother|earthbound|fire emblem|pokémon|pokemon|chrono trigger|mana|seiken densetsu|tales of|star ocean|valkyrie profile|shin megami tensei|persona|suikoden|grandia|breath of fire|xeno/i.test(titleLower)) {
-      if (!genres.includes('Japanese RPG') && !genres.includes('Action RPG')) genres.push('Japanese RPG');
-      genres = genres.filter(x => x !== 'Role-Playing (General)');
+    // 8. RPGs: Exactly the three canonical GMTK categories:
+    // Computer Role-Playing vs Japanese Role-Playing vs Action Role-Playing
+    const isArpg = (
+      /\baction role-playing\b|\baction rpg\b|\barpg\b|\bsoulslike\b/i.test(titleLower + ' ' + raw) ||
+      /\bys\b|\bys\s*(?:i{1,3}|iv|v|vi|vii|viii|ix|x|\d|:|-)|secret of mana|trials of mana|legend of mana|seiken densetsu|\bdiablo\b|kingdom hearts|mass effect|\bwitcher\b|dark souls|demon's souls|bloodborne|elden ring|\bsekiro\b|monster hunter|\bgothic\b|\bfable\b|\bshenmue\b|\byakuza\b|like a dragon|\bnier\b|\bskyrim\b|\boblivion\b|\bmorrowind\b|elder scrolls|daggerfall|dragon's dogma|\bnioh\b|baldur's gate: dark alliance|champions of norrath|fallout: new vegas|fallout 3|fallout 4|fallout 76|\bdeus ex\b(?! machina)|\bcyberpunk\b|\bborderlands\b|the outer worlds|\bvampyr\b|\bgreedfall\b|alpha protocol|dungeon siege|titan quest|grim dawn|\btorchlight\b|path of exile|\bsacred\b|dragon's crown|\bmuramasa\b|odin sphere|tower of druaga|hydlide|dragon slayer|vagrant story/i.test(titleLower)
+    );
+
+    const isJrpg = (
+      /\bjrpg\b|\bjapanese role-playing\b|\bjapanese rpg\b|\btactical (?:role-playing|rpg)\b|\bstrategy (?:role-playing|rpg)\b|\bmonster[- ]tam(?:ing|er)\b|\bcreature collector\b/i.test(titleLower + ' ' + raw) ||
+      /dragon quest|dragon warrior|final fantasy|\bpokémon\b|\bpokemon\b|\bpersona\b|shin megami tensei|\bsmt\b|megami ibunroku|\bchrono\b|\bmother [123]\b|\bearthbound\b|\bsuikoden\b|\bgrandia\b|breath of fire|xenoblade|xenogears|xenosaga|fire emblem|phantasy star|\blufia\b|valkyrie profile|tales of (?:phantasia|destiny|eternia|symphonia|rebirth|abyss|innocence|vesperia|hearts|graces|xillia|zestiria|berseria|arise)|star ocean|wild arms|golden sun|\bbravely\b|octopath|\batelier\b|\bdisgaea\b|etrian odyssey|sakura taisen|shadow hearts|blue reflection|radiant historia|live a live|bahamut lagoon|romancing saga|saga frontier|langrisser|growlanser|arc the lad|albert odyssey|madou monogatari|hercules no eikou|glory of heracles|estpolis|super robot wars|inazuma eleven|yo-kai watch|\bdigimon\b|medabots|fossil fighters|ni no kuni|white knight chronicles|blue dragon|lost odyssey|tactics ogre|front mission|sweet home|emerald dragon|far east of eden|clair obscur/i.test(titleLower)
+    );
+
+    const isCrpg = (
+      /\bcrpg\b|\bcomputer role-playing\b|\bwestern (?:role-playing|rpg)\b|\bdungeon crawl(?:er|ing)?\b|\bmmorpg\b/i.test(titleLower + ' ' + raw) ||
+      /eye of the beholder|might and magic|\bwizardry\b|\bultima\b|dungeon master|bard's tale|\brogue\b|beneath apple manor|the dungeon|moria|oubliette|akalabeth|\beamon\b|star warrior|treasure of tarmin|the lords of midnight|questron|doomdark|phantasie|autoduel|starflight|\bwasteland\b|pool of radiance|hillsfar|curse of the azure bonds|hero's quest|baldur's gate|planescape|\bfallout\b|icewind dale|\barcanum\b|neverwinter|knights of the old republic|\bkotor\b|pillars of eternity|divinity: original sin|disco elysium|world of warcraft|everquest|\brunescape\b|asheron/i.test(titleLower)
+    );
+
+    const hasRpgTag = genres.some(g => g.includes('Role-Playing') || g.includes('RPG')) || /role-playing|rpg|crpg|jrpg|arpg/i.test(raw);
+
+    if (hasRpgTag || isArpg || isJrpg || isCrpg) {
+      genres = genres.filter(g => !g.includes('Role-Playing') && !g.includes('RPG') && g !== 'Action');
+      if (isCrpg) {
+        genres.push('Computer Role-Playing');
+      } else if (isArpg) {
+        genres.push('Action Role-Playing');
+      } else if (isJrpg) {
+        genres.push('Japanese Role-Playing');
+      } else {
+        genres.push('Computer Role-Playing');
+      }
     }
 
     // 9. Puzzle
@@ -215,10 +237,9 @@ function runDatasetRebuild() {
     'Management Simulation',
     'Life Simulation',
     'Vehicle Simulation',
-    'Computer RPG',
-    'Japanese RPG',
-    'Action RPG',
-    'Role-Playing (General)',
+    'Computer Role-Playing',
+    'Japanese Role-Playing',
+    'Action Role-Playing',
     'Adventure',
     'Visual Novel',
     'Interactive Drama',
