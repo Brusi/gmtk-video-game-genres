@@ -1,6 +1,6 @@
 /**
  * GMTK Video Game Genre Taxonomy Mapping
- * Based on Mark Brown's "The History of Every Video Game Genre"
+ * Complete and calibrated against Mark Brown's "The History of Every Video Game Genre"
  */
 
 const GENRE_RULES = [
@@ -12,7 +12,9 @@ const GENRE_RULES = [
       /\bplatform(?:er|ing|s)?\b/i,
       /\bmetroidvania\b/i,
       /\bcinematic platformer\b/i,
-      /\bprecision platformer\b/i
+      /\bprecision platformer\b/i,
+      /\bendless runner\b/i,
+      /\baction-platformer\b/i
     ]
   },
   
@@ -35,7 +37,7 @@ const GENRE_RULES = [
     subgenres: [
       'Basketball', 'Football / Soccer', 'Golf', 'American Football', 'Baseball',
       'Boxing', 'Tennis', 'Ice Hockey', 'Skateboarding', 'Snowboarding', 'Wrestling',
-      'Fishing', 'Bowling', 'Volleyball', 'Athletics / Track & Field', 'Skiing'
+      'Fishing', 'Bowling', 'Volleyball', 'Athletics / Track & Field', 'Skiing', 'Billiards / Pool'
     ],
     patterns: [
       /\bsports?\b/i,
@@ -55,7 +57,10 @@ const GENRE_RULES = [
       /\bvolleyball\b/i,
       /\btrack and field\b/i,
       /\bathletics\b/i,
-      /\bskiing\b/i
+      /\bskiing\b/i,
+      /\bbilliards\b/i,
+      /\bpool shark\b/i,
+      /\bpocket billiards\b/i
     ]
   },
 
@@ -74,7 +79,8 @@ const GENRE_RULES = [
       /\bbullet hell\b/i,
       /\bdanmaku\b/i,
       /\btube shooter\b/i,
-      /\bspace combat\b/i
+      /\bspace combat\b/i,
+      /\bspace flight combat\b/i
     ]
   },
 
@@ -188,7 +194,7 @@ const GENRE_RULES = [
   // 14. Puzzle
   {
     canonical: 'Puzzle',
-    subgenres: ['Tile-Matching / Falling Block', 'Action Puzzle', 'Logic / Physics Puzzle', 'Hidden Object', 'Sokoban'],
+    subgenres: ['Tile-Matching / Falling Block', 'Action Puzzle', 'Logic / Physics Puzzle', 'Hidden Object', 'Sokoban', 'Trivia'],
     patterns: [
       /\bpuzzle(?:\s+game)?\b/i,
       /\btile-matching\b/i,
@@ -198,7 +204,11 @@ const GENRE_RULES = [
       /\bphysics puzzle\b/i,
       /\bhidden object\b/i,
       /\bsokoban\b/i,
-      /\bmatch-3\b/i
+      /\bmatch-3\b/i,
+      /\btrivia\b/i,
+      /\bquiz\b/i,
+      /\bboard game\b/i,
+      /\bcard & board\b/i
     ]
   },
 
@@ -213,6 +223,8 @@ const GENRE_RULES = [
       /\bturn-based tactics\b/i,
       /\btactical (?:role-playing|rpg)\b/i,
       /\bstrategy (?:role-playing|rpg)\b/i,
+      /\bgrand strategy\b/i,
+      /\bstrategy video game\b/i,
       /\bartillery(?:\s+game)?\b/i,
       /\bauto[- ]battler\b/i
     ]
@@ -254,11 +266,12 @@ const GENRE_RULES = [
     subgenres: ['Job Simulator', 'Pet Simulation', 'Social Simulation', 'Farming Simulation'],
     patterns: [
       /\blife simulation\b/i,
+      /\bsimulation video game\b/i,
       /\bsocial simulation\b/i,
       /\bpet simulation\b/i,
       /\bvirtual pet\b/i,
       /\bfarming simulation\b/i,
-      /\bfarm sim\b/i,
+      /\bfarm(?: life)? sim\b/i,
       /\bjob sim(?:ulator)?\b/i
     ]
   },
@@ -269,11 +282,11 @@ const GENRE_RULES = [
     subgenres: ['Flight Simulator', 'Space Flight Simulator', 'Train Simulator', 'Submarine Simulator'],
     patterns: [
       /\bvehicle simulation\b/i,
-      /\bflight sim(?:ulator)?\b/i,
-      /\bspace flight sim(?:ulator)?\b/i,
+      /\bflight sim(?:ulator|ulation)?\b/i,
+      /\bspace flight sim(?:ulator|ulation)?\b/i,
       /\btrain sim(?:ulator)?\b/i,
       /\bsubmarine sim(?:ulator)?\b/i,
-      /\bcombat flight sim(?:ulator)?\b/i,
+      /\bcombat flight sim(?:ulator|ulation)?\b/i,
       /\bdriving sim(?:ulator)?\b/i
     ]
   },
@@ -337,7 +350,7 @@ const GENRE_RULES = [
       /\btext adventure\b/i,
       /\binteractive fiction\b/i,
       /\bescape (?:the )?room\b/i,
-      /\badventure game\b/i
+      /\badventure (?:video )?game\b/i
     ]
   },
 
@@ -368,11 +381,13 @@ const GENRE_RULES = [
   // 27. Walking Simulator
   {
     canonical: 'Walking Simulator',
-    subgenres: ['First-Person Narrative'],
+    subgenres: ['First-Person Narrative', 'Exploration Game'],
     patterns: [
-      /\bwalking simulator\b/i,
+      /\bwalking sim(?:ulator)?s?\b/i,
       /\bfirst-person narrative\b/i,
-      /\bexploration game\b/i
+      /\bexploration game\b/i,
+      /\binteractive storytelling\b/i,
+      /\benvironmental narrative\b/i
     ]
   },
 
@@ -410,7 +425,8 @@ const GENRE_RULES = [
       /\bdeckbuilder\b/i,
       /\bdeck-building\b/i,
       /\bsurvivors-like\b/i,
-      /\bbullet heaven\b/i
+      /\bbullet heaven\b/i,
+      /\bcollectible card game\b/i
     ]
   },
 
@@ -462,7 +478,8 @@ const GENRE_RULES = [
     patterns: [
       /\blight gun\b/i,
       /\blight-gun\b/i,
-      /\bshooting gallery\b/i
+      /\bshooting gallery\b/i,
+      /\bcalibrated gun\b/i
     ]
   },
 
@@ -475,16 +492,17 @@ const GENRE_RULES = [
       /\barcade(?:\s+game)?\b/i,
       /\bblock[- ]breaker\b/i,
       /\bbreakout clone\b/i,
+      /\bblock kuzushi\b/i,
       /\bsnake(?:\s+game)?\b/i
     ]
   },
 
-  // 37. Party / Friendslop
+  // 37. Party / Minigame
   {
     canonical: 'Party / Minigame',
     subgenres: ['Party Game', 'Minigame Collection', 'Social Deduction'],
     patterns: [
-      /\bparty game\b/i,
+      /\bparty (?:video )?game\b/i,
       /\bminigame collection\b/i,
       /\bsocial deduction\b/i,
       /\bfriendslop\b/i
@@ -494,24 +512,30 @@ const GENRE_RULES = [
 
 function classifyGenre(rawGenreStr) {
   if (!rawGenreStr) return [];
+  
+  // Clean up HTML entities & wiki syntax
+  const cleaned = rawGenreStr
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/<[^>]+>/g, ' ');
+
   const matched = new Set();
   
   for (const rule of GENRE_RULES) {
     for (const pat of rule.patterns) {
-      if (pat.test(rawGenreStr)) {
+      if (pat.test(cleaned)) {
         matched.add(rule.canonical);
         break;
       }
     }
   }
   
-  // Specific disambiguation:
-  // If classified as 'Role-Playing (General)', and has 'JRPG' or 'Action RPG' or 'Computer RPG', remove General
+  // Disambiguation
   if (matched.has('Role-Playing (General)') && (matched.has('Japanese RPG') || matched.has('Action RPG') || matched.has('Computer RPG'))) {
     matched.delete('Role-Playing (General)');
   }
   
-  // If classified as 'Action' and also has a more specific action genre (like Platformer, Beat 'em up, Fighting, FPS, etc.), keep the specific genre
   if (matched.has('Action') && matched.size > 1) {
     const specificActions = ["Platformer", "Beat 'em up", "Fighting", "Hack and Slash", "First-Person Shooter", "Third-Person Shooter", "Shoot 'em up", "Top-Down Shooter", "Run and Gun", "Action-Adventure", "Action RPG"];
     if (specificActions.some(sa => matched.has(sa))) {
@@ -519,8 +543,7 @@ function classifyGenre(rawGenreStr) {
     }
   }
 
-  // If classified as 'Adventure' and also 'Action-Adventure', keep Action-Adventure unless graphic adventure explicitly stated
-  if (matched.has('Adventure') && matched.has('Action-Adventure') && !/graphic adventure|point-and-click|text adventure/i.test(rawGenreStr)) {
+  if (matched.has('Adventure') && matched.has('Action-Adventure') && !/graphic adventure|point-and-click|text adventure/i.test(cleaned)) {
     matched.delete('Adventure');
   }
 

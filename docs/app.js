@@ -38,6 +38,7 @@ const VIDEO_ORDER = [
   'Life Simulation',
   'Vehicle Simulation',
   'Computer RPG',
+  'Japanese RPG',
   'Action RPG',
   'Role-Playing (General)',
   'Adventure',

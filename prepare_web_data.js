@@ -64,7 +64,14 @@ for (const g of master) {
 
 fs.writeFileSync('docs/data/games_by_genre_year.json', JSON.stringify(gamesByGenreYear));
 
-console.log('Saved web data files to docs/data:');
+// Also mirror to root data directory
+if (!fs.existsSync('data')) fs.mkdirSync('data');
+fs.copyFileSync('docs/data/genre_summary.json', 'data/genre_summary.json');
+fs.copyFileSync('docs/data/genre_yearly_counts.json', 'data/genre_yearly_counts.json');
+fs.copyFileSync('docs/data/games_compact.json', 'data/games_compact.json');
+fs.copyFileSync('docs/data/games_by_genre_year.json', 'data/games_by_genre_year.json');
+
+console.log('Saved web data files to docs/data and data:');
 console.log('genre_summary.json:', (fs.statSync('docs/data/genre_summary.json').size / 1024).toFixed(1), 'KB');
 console.log('genre_yearly_counts.json:', (fs.statSync('docs/data/genre_yearly_counts.json').size / 1024).toFixed(1), 'KB');
 console.log('games_compact.json:', (fs.statSync('docs/data/games_compact.json').size / 1024).toFixed(1), 'KB');

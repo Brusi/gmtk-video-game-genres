@@ -624,6 +624,38 @@
     "rank": 51
   },
   {
+    "year": 1976,
+    "id": 172523,
+    "title": "Squadron",
+    "slug": "/games/squadron/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vz4.jpg",
+    "rank": 52
+  },
+  {
+    "year": 1976,
+    "id": 398651,
+    "title": "F-1",
+    "slug": "/games/f-1--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobxwi.jpg",
+    "rank": 53
+  },
+  {
+    "year": 1976,
+    "id": 113934,
+    "title": "Eliminator IV",
+    "slug": "/games/eliminator-iv/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ikt.jpg",
+    "rank": 54
+  },
+  {
+    "year": 1976,
+    "id": 272334,
+    "title": "Heavy Traffic",
+    "slug": "/games/heavy-traffic/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co78vi.jpg",
+    "rank": 55
+  },
+  {
     "year": 1977,
     "id": 16759,
     "title": "Combat",
@@ -1094,6 +1126,150 @@
     "slug": "/games/road-champion/",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/lgzwhy9cio730alaruzv.jpg",
     "rank": 59
+  },
+  {
+    "year": 1977,
+    "id": 68155,
+    "title": "Heli-Shooter",
+    "slug": "/games/motocross--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6teo.jpg",
+    "rank": 60
+  },
+  {
+    "year": 1977,
+    "id": 131104,
+    "title": "Bomber",
+    "slug": "/games/bomber--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vy8.jpg",
+    "rank": 61
+  },
+  {
+    "year": 1977,
+    "id": 7581,
+    "title": "World Cup",
+    "slug": "/games/baseball--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9om0.jpg",
+    "rank": 62
+  },
+  {
+    "year": 1977,
+    "id": 171268,
+    "title": "Gunman",
+    "slug": "/games/score--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w9g.jpg",
+    "rank": 63
+  },
+  {
+    "year": 1977,
+    "id": 172651,
+    "title": "Flying Fortress II",
+    "slug": "/games/flying-fortress-ii/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w9h.jpg",
+    "rank": 64
+  },
+  {
+    "year": 1977,
+    "id": 172658,
+    "title": "Wall Break",
+    "slug": "/games/wall-break/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wa4.jpg",
+    "rank": 65
+  },
+  {
+    "year": 1977,
+    "id": 68458,
+    "title": "Submarine",
+    "slug": "/games/submarine--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ycd.jpg",
+    "rank": 66
+  },
+  {
+    "year": 1977,
+    "id": 292171,
+    "title": "Telejogo",
+    "slug": "/games/telejogo/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7x5a.jpg",
+    "rank": 67
+  },
+  {
+    "year": 1977,
+    "id": 68149,
+    "title": "Foozpong",
+    "slug": "/games/gridball/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9wic.jpg",
+    "rank": 68
+  },
+  {
+    "year": 1977,
+    "id": 68157,
+    "title": "Fisco 400",
+    "slug": "/games/drag-race--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w6v.jpg",
+    "rank": 69
+  },
+  {
+    "year": 1977,
+    "id": 172653,
+    "title": "Block",
+    "slug": "/games/block--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w9i.jpg",
+    "rank": 70
+  },
+  {
+    "year": 1977,
+    "id": 275232,
+    "title": "Desert Patrol",
+    "slug": "/games/desert-patrol/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7bmj.jpg",
+    "rank": 71
+  },
+  {
+    "year": 1977,
+    "id": 172528,
+    "title": "Crash Course",
+    "slug": "/games/crash-course/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vyb.jpg",
+    "rank": 72
+  },
+  {
+    "year": 1977,
+    "id": 68156,
+    "title": "Seawolf + Missile",
+    "slug": "/games/enduro--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2i6c.jpg",
+    "rank": 73
+  },
+  {
+    "year": 1977,
+    "id": 64773,
+    "title": "Bazooka",
+    "slug": "/games/bazooka/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7lhh.jpg",
+    "rank": 74
+  },
+  {
+    "year": 1977,
+    "id": 18587,
+    "title": "Blockbuster",
+    "slug": "/games/shooting-gallery/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co99bg.jpg",
+    "rank": 75
+  },
+  {
+    "year": 1977,
+    "id": 251171,
+    "title": "System 10",
+    "slug": "/games/system-10/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6kbz.jpg",
+    "rank": 76
+  },
+  {
+    "year": 1977,
+    "id": 172527,
+    "title": "Superbowl",
+    "slug": "/games/superbowl--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vya.jpg",
+    "rank": 77
   },
   {
     "year": 1978,
@@ -1568,6 +1744,398 @@
     "rank": 59
   },
   {
+    "year": 1978,
+    "id": 80209,
+    "title": "Bowling! / Basketball!",
+    "slug": "/games/bowling-slash-basketball/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8i9r.jpg",
+    "rank": 60
+  },
+  {
+    "year": 1978,
+    "id": 41559,
+    "title": "Pocket Billiards!",
+    "slug": "/games/pocket-billiards/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/qtfcsodpjqdz5syct5gu.jpg",
+    "rank": 61
+  },
+  {
+    "year": 1978,
+    "id": 41528,
+    "title": "Casino Slot Machine",
+    "slug": "/games/casino-slot-machine/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ibx.jpg",
+    "rank": 62
+  },
+  {
+    "year": 1978,
+    "id": 93234,
+    "title": "Armored Encounter! / Sub Chase!",
+    "slug": "/games/armored-encounter-slash-sub-chase/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8hdf.jpg",
+    "rank": 63
+  },
+  {
+    "year": 1978,
+    "id": 98914,
+    "title": "Matchmaker! / Logix! / Buzzword!",
+    "slug": "/games/matchmaker-slash-logix-slash-buzzword/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobrob.jpg",
+    "rank": 64
+  },
+  {
+    "year": 1978,
+    "id": 169265,
+    "title": "Blackjack / Poker / Acey-Deucey",
+    "slug": "/games/blackjack-slash-poker-slash-acey-deucey--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tf2.jpg",
+    "rank": 65
+  },
+  {
+    "year": 1978,
+    "id": 170526,
+    "title": "Shuffleboard",
+    "slug": "/games/shuffleboard/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tyd.jpg",
+    "rank": 66
+  },
+  {
+    "year": 1978,
+    "id": 72431,
+    "title": "3-D Bowling",
+    "slug": "/games/3-d-bowling/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co84xz.jpg",
+    "rank": 67
+  },
+  {
+    "year": 1978,
+    "id": 169267,
+    "title": "Red Baron / Panzer Attack",
+    "slug": "/games/red-baron-slash-panzer-attack/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vwo.jpg",
+    "rank": 68
+  },
+  {
+    "year": 1978,
+    "id": 25324,
+    "title": "The Amazing Spider-Man Rescue",
+    "slug": "/games/escape/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6xga.jpg",
+    "rank": 69
+  },
+  {
+    "year": 1978,
+    "id": 69369,
+    "title": "Speed Race CL-5",
+    "slug": "/games/speed-race-cl-5/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ty7.jpg",
+    "rank": 70
+  },
+  {
+    "year": 1978,
+    "id": 172529,
+    "title": "Pro Racer",
+    "slug": "/games/pro-racer/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vyc.jpg",
+    "rank": 71
+  },
+  {
+    "year": 1978,
+    "id": 230767,
+    "title": "Super Road Champions",
+    "slug": "/games/super-road-champions/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5zia.jpg",
+    "rank": 72
+  },
+  {
+    "year": 1978,
+    "id": 169268,
+    "title": "Sea Wolf / Missile",
+    "slug": "/games/sea-wolf-slash-missile/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tde.jpg",
+    "rank": 73
+  },
+  {
+    "year": 1978,
+    "id": 232414,
+    "title": "Alto Trek",
+    "slug": "/games/alto-trek/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co60xl.jpg",
+    "rank": 74
+  },
+  {
+    "year": 1978,
+    "id": 39908,
+    "title": "Sprint One",
+    "slug": "/games/sprint-one/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/bwnqjxzeuf8ldedjxcbd.jpg",
+    "rank": 75
+  },
+  {
+    "year": 1978,
+    "id": 181549,
+    "title": "Depth Charge",
+    "slug": "/games/depth-charge/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ij7.jpg",
+    "rank": 76
+  },
+  {
+    "year": 1978,
+    "id": 93564,
+    "title": "Tornado Baseball / Tennis / Handball / Hockey",
+    "slug": "/games/tornado-baseball-slash-tennis-slash-handball-slash-hockey/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tdt.jpg",
+    "rank": 77
+  },
+  {
+    "year": 1978,
+    "id": 310989,
+    "title": "Grand Prix",
+    "slug": "/games/grand-prix--4/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ldt.jpg",
+    "rank": 78
+  },
+  {
+    "year": 1978,
+    "id": 131074,
+    "title": "Hockey",
+    "slug": "/games/hockey--3/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobetn.jpg",
+    "rank": 79
+  },
+  {
+    "year": 1978,
+    "id": 131533,
+    "title": "Football",
+    "slug": "/games/football--3/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coavan.jpg",
+    "rank": 80
+  },
+  {
+    "year": 1978,
+    "id": 23297,
+    "title": "Starfleet Orion",
+    "slug": "/games/starfleet-orion/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/iie003xdixj6vdydplxj.jpg",
+    "rank": 81
+  },
+  {
+    "year": 1978,
+    "id": 170527,
+    "title": "Space Walk",
+    "slug": "/games/space-walk/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tye.jpg",
+    "rank": 82
+  },
+  {
+    "year": 1978,
+    "id": 245595,
+    "title": "The Incredible Hulk Escapes",
+    "slug": "/games/the-incredible-hulk-escapes/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ofv.jpg",
+    "rank": 83
+  },
+  {
+    "year": 1978,
+    "id": 171855,
+    "title": "Wildwood",
+    "slug": "/games/wildwood/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3usu.jpg",
+    "rank": 84
+  },
+  {
+    "year": 1978,
+    "id": 171857,
+    "title": "Secret Base",
+    "slug": "/games/galaxy-war/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vyd.jpg",
+    "rank": 85
+  },
+  {
+    "year": 1978,
+    "id": 172532,
+    "title": "Top Runner",
+    "slug": "/games/top-runner/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vyf.jpg",
+    "rank": 86
+  },
+  {
+    "year": 1978,
+    "id": 169266,
+    "title": "Elementary math / Bingo Math",
+    "slug": "/games/elementary-math-slash-bingo-math/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tg0.jpg",
+    "rank": 87
+  },
+  {
+    "year": 1978,
+    "id": 169790,
+    "title": "Letter Match / Spell N Score / Crosswords",
+    "slug": "/games/letter-match-slash-spell-n-score-slash-crosswords/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tis.jpg",
+    "rank": 88
+  },
+  {
+    "year": 1978,
+    "id": 171888,
+    "title": "Space War",
+    "slug": "/games/space-war--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3utz.jpg",
+    "rank": 89
+  },
+  {
+    "year": 1978,
+    "id": 310990,
+    "title": "Golf",
+    "slug": "/games/golf--11/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8xle.jpg",
+    "rank": 90
+  },
+  {
+    "year": 1978,
+    "id": 172655,
+    "title": "Super Block",
+    "slug": "/games/super-block--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wa1.jpg",
+    "rank": 91
+  },
+  {
+    "year": 1978,
+    "id": 141282,
+    "title": "Bridge Challenger",
+    "slug": "/games/bridge-challenger/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2l7s.jpg",
+    "rank": 92
+  },
+  {
+    "year": 1978,
+    "id": 172654,
+    "title": "Top Bowler",
+    "slug": "/games/top-bowler/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w9l.jpg",
+    "rank": 93
+  },
+  {
+    "year": 1978,
+    "id": 171272,
+    "title": "Football",
+    "slug": "/games/football--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3udg.jpg",
+    "rank": 94
+  },
+  {
+    "year": 1978,
+    "id": 318164,
+    "title": "Hangman",
+    "slug": "/games/pork-barrel/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9cfa.jpg",
+    "rank": 95
+  },
+  {
+    "year": 1978,
+    "id": 252730,
+    "title": "Space Stranger",
+    "slug": "/games/space-stranger/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ls8.jpg",
+    "rank": 96
+  },
+  {
+    "year": 1978,
+    "id": 13236,
+    "title": "Dawn Patrol",
+    "slug": "/games/dawn-patrol--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7bor.jpg",
+    "rank": 97
+  },
+  {
+    "year": 1978,
+    "id": 175631,
+    "title": "Super Destroyer",
+    "slug": "/games/super-destroyer/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3yk0.jpg",
+    "rank": 98
+  },
+  {
+    "year": 1978,
+    "id": 245432,
+    "title": "Mr. Challenger",
+    "slug": "/games/mr-challenger/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaarf.jpg",
+    "rank": 99
+  },
+  {
+    "year": 1978,
+    "id": 172661,
+    "title": "Trampoline",
+    "slug": "/games/trampoline/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wae.jpg",
+    "rank": 100
+  },
+  {
+    "year": 1978,
+    "id": 311010,
+    "title": "Cockpit",
+    "slug": "/games/cockpit/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8lel.jpg",
+    "rank": 101
+  },
+  {
+    "year": 1978,
+    "id": 342821,
+    "title": "3-D Docking Mission",
+    "slug": "/games/3-d-docking-mission/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa622.jpg",
+    "rank": 102
+  },
+  {
+    "year": 1978,
+    "id": 275231,
+    "title": "Game Tree",
+    "slug": "/games/game-tree/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7bmi.jpg",
+    "rank": 103
+  },
+  {
+    "year": 1978,
+    "id": 62855,
+    "title": "Block Fever",
+    "slug": "/games/block-fever/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob8h2.jpg",
+    "rank": 104
+  },
+  {
+    "year": 1978,
+    "id": 383490,
+    "title": "FreeCell",
+    "slug": "/games/freecell/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob5mm.jpg",
+    "rank": 105
+  },
+  {
+    "year": 1978,
+    "id": 172531,
+    "title": "Space Fighter",
+    "slug": "/games/space-fighter--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vye.jpg",
+    "rank": 106
+  },
+  {
+    "year": 1978,
+    "id": 245416,
+    "title": "Raceway",
+    "slug": "/games/raceway/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6dq1.jpg",
+    "rank": 107
+  },
+  {
+    "year": 1978,
+    "id": 18606,
+    "title": "Tank/Plane Battle",
+    "slug": "/games/tank-slash-plane-battle/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8hie.jpg",
+    "rank": 108
+  },
+  {
     "year": 1979,
     "id": 7758,
     "title": "Asteroids",
@@ -2038,6 +2606,638 @@
     "slug": "/games/invinco/",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/h1oplqjgdyqsng7kdjv3.jpg",
     "rank": 59
+  },
+  {
+    "year": 1979,
+    "id": 18517,
+    "title": "Voodoo Castle",
+    "slug": "/games/voodoo-castle/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9hzm.jpg",
+    "rank": 60
+  },
+  {
+    "year": 1979,
+    "id": 277500,
+    "title": "Rolling Crash",
+    "slug": "/games/rolling-crash/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7e5j.jpg",
+    "rank": 61
+  },
+  {
+    "year": 1979,
+    "id": 18826,
+    "title": "War of Nerves!",
+    "slug": "/games/war-of-nerves/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/obyijixtmxg3fvzctssd.jpg",
+    "rank": 62
+  },
+  {
+    "year": 1979,
+    "id": 39516,
+    "title": "Rip Cord",
+    "slug": "/games/rip-cord/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3udf.jpg",
+    "rank": 63
+  },
+  {
+    "year": 1979,
+    "id": 40438,
+    "title": "Straight Flush",
+    "slug": "/games/straight-flush/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w9x.jpg",
+    "rank": 64
+  },
+  {
+    "year": 1979,
+    "id": 220551,
+    "title": "Color TV-Game Block Kuzushi",
+    "slug": "/games/color-tv-game-block-kuzushi/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co898b.jpg",
+    "rank": 65
+  },
+  {
+    "year": 1979,
+    "id": 47209,
+    "title": "Videocart 20 - Schach",
+    "slug": "/games/sargon-ii/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co70bm.jpg",
+    "rank": 66
+  },
+  {
+    "year": 1979,
+    "id": 18520,
+    "title": "Mystery Fun House",
+    "slug": "/games/mystery-fun-house/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xf8.jpg",
+    "rank": 67
+  },
+  {
+    "year": 1979,
+    "id": 277882,
+    "title": "Space Beam",
+    "slug": "/games/space-beam/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7enz.jpg",
+    "rank": 68
+  },
+  {
+    "year": 1979,
+    "id": 21958,
+    "title": "Dunjonquest: Morloc's Tower",
+    "slug": "/games/dunjonquest-morlocs-tower/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ic4.jpg",
+    "rank": 69
+  },
+  {
+    "year": 1979,
+    "id": 172656,
+    "title": "Field Goal",
+    "slug": "/games/field-goal/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wa2.jpg",
+    "rank": 70
+  },
+  {
+    "year": 1979,
+    "id": 109453,
+    "title": "Volleyball!",
+    "slug": "/games/volleyball--3/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1l9r.jpg",
+    "rank": 71
+  },
+  {
+    "year": 1979,
+    "id": 131522,
+    "title": "Pinball",
+    "slug": "/games/pinball--10/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6w4o.jpg",
+    "rank": 72
+  },
+  {
+    "year": 1979,
+    "id": 78805,
+    "title": "Super Speed Race GP V",
+    "slug": "/games/super-speed-race-gp-v/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ty3.jpg",
+    "rank": 73
+  },
+  {
+    "year": 1979,
+    "id": 68610,
+    "title": "Memory I",
+    "slug": "/games/memory-i/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9h06.jpg",
+    "rank": 74
+  },
+  {
+    "year": 1979,
+    "id": 299608,
+    "title": "Block Buster",
+    "slug": "/games/block-buster--8/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coauim.jpg",
+    "rank": 75
+  },
+  {
+    "year": 1979,
+    "id": 18519,
+    "title": "Strange Odyssey",
+    "slug": "/games/strange-odyssey/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9j10.jpg",
+    "rank": 76
+  },
+  {
+    "year": 1979,
+    "id": 39411,
+    "title": "Sundance",
+    "slug": "/games/sundance/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7d2h.jpg",
+    "rank": 77
+  },
+  {
+    "year": 1979,
+    "id": 40011,
+    "title": "Intruder",
+    "slug": "/games/intruder--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3yzx.jpg",
+    "rank": 78
+  },
+  {
+    "year": 1979,
+    "id": 40285,
+    "title": "4 Player Bowling Alley",
+    "slug": "/games/4-player-bowling-alley/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tya.jpg",
+    "rank": 79
+  },
+  {
+    "year": 1979,
+    "id": 41535,
+    "title": "I've Got Your Number",
+    "slug": "/games/ive-got-your-number/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/fbrew5nvk5qk8bzfgtzz.jpg",
+    "rank": 80
+  },
+  {
+    "year": 1979,
+    "id": 18513,
+    "title": "Secret Mission",
+    "slug": "/games/secret-mission/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ic0.jpg",
+    "rank": 81
+  },
+  {
+    "year": 1979,
+    "id": 41567,
+    "title": "Laser War",
+    "slug": "/games/laser-war/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/fqx4mxr7goxtns3j4r91.jpg",
+    "rank": 82
+  },
+  {
+    "year": 1979,
+    "id": 80928,
+    "title": "Avatar",
+    "slug": "/games/avatar/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2z9p.jpg",
+    "rank": 83
+  },
+  {
+    "year": 1979,
+    "id": 98247,
+    "title": "Space King",
+    "slug": "/games/space-king/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3yu1.jpg",
+    "rank": 84
+  },
+  {
+    "year": 1979,
+    "id": 42167,
+    "title": "Super Maze",
+    "slug": "/games/simon-says--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/pxrilysnb5gymqj4vu32.jpg",
+    "rank": 85
+  },
+  {
+    "year": 1979,
+    "id": 233315,
+    "title": "Apple Bowl",
+    "slug": "/games/apple-bowl/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co61wf.jpg",
+    "rank": 86
+  },
+  {
+    "year": 1979,
+    "id": 68563,
+    "title": "Mathematik II",
+    "slug": "/games/mathematik-ii/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/fra1dd3ov1qk9f154qae.jpg",
+    "rank": 87
+  },
+  {
+    "year": 1979,
+    "id": 131426,
+    "title": "Fortress",
+    "slug": "/games/fortress--3/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wfi.jpg",
+    "rank": 88
+  },
+  {
+    "year": 1979,
+    "id": 91265,
+    "title": "Connect Four",
+    "slug": "/games/connect-four--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co857u.jpg",
+    "rank": 89
+  },
+  {
+    "year": 1979,
+    "id": 18619,
+    "title": "Galactic Empire",
+    "slug": "/games/galactic-empire--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/ebylfbvuswdxvjg2rin6.jpg",
+    "rank": 90
+  },
+  {
+    "year": 1979,
+    "id": 277502,
+    "title": "Clay Shoot",
+    "slug": "/games/clay-shoot/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7e5l.jpg",
+    "rank": 91
+  },
+  {
+    "year": 1979,
+    "id": 18746,
+    "title": "Dunjonquest: The Datestones of Ryn",
+    "slug": "/games/dunjonquest-the-datestones-of-ryn/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ic2.jpg",
+    "rank": 92
+  },
+  {
+    "year": 1979,
+    "id": 18521,
+    "title": "Pyramid of Doom",
+    "slug": "/games/pyramid-of-doom/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9iud.jpg",
+    "rank": 93
+  },
+  {
+    "year": 1979,
+    "id": 41537,
+    "title": "Dynasty",
+    "slug": "/games/dynasty/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23de.jpg",
+    "rank": 94
+  },
+  {
+    "year": 1979,
+    "id": 27220,
+    "title": "Marksman / Depth charge",
+    "slug": "/games/marksman-slash-depth-charge/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wz5.jpg",
+    "rank": 95
+  },
+  {
+    "year": 1979,
+    "id": 69722,
+    "title": "Hockey! / Soccer!",
+    "slug": "/games/hockey-slash-soccer/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/gdhpsuoz51icdz7fowvw.jpg",
+    "rank": 96
+  },
+  {
+    "year": 1979,
+    "id": 25344,
+    "title": "Galactic Trader",
+    "slug": "/games/galactic-trader/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/f4hsrjpd4qs6aijwluyy.jpg",
+    "rank": 97
+  },
+  {
+    "year": 1979,
+    "id": 64074,
+    "title": "Super Speed Race V",
+    "slug": "/games/super-speed-race-v/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ty0.jpg",
+    "rank": 98
+  },
+  {
+    "year": 1979,
+    "id": 41571,
+    "title": "Satellite Attack",
+    "slug": "/games/satellite-attack/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cnpuiqxatn4mnashquct.jpg",
+    "rank": 99
+  },
+  {
+    "year": 1979,
+    "id": 95358,
+    "title": "Pro Golf",
+    "slug": "/games/pro-golf/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co76ag.jpg",
+    "rank": 100
+  },
+  {
+    "year": 1979,
+    "id": 95419,
+    "title": "Ripcord",
+    "slug": "/games/ripcord/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7cut.jpg",
+    "rank": 101
+  },
+  {
+    "year": 1979,
+    "id": 125635,
+    "title": "Air Traffic Controller",
+    "slug": "/games/air-traffic-controller--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co79tt.jpg",
+    "rank": 102
+  },
+  {
+    "year": 1979,
+    "id": 25588,
+    "title": "Dog Star Adventure",
+    "slug": "/games/dog-star-adventure/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/smbwhfelqltsyiqbahef.jpg",
+    "rank": 103
+  },
+  {
+    "year": 1979,
+    "id": 25297,
+    "title": "Three Mile Island",
+    "slug": "/games/three-mile-island/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2sh2.jpg",
+    "rank": 104
+  },
+  {
+    "year": 1979,
+    "id": 245607,
+    "title": "Wildfire",
+    "slug": "/games/wildfire--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coanrv.jpg",
+    "rank": 105
+  },
+  {
+    "year": 1979,
+    "id": 172657,
+    "title": "ZunZun Block",
+    "slug": "/games/zunzun-block/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wa3.jpg",
+    "rank": 106
+  },
+  {
+    "year": 1979,
+    "id": 292228,
+    "title": "Telejogo II",
+    "slug": "/games/telejogo-ii/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7x79.jpg",
+    "rank": 107
+  },
+  {
+    "year": 1979,
+    "id": 66806,
+    "title": "Star Battle",
+    "slug": "/games/star-battle/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vwr.jpg",
+    "rank": 108
+  },
+  {
+    "year": 1979,
+    "id": 169264,
+    "title": "Amazing Maze / Tic-Tac-Toe",
+    "slug": "/games/amazing-maze-slash-tic-tac-toe--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tf1.jpg",
+    "rank": 109
+  },
+  {
+    "year": 1979,
+    "id": 217833,
+    "title": "Out of This World! / Helicopter Rescue!",
+    "slug": "/games/head-to-head-football/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3m9u.jpg",
+    "rank": 110
+  },
+  {
+    "year": 1979,
+    "id": 130870,
+    "title": "Bally Pin",
+    "slug": "/games/bally-pin/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6x4q.jpg",
+    "rank": 111
+  },
+  {
+    "year": 1979,
+    "id": 24639,
+    "title": "Tailgunner",
+    "slug": "/games/tailgunner/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/jg8bpm20ncbb7agy5lyy.jpg",
+    "rank": 112
+  },
+  {
+    "year": 1979,
+    "id": 165255,
+    "title": "Out of This World! / Helicopter Rescue!",
+    "slug": "/games/out-of-this-world-slash-helicopter-rescue/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3m9u.jpg",
+    "rank": 113
+  },
+  {
+    "year": 1979,
+    "id": 23298,
+    "title": "Invasion Orion",
+    "slug": "/games/invasion-orion/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/kantg5fhgq7wnlkhqzwn.jpg",
+    "rank": 114
+  },
+  {
+    "year": 1979,
+    "id": 245405,
+    "title": "Soccer 2",
+    "slug": "/games/soccer-2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9bbd.jpg",
+    "rank": 115
+  },
+  {
+    "year": 1979,
+    "id": 66811,
+    "title": "Astro Battle",
+    "slug": "/games/astro-battle/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/mfikaxhdtbe1tpekowsg.jpg",
+    "rank": 116
+  },
+  {
+    "year": 1979,
+    "id": 100301,
+    "title": "Music Composer",
+    "slug": "/games/music-composer/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2msa.jpg",
+    "rank": 117
+  },
+  {
+    "year": 1979,
+    "id": 68608,
+    "title": "Challenge!",
+    "slug": "/games/challenge--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/mmxuzumbj2dumvypvrhm.jpg",
+    "rank": 118
+  },
+  {
+    "year": 1979,
+    "id": 71384,
+    "title": "Tanktics: Computer game of Armored Combat on the Eastern Front",
+    "slug": "/games/tanktics-computer-game-of-armored-combat-on-the-eastern-front/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9f67.jpg",
+    "rank": 119
+  },
+  {
+    "year": 1979,
+    "id": 72336,
+    "title": "Motocross",
+    "slug": "/games/motocross--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/ru5q4kydc6oyhaus5bz2.jpg",
+    "rank": 120
+  },
+  {
+    "year": 1979,
+    "id": 172533,
+    "title": "Double Block",
+    "slug": "/games/double-block/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vyg.jpg",
+    "rank": 121
+  },
+  {
+    "year": 1979,
+    "id": 68561,
+    "title": "Mathematik I",
+    "slug": "/games/mathematik-i/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/sgaxkpz1qm7runorsix8.jpg",
+    "rank": 122
+  },
+  {
+    "year": 1979,
+    "id": 131295,
+    "title": "Warp 1",
+    "slug": "/games/warp-1--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6o87.jpg",
+    "rank": 123
+  },
+  {
+    "year": 1979,
+    "id": 308981,
+    "title": "Super Othello",
+    "slug": "/games/super-othello/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8xl1.jpg",
+    "rank": 124
+  },
+  {
+    "year": 1979,
+    "id": 68566,
+    "title": "Shooting Gallery",
+    "slug": "/games/shooting-gallery--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cljlmrlxsryat2s9nfak.jpg",
+    "rank": 125
+  },
+  {
+    "year": 1979,
+    "id": 68609,
+    "title": "Prizefight",
+    "slug": "/games/prizefight/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/j4bund9pxekvfcqgdxz2.jpg",
+    "rank": 126
+  },
+  {
+    "year": 1979,
+    "id": 25133,
+    "title": "Lost Dutchman's Gold",
+    "slug": "/games/lost-dutchmans-gold/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7wgc.jpg",
+    "rank": 127
+  },
+  {
+    "year": 1979,
+    "id": 169269,
+    "title": "Down the Trench",
+    "slug": "/games/down-the-trench/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9u86.jpg",
+    "rank": 128
+  },
+  {
+    "year": 1979,
+    "id": 245557,
+    "title": "Basketball: Electronic Game",
+    "slug": "/games/basketball-electronic-game/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa6sb.jpg",
+    "rank": 129
+  },
+  {
+    "year": 1979,
+    "id": 171468,
+    "title": "Kreepy Krawlers",
+    "slug": "/games/kreepy-krawlers/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3uhc.jpg",
+    "rank": 130
+  },
+  {
+    "year": 1979,
+    "id": 42164,
+    "title": "Bowling",
+    "slug": "/games/card-sharp/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co866p.jpg",
+    "rank": 131
+  },
+  {
+    "year": 1979,
+    "id": 56411,
+    "title": "Little Brick Out",
+    "slug": "/games/little-brick-out/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co84d4.jpg",
+    "rank": 132
+  },
+  {
+    "year": 1979,
+    "id": 68565,
+    "title": "Hippodrom",
+    "slug": "/games/hippodrom/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/drisiqxkpbzzlkdnsotq.jpg",
+    "rank": 133
+  },
+  {
+    "year": 1979,
+    "id": 57844,
+    "title": "Manbiki Shounen",
+    "slug": "/games/manbiki-shounen/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ipi.jpg",
+    "rank": 134
+  },
+  {
+    "year": 1979,
+    "id": 386925,
+    "title": "Kadath",
+    "slug": "/games/kadath--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobcqb.jpg",
+    "rank": 135
+  },
+  {
+    "year": 1979,
+    "id": 392974,
+    "title": "Space Guerilla",
+    "slug": "/games/space-guerilla/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobof9.jpg",
+    "rank": 136
+  },
+  {
+    "year": 1979,
+    "id": 55925,
+    "title": "Special Sampler",
+    "slug": "/games/special-sampler/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/zdk2fj5ryltq5aieflbf.jpg",
+    "rank": 137
+  },
+  {
+    "year": 1979,
+    "id": 68677,
+    "title": "Wintersport",
+    "slug": "/games/wintersport/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/oaoz02ty5dox6hnsdckc.jpg",
+    "rank": 138
   },
   {
     "year": 1980,
@@ -2982,6 +4182,662 @@
     "slug": "/games/hwy-chase/",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7eo0.jpg",
     "rank": 118
+  },
+  {
+    "year": 1980,
+    "id": 310986,
+    "title": "Boxing Match",
+    "slug": "/games/boxing-match/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8xl6.jpg",
+    "rank": 119
+  },
+  {
+    "year": 1980,
+    "id": 218227,
+    "title": "Galaxian",
+    "slug": "/games/galaxian--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xho.jpg",
+    "rank": 120
+  },
+  {
+    "year": 1980,
+    "id": 55837,
+    "title": "Six Micro Stories",
+    "slug": "/games/six-micro-stories--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/zlcepnl8z9gkmgxtmq75.jpg",
+    "rank": 121
+  },
+  {
+    "year": 1980,
+    "id": 280883,
+    "title": "Beneath the Pyramids",
+    "slug": "/games/beneath-the-pyramids/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jhi.jpg",
+    "rank": 122
+  },
+  {
+    "year": 1980,
+    "id": 25127,
+    "title": "Labyrinth",
+    "slug": "/games/the-wizards-castle/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co45jl.jpg",
+    "rank": 123
+  },
+  {
+    "year": 1980,
+    "id": 80433,
+    "title": "Pachinko!",
+    "slug": "/games/pachinko--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3m9x.jpg",
+    "rank": 124
+  },
+  {
+    "year": 1980,
+    "id": 148139,
+    "title": "Red Baron",
+    "slug": "/games/red-baron--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co30kx.jpg",
+    "rank": 125
+  },
+  {
+    "year": 1980,
+    "id": 25243,
+    "title": "ABM",
+    "slug": "/games/abm/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co624b.jpg",
+    "rank": 126
+  },
+  {
+    "year": 1980,
+    "id": 25245,
+    "title": "Scram",
+    "slug": "/games/scram/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/mgirknebqflzwsacllcc.jpg",
+    "rank": 127
+  },
+  {
+    "year": 1980,
+    "id": 25691,
+    "title": "Fracas",
+    "slug": "/games/fracas/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6w10.jpg",
+    "rank": 128
+  },
+  {
+    "year": 1980,
+    "id": 277659,
+    "title": "Car Hunt",
+    "slug": "/games/car-hunt/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ec2.jpg",
+    "rank": 129
+  },
+  {
+    "year": 1980,
+    "id": 282113,
+    "title": "Alien Lander",
+    "slug": "/games/alien-lander/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7llt.jpg",
+    "rank": 130
+  },
+  {
+    "year": 1980,
+    "id": 248217,
+    "title": "Everest Explorer",
+    "slug": "/games/everest-explorer/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6g1h.jpg",
+    "rank": 131
+  },
+  {
+    "year": 1980,
+    "id": 55833,
+    "title": "His Majesty's Ship Impetuous",
+    "slug": "/games/his-majestys-ship-impetuous/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cwfdt7ixbuo88ta15snp.jpg",
+    "rank": 132
+  },
+  {
+    "year": 1980,
+    "id": 24806,
+    "title": "Computer Acquire",
+    "slug": "/games/computer-acquire/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/srztujz8foy0hgnbiauo.jpg",
+    "rank": 133
+  },
+  {
+    "year": 1980,
+    "id": 18737,
+    "title": "Stone of Sisyphus",
+    "slug": "/games/stone-of-sisyphus/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/gabhq2gjrup7nsdaxuqs.jpg",
+    "rank": 134
+  },
+  {
+    "year": 1980,
+    "id": 23996,
+    "title": "Computer Bismarck",
+    "slug": "/games/computer-bismarck/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/mewmhcqohjthdfn1plfa.jpg",
+    "rank": 135
+  },
+  {
+    "year": 1980,
+    "id": 24801,
+    "title": "B-1 Nuclear Bomber",
+    "slug": "/games/b-1-nuclear-bomber/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4k3a.jpg",
+    "rank": 136
+  },
+  {
+    "year": 1980,
+    "id": 18523,
+    "title": "Savage Island",
+    "slug": "/games/savage-island/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/wcuj8vuyhxbidzriuhpz.jpg",
+    "rank": 137
+  },
+  {
+    "year": 1980,
+    "id": 24808,
+    "title": "Planet Miners",
+    "slug": "/games/planet-miners/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/ptjrtiir10cp5cug5vxv.jpg",
+    "rank": 138
+  },
+  {
+    "year": 1980,
+    "id": 24847,
+    "title": "Oldorf's Revenge",
+    "slug": "/games/oldorfs-revenge/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co88ti.jpg",
+    "rank": 139
+  },
+  {
+    "year": 1980,
+    "id": 24897,
+    "title": "Galactic Attack",
+    "slug": "/games/galactic-attack/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3sqz.jpg",
+    "rank": 140
+  },
+  {
+    "year": 1980,
+    "id": 24902,
+    "title": "The Stone of Sisyphus",
+    "slug": "/games/the-stone-of-sisyphus/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/j2zknxza9f1fdo4hghh7.jpg",
+    "rank": 141
+  },
+  {
+    "year": 1980,
+    "id": 46894,
+    "title": "Space Raid",
+    "slug": "/games/space-raid/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5yg7.jpg",
+    "rank": 142
+  },
+  {
+    "year": 1980,
+    "id": 59782,
+    "title": "Both Barrels",
+    "slug": "/games/both-barrels/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/aha759ul3abhmgysgynf.jpg",
+    "rank": 143
+  },
+  {
+    "year": 1980,
+    "id": 70776,
+    "title": "Pairs / Space Rendezvous / Logic",
+    "slug": "/games/pairs-slash-space-rendezvous-slash-logic/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/eyd7hjpxxtusnu8japlb.jpg",
+    "rank": 144
+  },
+  {
+    "year": 1980,
+    "id": 94241,
+    "title": "Star Warrior",
+    "slug": "/games/star-warrior/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6v1h.jpg",
+    "rank": 145
+  },
+  {
+    "year": 1980,
+    "id": 95499,
+    "title": "House of Usher",
+    "slug": "/games/tennis--6/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jhh.jpg",
+    "rank": 146
+  },
+  {
+    "year": 1980,
+    "id": 129812,
+    "title": "Crown of Arthain",
+    "slug": "/games/crown-of-arthain/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ytq.jpg",
+    "rank": 147
+  },
+  {
+    "year": 1980,
+    "id": 178194,
+    "title": "Deathmaze 5000",
+    "slug": "/games/deathmaze-5000/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co49er.jpg",
+    "rank": 148
+  },
+  {
+    "year": 1980,
+    "id": 238083,
+    "title": "2001: A Space Odyssey",
+    "slug": "/games/2001-a-space-odyssey/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65vc.jpg",
+    "rank": 149
+  },
+  {
+    "year": 1980,
+    "id": 260089,
+    "title": "Camelot",
+    "slug": "/games/camelot--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6w40.jpg",
+    "rank": 150
+  },
+  {
+    "year": 1980,
+    "id": 280983,
+    "title": "Eagle",
+    "slug": "/games/eagle--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jzp.jpg",
+    "rank": 151
+  },
+  {
+    "year": 1980,
+    "id": 282428,
+    "title": "Galaxy Invasion",
+    "slug": "/games/galaxy-invasion/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7m10.jpg",
+    "rank": 152
+  },
+  {
+    "year": 1980,
+    "id": 54691,
+    "title": "Sunday Golf",
+    "slug": "/games/sunday-golf/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/qmrq7o2b4r4uzo7fldlw.jpg",
+    "rank": 153
+  },
+  {
+    "year": 1980,
+    "id": 44337,
+    "title": "Quasar Commander",
+    "slug": "/games/quasar-commander/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7fq3.jpg",
+    "rank": 154
+  },
+  {
+    "year": 1980,
+    "id": 247114,
+    "title": "Tuesday Morning Quarterback",
+    "slug": "/games/tuesday-morning-quarterback/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6fh9.jpg",
+    "rank": 155
+  },
+  {
+    "year": 1980,
+    "id": 41547,
+    "title": "Electronic Table Soccer",
+    "slug": "/games/electronic-table-soccer/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23ei.jpg",
+    "rank": 156
+  },
+  {
+    "year": 1980,
+    "id": 18807,
+    "title": "Phantoms Five",
+    "slug": "/games/phantoms-five/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/zjd17vixe321royfsnqw.jpg",
+    "rank": 157
+  },
+  {
+    "year": 1980,
+    "id": 25345,
+    "title": "Galactic Revolution",
+    "slug": "/games/galactic-revolution/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/ilhxa1lk62t29irkxo97.jpg",
+    "rank": 158
+  },
+  {
+    "year": 1980,
+    "id": 25325,
+    "title": "Tarturian",
+    "slug": "/games/tarturian/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/tb9ytdldxwqr0rizszni.jpg",
+    "rank": 159
+  },
+  {
+    "year": 1980,
+    "id": 278781,
+    "title": "Computer Conflict",
+    "slug": "/games/computer-conflict/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7fwj.jpg",
+    "rank": 160
+  },
+  {
+    "year": 1980,
+    "id": 281635,
+    "title": "Mole Hunter",
+    "slug": "/games/mole-hunter/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7l10.jpg",
+    "rank": 161
+  },
+  {
+    "year": 1980,
+    "id": 116572,
+    "title": "Cribbage",
+    "slug": "/games/cribbage--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co82op.jpg",
+    "rank": 162
+  },
+  {
+    "year": 1980,
+    "id": 72370,
+    "title": "Soccer",
+    "slug": "/games/soccer--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/tracdktjgmxuxzmycgri.jpg",
+    "rank": 163
+  },
+  {
+    "year": 1980,
+    "id": 280954,
+    "title": "Space Battle",
+    "slug": "/games/space-battle--3/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jsm.jpg",
+    "rank": 164
+  },
+  {
+    "year": 1980,
+    "id": 90922,
+    "title": "Outer Space Combat",
+    "slug": "/games/sea-duel/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8xl5.jpg",
+    "rank": 165
+  },
+  {
+    "year": 1980,
+    "id": 23997,
+    "title": "North Atlantic Convoy Raider",
+    "slug": "/games/north-atlantic-convoy-raider/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/jet3lzfkvpodjctjh92n.jpg",
+    "rank": 166
+  },
+  {
+    "year": 1980,
+    "id": 282149,
+    "title": "Starbase Hyperion",
+    "slug": "/games/starbase-hyperion/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7lo9.jpg",
+    "rank": 167
+  },
+  {
+    "year": 1980,
+    "id": 86082,
+    "title": "Two Heads of the Coin",
+    "slug": "/games/two-heads-of-the-coin/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3y2e.jpg",
+    "rank": 168
+  },
+  {
+    "year": 1980,
+    "id": 23994,
+    "title": "Midway Campaign",
+    "slug": "/games/midway-campaign/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4k3b.jpg",
+    "rank": 169
+  },
+  {
+    "year": 1980,
+    "id": 135397,
+    "title": "Two Heads of the Coin",
+    "slug": "/games/quatro/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3y2e.jpg",
+    "rank": 170
+  },
+  {
+    "year": 1980,
+    "id": 131517,
+    "title": "Tennis",
+    "slug": "/games/tennis--10/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobwv6.jpg",
+    "rank": 171
+  },
+  {
+    "year": 1980,
+    "id": 280952,
+    "title": "Future Flash",
+    "slug": "/games/future-flash/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jsk.jpg",
+    "rank": 172
+  },
+  {
+    "year": 1980,
+    "id": 23571,
+    "title": "Computer Ambush",
+    "slug": "/games/computer-ambush/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/oeoqzimnvzv3ofcycv5c.jpg",
+    "rank": 173
+  },
+  {
+    "year": 1980,
+    "id": 339851,
+    "title": "Battle of Hoth",
+    "slug": "/games/battle-of-hoth/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobzt6.jpg",
+    "rank": 174
+  },
+  {
+    "year": 1980,
+    "id": 59336,
+    "title": "Tail Gunner 2",
+    "slug": "/games/tail-gunner-2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3usx.jpg",
+    "rank": 175
+  },
+  {
+    "year": 1980,
+    "id": 250498,
+    "title": "Attack UFO",
+    "slug": "/games/attack-ufo--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobmii.jpg",
+    "rank": 176
+  },
+  {
+    "year": 1980,
+    "id": 247529,
+    "title": "Temple of Darkness",
+    "slug": "/games/temple-of-darkness/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6fh4.jpg",
+    "rank": 177
+  },
+  {
+    "year": 1980,
+    "id": 299610,
+    "title": "Dogbite!",
+    "slug": "/games/baseball--21/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co82oq.jpg",
+    "rank": 178
+  },
+  {
+    "year": 1980,
+    "id": 25242,
+    "title": "Computer Napoleonics: The Battle of Waterloo",
+    "slug": "/games/computer-napoleonics-the-battle-of-waterloo/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9qok.jpg",
+    "rank": 179
+  },
+  {
+    "year": 1980,
+    "id": 55874,
+    "title": "Frog",
+    "slug": "/games/frog/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/oskxqw1brhhcblbcfz8s.jpg",
+    "rank": 180
+  },
+  {
+    "year": 1980,
+    "id": 74765,
+    "title": "Tunnels of Fahad",
+    "slug": "/games/tunnels-of-fahad/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/vsbbug0jrv0wtbs4emen.jpg",
+    "rank": 181
+  },
+  {
+    "year": 1980,
+    "id": 277658,
+    "title": "Moon Raker",
+    "slug": "/games/moon-raker/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ebz.jpg",
+    "rank": 182
+  },
+  {
+    "year": 1980,
+    "id": 74413,
+    "title": "Hobby Module",
+    "slug": "/games/hobby-module/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/jm3bwrf1jh92wotpl3xn.jpg",
+    "rank": 183
+  },
+  {
+    "year": 1980,
+    "id": 55827,
+    "title": "Kid-Venture 3: Old McDonald's Farm",
+    "slug": "/games/kid-venture-3-old-mcdonalds-farm/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/dyxb3vnvu8x9t7dw93fi.jpg",
+    "rank": 184
+  },
+  {
+    "year": 1980,
+    "id": 27226,
+    "title": "20 Stone sling",
+    "slug": "/games/20-stone-sling/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobmxh.jpg",
+    "rank": 185
+  },
+  {
+    "year": 1980,
+    "id": 50132,
+    "title": "Treasure Quest",
+    "slug": "/games/treasure-quest/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/le4nmsqnwvzdjmhxxlxe.jpg",
+    "rank": 186
+  },
+  {
+    "year": 1980,
+    "id": 69472,
+    "title": "Deflection / Simon Says",
+    "slug": "/games/deflection-slash-simon-says/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/kcukguducil8r7mkzyx9.jpg",
+    "rank": 187
+  },
+  {
+    "year": 1980,
+    "id": 104699,
+    "title": "Kosmo Killer",
+    "slug": "/games/sub-wars/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ixf.jpg",
+    "rank": 188
+  },
+  {
+    "year": 1980,
+    "id": 250900,
+    "title": "TV Vader",
+    "slug": "/games/tv-vader/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6k9s.jpg",
+    "rank": 189
+  },
+  {
+    "year": 1980,
+    "id": 286096,
+    "title": "Crossword Puzzle",
+    "slug": "/games/crossword-puzzle/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7qq3.jpg",
+    "rank": 190
+  },
+  {
+    "year": 1980,
+    "id": 308704,
+    "title": "Marin Alien",
+    "slug": "/games/marin-alien/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8xf8.jpg",
+    "rank": 191
+  },
+  {
+    "year": 1980,
+    "id": 311001,
+    "title": "Super Knockout",
+    "slug": "/games/super-knockout/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8vls.jpg",
+    "rank": 192
+  },
+  {
+    "year": 1980,
+    "id": 347675,
+    "title": "Race Time",
+    "slug": "/games/gunfighter--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xiq.jpg",
+    "rank": 193
+  },
+  {
+    "year": 1980,
+    "id": 70841,
+    "title": "The Mean Checkers Machine 2",
+    "slug": "/games/the-mean-checkers-machine-2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/xf8cmsx8vuppwxychyay.jpg",
+    "rank": 194
+  },
+  {
+    "year": 1980,
+    "id": 78211,
+    "title": "Cyber Strike",
+    "slug": "/games/cyber-strike/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/noqpkyvbkelxorv7euat.jpg",
+    "rank": 195
+  },
+  {
+    "year": 1980,
+    "id": 280953,
+    "title": "Final Ranger",
+    "slug": "/games/final-ranger/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jsl.jpg",
+    "rank": 196
+  },
+  {
+    "year": 1980,
+    "id": 24903,
+    "title": "Balrog Sampler",
+    "slug": "/games/balrog-sampler/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/lsczeyvz8g42l9karr3a.jpg",
+    "rank": 197
+  },
+  {
+    "year": 1980,
+    "id": 346140,
+    "title": "Astro Galaxy",
+    "slug": "/games/astro-galaxy/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9vud.jpg",
+    "rank": 198
+  },
+  {
+    "year": 1980,
+    "id": 280884,
+    "title": "The Asteroid Field",
+    "slug": "/games/the-asteroid-field/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jhk.jpg",
+    "rank": 199
+  },
+  {
+    "year": 1980,
+    "id": 347672,
+    "title": "Blockout",
+    "slug": "/games/blockout--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xhk.jpg",
+    "rank": 200
   },
   {
     "year": 1981,
@@ -4374,6 +6230,214 @@
     "slug": "/games/monkeyshines/",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p90.jpg",
     "rank": 174
+  },
+  {
+    "year": 1981,
+    "id": 91513,
+    "title": "AX-2: Uchuu Yusousen Nostromo",
+    "slug": "/games/ax-2-uchuu-yusousen-nostromo/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9j65.jpg",
+    "rank": 175
+  },
+  {
+    "year": 1981,
+    "id": 41426,
+    "title": "Protector",
+    "slug": "/games/dungeons-and-dragons-computer-fantasy-game--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/zkzxs5jaqkdyv27nrjww.jpg",
+    "rank": 176
+  },
+  {
+    "year": 1981,
+    "id": 282635,
+    "title": "Fantasyland 2041 A.D.",
+    "slug": "/games/fantasyland-2041-ad/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7mfm.jpg",
+    "rank": 177
+  },
+  {
+    "year": 1981,
+    "id": 192112,
+    "title": "Arena of Octos",
+    "slug": "/games/arena-of-octos/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ilj.jpg",
+    "rank": 178
+  },
+  {
+    "year": 1981,
+    "id": 205774,
+    "title": "Adventure in Time",
+    "slug": "/games/adventure-in-time/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4w9l.jpg",
+    "rank": 179
+  },
+  {
+    "year": 1981,
+    "id": 218251,
+    "title": "Crazy Climber",
+    "slug": "/games/crazy-climber--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8hll.jpg",
+    "rank": 180
+  },
+  {
+    "year": 1981,
+    "id": 23338,
+    "title": "Kayos",
+    "slug": "/games/kayos/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/sytsoozbqb4ksmasjzjw.jpg",
+    "rank": 181
+  },
+  {
+    "year": 1981,
+    "id": 18743,
+    "title": "The Battle of Shiloh",
+    "slug": "/games/the-battle-of-shiloh/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/i8sqcueqopzsnd0vfty5.jpg",
+    "rank": 182
+  },
+  {
+    "year": 1981,
+    "id": 55881,
+    "title": "Starfighter",
+    "slug": "/games/starfighter/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7lnz.jpg",
+    "rank": 183
+  },
+  {
+    "year": 1981,
+    "id": 24895,
+    "title": "Alien Hell",
+    "slug": "/games/alien-hell/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/obxv6n0c9ewqtewbghtw.jpg",
+    "rank": 184
+  },
+  {
+    "year": 1981,
+    "id": 282445,
+    "title": "Ricochet",
+    "slug": "/games/ricochet--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7m1z.jpg",
+    "rank": 185
+  },
+  {
+    "year": 1981,
+    "id": 25129,
+    "title": "RobotWar",
+    "slug": "/games/robotwar/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7j8a.jpg",
+    "rank": 186
+  },
+  {
+    "year": 1981,
+    "id": 312270,
+    "title": "Solitaire",
+    "slug": "/games/solitaire--17/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8xzn.jpg",
+    "rank": 187
+  },
+  {
+    "year": 1981,
+    "id": 282140,
+    "title": "Shadow Hawk One",
+    "slug": "/games/shadow-hawk-one/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7lo0.jpg",
+    "rank": 188
+  },
+  {
+    "year": 1981,
+    "id": 285298,
+    "title": "Drac is Back",
+    "slug": "/games/drac-is-back/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7pwc.jpg",
+    "rank": 189
+  },
+  {
+    "year": 1981,
+    "id": 32202,
+    "title": "Minotaur",
+    "slug": "/games/minotaur/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27y9.jpg",
+    "rank": 190
+  },
+  {
+    "year": 1981,
+    "id": 24704,
+    "title": "The Eliminator",
+    "slug": "/games/the-eliminator/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/a9w8qjfwl2wcoe7jilza.jpg",
+    "rank": 191
+  },
+  {
+    "year": 1981,
+    "id": 39723,
+    "title": "Mole Attack",
+    "slug": "/games/mole-attack/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7rqz.jpg",
+    "rank": 192
+  },
+  {
+    "year": 1981,
+    "id": 41423,
+    "title": "Las Vegas",
+    "slug": "/games/las-vegas--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9o7c.jpg",
+    "rank": 193
+  },
+  {
+    "year": 1981,
+    "id": 41553,
+    "title": "Syracuse",
+    "slug": "/games/syracuse/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23ek.jpg",
+    "rank": 194
+  },
+  {
+    "year": 1981,
+    "id": 282102,
+    "title": "Russki Duck",
+    "slug": "/games/russki-duck/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7llg.jpg",
+    "rank": 195
+  },
+  {
+    "year": 1981,
+    "id": 24892,
+    "title": "Empire I: World Builders",
+    "slug": "/games/empire-i-world-builders/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/dtcairsxuxivywoowmva.jpg",
+    "rank": 196
+  },
+  {
+    "year": 1981,
+    "id": 281857,
+    "title": "Mars",
+    "slug": "/games/mars--3/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7lbc.jpg",
+    "rank": 197
+  },
+  {
+    "year": 1981,
+    "id": 24796,
+    "title": "Southern Command",
+    "slug": "/games/southern-command/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/v9ipb97me8wlxthq0orl.jpg",
+    "rank": 198
+  },
+  {
+    "year": 1981,
+    "id": 66807,
+    "title": "Space Fortress",
+    "slug": "/games/space-fortress/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vw7.jpg",
+    "rank": 199
+  },
+  {
+    "year": 1981,
+    "id": 281848,
+    "title": "Kaos",
+    "slug": "/games/kaos--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7lat.jpg",
+    "rank": 200
   },
   {
     "year": 1982,
@@ -5808,6 +7872,174 @@
     "rank": 179
   },
   {
+    "year": 1982,
+    "id": 245279,
+    "title": "Kozmik Krooz'r",
+    "slug": "/games/kozmik-kroozr/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7qsg.jpg",
+    "rank": 180
+  },
+  {
+    "year": 1982,
+    "id": 22434,
+    "title": "Deadly Duck",
+    "slug": "/games/deadly-duck/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/wdvrkanbfb22ec8chsfj.jpg",
+    "rank": 181
+  },
+  {
+    "year": 1982,
+    "id": 18533,
+    "title": "Room of Doom",
+    "slug": "/games/room-of-doom/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocbyq.jpg",
+    "rank": 182
+  },
+  {
+    "year": 1982,
+    "id": 18780,
+    "title": "Slither",
+    "slug": "/games/slither/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wn6.jpg",
+    "rank": 183
+  },
+  {
+    "year": 1982,
+    "id": 39468,
+    "title": "Ali Baba and 40 Thieves",
+    "slug": "/games/ali-baba-and-40-thieves/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co66jy.jpg",
+    "rank": 184
+  },
+  {
+    "year": 1982,
+    "id": 5662,
+    "title": "Bomb Squad",
+    "slug": "/games/bomb-squad/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pfx.jpg",
+    "rank": 185
+  },
+  {
+    "year": 1982,
+    "id": 22496,
+    "title": "SubRoc 3D",
+    "slug": "/games/subroc-3d/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/jvlzfgls1oqim5da4nmo.jpg",
+    "rank": 186
+  },
+  {
+    "year": 1982,
+    "id": 40603,
+    "title": "Wabbit",
+    "slug": "/games/wabbit/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6xk6.jpg",
+    "rank": 187
+  },
+  {
+    "year": 1982,
+    "id": 18563,
+    "title": "Parsec",
+    "slug": "/games/parsec/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/ap4ltb42lektozl2kwkp.jpg",
+    "rank": 188
+  },
+  {
+    "year": 1982,
+    "id": 87474,
+    "title": "Beauty and the Beast",
+    "slug": "/games/beauty-and-the-beast--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mz1.jpg",
+    "rank": 189
+  },
+  {
+    "year": 1982,
+    "id": 5707,
+    "title": "Sub Hunt",
+    "slug": "/games/sub-hunt/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pgs.jpg",
+    "rank": 190
+  },
+  {
+    "year": 1982,
+    "id": 39892,
+    "title": "Tazz-Mania",
+    "slug": "/games/tazz-mania/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/zqqxfedzcn4fiqlchskv.jpg",
+    "rank": 191
+  },
+  {
+    "year": 1982,
+    "id": 18566,
+    "title": "Suicide Mission",
+    "slug": "/games/suicide-mission/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coctin.jpg",
+    "rank": 192
+  },
+  {
+    "year": 1982,
+    "id": 18501,
+    "title": "Lost Luggage",
+    "slug": "/games/lost-luggage/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocbym.jpg",
+    "rank": 193
+  },
+  {
+    "year": 1982,
+    "id": 12262,
+    "title": "Transylvania",
+    "slug": "/games/transylvania/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3yvu.jpg",
+    "rank": 194
+  },
+  {
+    "year": 1982,
+    "id": 23503,
+    "title": "Lost Tomb",
+    "slug": "/games/lost-tomb/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/twvsyqfz5xftztdjveyl.jpg",
+    "rank": 195
+  },
+  {
+    "year": 1982,
+    "id": 11149,
+    "title": "The Challenge of Nexar",
+    "slug": "/games/the-challenge-of-nexar/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocbou.jpg",
+    "rank": 196
+  },
+  {
+    "year": 1982,
+    "id": 44389,
+    "title": "Munch Man",
+    "slug": "/games/munch-man/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/lcifrn4eeoswgwjwaoyc.jpg",
+    "rank": 197
+  },
+  {
+    "year": 1982,
+    "id": 40131,
+    "title": "Funky Bee",
+    "slug": "/games/funky-bee/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8rka.jpg",
+    "rank": 198
+  },
+  {
+    "year": 1982,
+    "id": 40701,
+    "title": "Philly Flasher",
+    "slug": "/games/philly-flasher/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5yk0.jpg",
+    "rank": 199
+  },
+  {
+    "year": 1982,
+    "id": 158998,
+    "title": "Chess",
+    "slug": "/games/chess--5/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8bur.jpg",
+    "rank": 200
+  },
+  {
     "year": 1983,
     "id": 3105,
     "title": "Mario Bros.",
@@ -7222,6 +9454,190 @@
     "slug": "/games/squeeze-box/",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cb1dxnerwa1oxz6qoh3d.jpg",
     "rank": 177
+  },
+  {
+    "year": 1983,
+    "id": 23341,
+    "title": "Solar Storm",
+    "slug": "/games/solar-storm/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3qaw.jpg",
+    "rank": 178
+  },
+  {
+    "year": 1983,
+    "id": 14139,
+    "title": "Jumping Jack",
+    "slug": "/games/jumping-jack/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5rpa.jpg",
+    "rank": 179
+  },
+  {
+    "year": 1983,
+    "id": 23575,
+    "title": "Robin Hood",
+    "slug": "/games/robin-hood/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/himsdxsudgrg5rdubs9f.jpg",
+    "rank": 180
+  },
+  {
+    "year": 1983,
+    "id": 23239,
+    "title": "Domino Man",
+    "slug": "/games/domino-man/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/fwhnwvhs6vwzezio9ibh.jpg",
+    "rank": 181
+  },
+  {
+    "year": 1983,
+    "id": 22757,
+    "title": "Tunnel Runner",
+    "slug": "/games/tunnel-runner/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/qumfmlkrqmbybljklgfg.jpg",
+    "rank": 182
+  },
+  {
+    "year": 1983,
+    "id": 240028,
+    "title": "Botanic",
+    "slug": "/games/botanic/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67ot.jpg",
+    "rank": 183
+  },
+  {
+    "year": 1983,
+    "id": 24434,
+    "title": "TX-1",
+    "slug": "/games/tx-1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/y4tcsh3apsppwvdnd5de.jpg",
+    "rank": 184
+  },
+  {
+    "year": 1983,
+    "id": 78275,
+    "title": "Pssst",
+    "slug": "/games/pssst/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6xzx.jpg",
+    "rank": 185
+  },
+  {
+    "year": 1983,
+    "id": 46887,
+    "title": "Bugs Bunny",
+    "slug": "/games/bugs-bunny/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7xu1.jpg",
+    "rank": 186
+  },
+  {
+    "year": 1983,
+    "id": 24377,
+    "title": "Pinball Construction Set",
+    "slug": "/games/pinball-construction-set/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5waq.jpg",
+    "rank": 187
+  },
+  {
+    "year": 1983,
+    "id": 14009,
+    "title": "Cookie",
+    "slug": "/games/cookie/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6xzy.jpg",
+    "rank": 188
+  },
+  {
+    "year": 1983,
+    "id": 22734,
+    "title": "M*A*S*H",
+    "slug": "/games/m-star-a-star-s-star-h/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7zae.jpg",
+    "rank": 189
+  },
+  {
+    "year": 1983,
+    "id": 24392,
+    "title": "Oil's Well",
+    "slug": "/games/oils-well/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vj7.jpg",
+    "rank": 190
+  },
+  {
+    "year": 1983,
+    "id": 22820,
+    "title": "Entombed",
+    "slug": "/games/entombed/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/essgvbvar0mbgoqs39xh.jpg",
+    "rank": 191
+  },
+  {
+    "year": 1983,
+    "id": 18588,
+    "title": "Dracula",
+    "slug": "/games/dracula/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pg2.jpg",
+    "rank": 192
+  },
+  {
+    "year": 1983,
+    "id": 18647,
+    "title": "Vectron",
+    "slug": "/games/vectron/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ph0.jpg",
+    "rank": 193
+  },
+  {
+    "year": 1983,
+    "id": 24495,
+    "title": "Mangia'",
+    "slug": "/games/mangia/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/xkkwg7pm0y4xdnquvsla.jpg",
+    "rank": 194
+  },
+  {
+    "year": 1983,
+    "id": 6138,
+    "title": "Space Slalom",
+    "slug": "/games/space-slalom/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/tulf4o2gxhb7dkltbve3.jpg",
+    "rank": 195
+  },
+  {
+    "year": 1983,
+    "id": 6881,
+    "title": "Assault",
+    "slug": "/games/assault/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocbn8.jpg",
+    "rank": 196
+  },
+  {
+    "year": 1983,
+    "id": 278573,
+    "title": "Hyper Olympic",
+    "slug": "/games/hyper-olympic--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8jwi.jpg",
+    "rank": 197
+  },
+  {
+    "year": 1983,
+    "id": 18468,
+    "title": "The Adventures of Major Havoc",
+    "slug": "/games/the-adventures-of-major-havoc/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/sxdoennklentkyh4dake.jpg",
+    "rank": 198
+  },
+  {
+    "year": 1983,
+    "id": 39940,
+    "title": "Tropical Angel",
+    "slug": "/games/tropical-angel/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/uojtxzh3e6rzev9ubkil.jpg",
+    "rank": 199
+  },
+  {
+    "year": 1983,
+    "id": 18556,
+    "title": "Cross Force",
+    "slug": "/games/cross-force/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/vjj0kzapeznejredpb5w.jpg",
+    "rank": 200
   },
   {
     "year": 1984,
@@ -8654,6 +11070,174 @@
     "slug": "/games/gato/",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9f5x.jpg",
     "rank": 179
+  },
+  {
+    "year": 1984,
+    "id": 13488,
+    "title": "Chiller",
+    "slug": "/games/chiller--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9963.jpg",
+    "rank": 180
+  },
+  {
+    "year": 1984,
+    "id": 12992,
+    "title": "Doomdark's Revenge",
+    "slug": "/games/doomdarks-revenge/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ikn.jpg",
+    "rank": 181
+  },
+  {
+    "year": 1984,
+    "id": 28565,
+    "title": "Trashman",
+    "slug": "/games/trashman--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/sauo53ks0giup70nrkvq.jpg",
+    "rank": 182
+  },
+  {
+    "year": 1984,
+    "id": 2416,
+    "title": "Stuart Smith's Adventure Construction Set",
+    "slug": "/games/stuart-smiths-adventure-construction-set/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5iq0.jpg",
+    "rank": 183
+  },
+  {
+    "year": 1984,
+    "id": 25862,
+    "title": "Indiana Jones in the Lost Kingdom",
+    "slug": "/games/indiana-jones-in-the-lost-kingdom/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co97rh.jpg",
+    "rank": 184
+  },
+  {
+    "year": 1984,
+    "id": 312250,
+    "title": "Car Race",
+    "slug": "/games/car-race--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8xwk.jpg",
+    "rank": 185
+  },
+  {
+    "year": 1984,
+    "id": 25969,
+    "title": "Super Don Quix-Ote",
+    "slug": "/games/super-don-quix-ote/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/ji1mljue3qb4mpfbgpm0.jpg",
+    "rank": 186
+  },
+  {
+    "year": 1984,
+    "id": 12317,
+    "title": "Quest for Quintana Roo",
+    "slug": "/games/quest-for-quintana-roo/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocbsk.jpg",
+    "rank": 187
+  },
+  {
+    "year": 1984,
+    "id": 15371,
+    "title": "Skyfox",
+    "slug": "/games/skyfox/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3gyb.jpg",
+    "rank": 188
+  },
+  {
+    "year": 1984,
+    "id": 23935,
+    "title": "WarGames",
+    "slug": "/games/wargames/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8hqy.jpg",
+    "rank": 189
+  },
+  {
+    "year": 1984,
+    "id": 24509,
+    "title": "Zenji",
+    "slug": "/games/zenji/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/helzwvdjbf60ble0swyf.jpg",
+    "rank": 190
+  },
+  {
+    "year": 1984,
+    "id": 24683,
+    "title": "The Castles of Doctor Creep",
+    "slug": "/games/the-castles-of-doctor-creep/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co63c4.jpg",
+    "rank": 191
+  },
+  {
+    "year": 1984,
+    "id": 26149,
+    "title": "Henry's House",
+    "slug": "/games/henrys-house/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/hagc1hwk9xz1fajkxxre.jpg",
+    "rank": 192
+  },
+  {
+    "year": 1984,
+    "id": 39389,
+    "title": "Super Basketball",
+    "slug": "/games/super-basketball/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7m7n.jpg",
+    "rank": 193
+  },
+  {
+    "year": 1984,
+    "id": 39717,
+    "title": "Mysterious Stones: Dr John's Adventure",
+    "slug": "/games/mysterious-stones-dr-johns-adventure/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coai8f.jpg",
+    "rank": 194
+  },
+  {
+    "year": 1984,
+    "id": 40059,
+    "title": "Bullfight",
+    "slug": "/games/bullfight/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobuxf.jpg",
+    "rank": 195
+  },
+  {
+    "year": 1984,
+    "id": 40409,
+    "title": "Sea Fighter Poseidon",
+    "slug": "/games/sea-fighter-poseidon/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coclak.jpg",
+    "rank": 196
+  },
+  {
+    "year": 1984,
+    "id": 41662,
+    "title": "Athletic Land",
+    "slug": "/games/athletic-land/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7fv1.jpg",
+    "rank": 197
+  },
+  {
+    "year": 1984,
+    "id": 46652,
+    "title": "The Death Trap",
+    "slug": "/games/bouncing-babies/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co75sf.jpg",
+    "rank": 198
+  },
+  {
+    "year": 1984,
+    "id": 81527,
+    "title": "The Black Bass",
+    "slug": "/games/the-black-bass--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nt3.jpg",
+    "rank": 199
+  },
+  {
+    "year": 1984,
+    "id": 292111,
+    "title": "Bricks",
+    "slug": "/games/bricks--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7x01.jpg",
+    "rank": 200
   },
   {
     "year": 1985,
@@ -11206,6 +13790,654 @@
     "slug": "/games/odell-lake/",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bl1.jpg",
     "rank": 119
+  },
+  {
+    "year": 1986,
+    "id": 26349,
+    "title": "Uridium",
+    "slug": "/games/uridium/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co38t9.jpg",
+    "rank": 120
+  },
+  {
+    "year": 1986,
+    "id": 48423,
+    "title": "Kidou Senshi Z Gundam: Hot Scramble",
+    "slug": "/games/kidou-senshi-z-gundam-hot-scramble/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ork.jpg",
+    "rank": 121
+  },
+  {
+    "year": 1986,
+    "id": 41246,
+    "title": "I Am a Teacher: Super Mario Sweater",
+    "slug": "/games/i-am-a-teacher-super-mario-sweater/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21iw.jpg",
+    "rank": 122
+  },
+  {
+    "year": 1986,
+    "id": 12963,
+    "title": "Rambo: First Blood Part II",
+    "slug": "/games/rambo-first-blood-part-ii/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co76br.jpg",
+    "rank": 123
+  },
+  {
+    "year": 1986,
+    "id": 9104,
+    "title": "Athletic World",
+    "slug": "/games/athletic-world/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nsi.jpg",
+    "rank": 124
+  },
+  {
+    "year": 1986,
+    "id": 26459,
+    "title": "Spindizzy",
+    "slug": "/games/spindizzy/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coctz1.jpg",
+    "rank": 125
+  },
+  {
+    "year": 1986,
+    "id": 67591,
+    "title": "Crosscountry Canada",
+    "slug": "/games/crosscountry-canada/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hpq.jpg",
+    "rank": 126
+  },
+  {
+    "year": 1986,
+    "id": 15246,
+    "title": "Leaderboard",
+    "slug": "/games/leaderboard/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8qbw.jpg",
+    "rank": 127
+  },
+  {
+    "year": 1986,
+    "id": 184275,
+    "title": "Super Xevious: Gamp no Nazo",
+    "slug": "/games/super-xevious-gamp-no-nazo/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6iyn.jpg",
+    "rank": 128
+  },
+  {
+    "year": 1986,
+    "id": 28852,
+    "title": "The Great Escape",
+    "slug": "/games/the-great-escape--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4xmj.jpg",
+    "rank": 129
+  },
+  {
+    "year": 1986,
+    "id": 48292,
+    "title": "Crackout",
+    "slug": "/games/crackout/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8d5o.jpg",
+    "rank": 130
+  },
+  {
+    "year": 1986,
+    "id": 12128,
+    "title": "Gunship",
+    "slug": "/games/gunship--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa6nt.jpg",
+    "rank": 131
+  },
+  {
+    "year": 1986,
+    "id": 145221,
+    "title": "Squish",
+    "slug": "/games/squish/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3b38.jpg",
+    "rank": 132
+  },
+  {
+    "year": 1986,
+    "id": 48488,
+    "title": "Zunou Senkan Galg",
+    "slug": "/games/zunou-senkan-galg/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4erm.jpg",
+    "rank": 133
+  },
+  {
+    "year": 1986,
+    "id": 48457,
+    "title": "JaJaMaru no Daibouken",
+    "slug": "/games/jajamaru-no-daibouken/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6o1q.jpg",
+    "rank": 134
+  },
+  {
+    "year": 1986,
+    "id": 11973,
+    "title": "BMX Simulator",
+    "slug": "/games/bmx-simulator/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/owhgpkezogbu05dpopgh.jpg",
+    "rank": 135
+  },
+  {
+    "year": 1986,
+    "id": 26271,
+    "title": "Superman: The Game",
+    "slug": "/games/superman-the-game/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/psdtd6k0yg8cuelpnhxi.jpg",
+    "rank": 136
+  },
+  {
+    "year": 1986,
+    "id": 13421,
+    "title": "Bomb Jack II",
+    "slug": "/games/bomb-jack-ii/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8avv.jpg",
+    "rank": 137
+  },
+  {
+    "year": 1986,
+    "id": 38583,
+    "title": "Momoko 120%",
+    "slug": "/games/momoko-120-percent/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co52qs.jpg",
+    "rank": 138
+  },
+  {
+    "year": 1986,
+    "id": 48551,
+    "title": "Ninja",
+    "slug": "/games/volguard-ii/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/gumbvhenqeupfyt9pci0.jpg",
+    "rank": 139
+  },
+  {
+    "year": 1986,
+    "id": 66405,
+    "title": "Dragon Ball: Dragon Daihikyou",
+    "slug": "/games/dragon-ball-dragon-daihikyou/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3lgf.jpg",
+    "rank": 140
+  },
+  {
+    "year": 1986,
+    "id": 12945,
+    "title": "Cobra",
+    "slug": "/games/cobra/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2y1f.jpg",
+    "rank": 141
+  },
+  {
+    "year": 1986,
+    "id": 26287,
+    "title": "Gulkave",
+    "slug": "/games/friday-the-13th-the-computer-game/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/kvv9wujosq3aykml4ffx.jpg",
+    "rank": 142
+  },
+  {
+    "year": 1986,
+    "id": 48394,
+    "title": "Super Star Force: Jikuureki no Himitsu",
+    "slug": "/games/super-star-force-jikuureki-no-himitsu/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wat.jpg",
+    "rank": 143
+  },
+  {
+    "year": 1986,
+    "id": 45627,
+    "title": "Comical Machine Gun Joe",
+    "slug": "/games/comical-machine-gun-joe/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/bfeofuqwk3gdqjr2osdy.jpg",
+    "rank": 144
+  },
+  {
+    "year": 1986,
+    "id": 13654,
+    "title": "Express Raider",
+    "slug": "/games/express-raider/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8hs6.jpg",
+    "rank": 145
+  },
+  {
+    "year": 1986,
+    "id": 138854,
+    "title": "La femme qui ne supportait pas les ordinateurs",
+    "slug": "/games/la-femme-qui-ne-supportait-pas-les-ordinateurs/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ghu.jpg",
+    "rank": 146
+  },
+  {
+    "year": 1986,
+    "id": 28826,
+    "title": "Jail Break",
+    "slug": "/games/jail-break/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9681.jpg",
+    "rank": 147
+  },
+  {
+    "year": 1986,
+    "id": 12616,
+    "title": "Into the Eagle's Nest",
+    "slug": "/games/into-the-eagles-nest/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/lmqgqedskbn5fyai4oi0.jpg",
+    "rank": 148
+  },
+  {
+    "year": 1986,
+    "id": 12854,
+    "title": "Xain'd Sleena: Soldier of Light",
+    "slug": "/games/xaind-sleena-soldier-of-light/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3h6k.jpg",
+    "rank": 149
+  },
+  {
+    "year": 1986,
+    "id": 7517,
+    "title": "Labyrinth: The Computer Game",
+    "slug": "/games/labyrinth-the-computer-game/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4yjp.jpg",
+    "rank": 150
+  },
+  {
+    "year": 1986,
+    "id": 12773,
+    "title": "Spy vs Spy III: Arctic Antics",
+    "slug": "/games/spy-vs-spy-iii-arctic-antics/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/qnceyxtsj2hji09zzsw9.jpg",
+    "rank": 151
+  },
+  {
+    "year": 1986,
+    "id": 52755,
+    "title": "Voidrunner",
+    "slug": "/games/voidrunner--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/osjrgbvj6j4z2vftmfh2.jpg",
+    "rank": 152
+  },
+  {
+    "year": 1986,
+    "id": 2279,
+    "title": "Zombi",
+    "slug": "/games/zombi/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6dip.jpg",
+    "rank": 153
+  },
+  {
+    "year": 1986,
+    "id": 12967,
+    "title": "Thrust",
+    "slug": "/games/thrust/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/wpty22jhnfbiesulqdd2.jpg",
+    "rank": 154
+  },
+  {
+    "year": 1986,
+    "id": 36557,
+    "title": "The Trap Door",
+    "slug": "/games/the-trap-door/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/hz1zqcahvnqeenrsdca1.jpg",
+    "rank": 155
+  },
+  {
+    "year": 1986,
+    "id": 40352,
+    "title": "Halley's Comet",
+    "slug": "/games/halleys-comet/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ie5.jpg",
+    "rank": 156
+  },
+  {
+    "year": 1986,
+    "id": 39502,
+    "title": "Tehkan World Cup",
+    "slug": "/games/tehkan-world-cup/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7woi.jpg",
+    "rank": 157
+  },
+  {
+    "year": 1986,
+    "id": 13613,
+    "title": "Druid",
+    "slug": "/games/druid/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coctys.jpg",
+    "rank": 158
+  },
+  {
+    "year": 1986,
+    "id": 22910,
+    "title": "Top Gun",
+    "slug": "/games/top-gun--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8806.jpg",
+    "rank": 159
+  },
+  {
+    "year": 1986,
+    "id": 48443,
+    "title": "Kanshakudama Nage Kantarou no Tokaido Gojuusan-tsugi",
+    "slug": "/games/kanshakudama-nage-kantarou-no-tokaido-gojuusan-tsugi/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nyt.jpg",
+    "rank": 160
+  },
+  {
+    "year": 1986,
+    "id": 48588,
+    "title": "GeGeGe no Kitaro: Yokai Daimakyou",
+    "slug": "/games/baltron/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8e8i.jpg",
+    "rank": 161
+  },
+  {
+    "year": 1986,
+    "id": 55088,
+    "title": "WEC Le Mans 24",
+    "slug": "/games/wec-le-mans-24/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coamal.jpg",
+    "rank": 162
+  },
+  {
+    "year": 1986,
+    "id": 72164,
+    "title": "Tokio",
+    "slug": "/games/tokio--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fds.jpg",
+    "rank": 163
+  },
+  {
+    "year": 1986,
+    "id": 18676,
+    "title": "Thin Ice",
+    "slug": "/games/thin-ice/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pij.jpg",
+    "rank": 164
+  },
+  {
+    "year": 1986,
+    "id": 202896,
+    "title": "Relics",
+    "slug": "/games/relics/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6evs.jpg",
+    "rank": 165
+  },
+  {
+    "year": 1986,
+    "id": 40047,
+    "title": "Darwin 4078",
+    "slug": "/games/darwin-4078/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tvb.jpg",
+    "rank": 166
+  },
+  {
+    "year": 1986,
+    "id": 39373,
+    "title": "Iron Horse",
+    "slug": "/games/iron-horse/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9683.jpg",
+    "rank": 167
+  },
+  {
+    "year": 1986,
+    "id": 41278,
+    "title": "Dead Zone",
+    "slug": "/games/dead-zone/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co98qc.jpg",
+    "rank": 168
+  },
+  {
+    "year": 1986,
+    "id": 26409,
+    "title": "The Movie Monster Game",
+    "slug": "/games/the-movie-monster-game/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vwr.jpg",
+    "rank": 169
+  },
+  {
+    "year": 1986,
+    "id": 55032,
+    "title": "Sapiens",
+    "slug": "/games/sapiens/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5xmt.jpg",
+    "rank": 170
+  },
+  {
+    "year": 1986,
+    "id": 41375,
+    "title": "The Goonies",
+    "slug": "/games/the-goonies--2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25st.jpg",
+    "rank": 171
+  },
+  {
+    "year": 1986,
+    "id": 41271,
+    "title": "Koneko Monogatari: The Adventures of Chatran",
+    "slug": "/games/koneko-monogatari-the-adventures-of-chatran/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9720.jpg",
+    "rank": 172
+  },
+  {
+    "year": 1986,
+    "id": 65054,
+    "title": "Suishou no Dragon",
+    "slug": "/games/suishou-no-dragon/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobxka.jpg",
+    "rank": 173
+  },
+  {
+    "year": 1986,
+    "id": 48487,
+    "title": "Ganso Saiyuuki: Super Monkey Daibouken",
+    "slug": "/games/ganso-saiyuuki-super-monkey-daibouken/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ae2.jpg",
+    "rank": 174
+  },
+  {
+    "year": 1986,
+    "id": 28570,
+    "title": "Iridis Alpha",
+    "slug": "/games/iridis-alpha/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/h44ixxwtxshcokarfpfy.jpg",
+    "rank": 175
+  },
+  {
+    "year": 1986,
+    "id": 48815,
+    "title": "Murder Club",
+    "slug": "/games/murder-club/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5xmu.jpg",
+    "rank": 176
+  },
+  {
+    "year": 1986,
+    "id": 38651,
+    "title": "Guardian",
+    "slug": "/games/guardian--4/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co66vh.jpg",
+    "rank": 177
+  },
+  {
+    "year": 1986,
+    "id": 39994,
+    "title": "UFO Robo Dangar",
+    "slug": "/games/ufo-robo-dangar/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3j71.jpg",
+    "rank": 178
+  },
+  {
+    "year": 1986,
+    "id": 6141,
+    "title": "Super Tank",
+    "slug": "/games/super-tank/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7e8k.jpg",
+    "rank": 179
+  },
+  {
+    "year": 1986,
+    "id": 82510,
+    "title": "Thunder Ceptor",
+    "slug": "/games/thunder-ceptor/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/nirfrxk9axcabnrjjmf0.jpg",
+    "rank": 180
+  },
+  {
+    "year": 1986,
+    "id": 40170,
+    "title": "Soldier Girl Amazon",
+    "slug": "/games/soldier-girl-amazon/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/epswmpxzp7clhi1z27pv.jpg",
+    "rank": 181
+  },
+  {
+    "year": 1986,
+    "id": 41689,
+    "title": "King Kong 2: Yomigaeru Densetsu",
+    "slug": "/games/king-kong-2-yomigaeru-densetsu/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co96b0.jpg",
+    "rank": 182
+  },
+  {
+    "year": 1986,
+    "id": 95469,
+    "title": "Banana",
+    "slug": "/games/banana--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nsq.jpg",
+    "rank": 183
+  },
+  {
+    "year": 1986,
+    "id": 41096,
+    "title": "Spelunker II",
+    "slug": "/games/spelunker-ii/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/n1xn5i0hpbhohaytimty.jpg",
+    "rank": 184
+  },
+  {
+    "year": 1986,
+    "id": 194362,
+    "title": "Gall Force: Eternal Story",
+    "slug": "/games/gall-force-eternal-story/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4kdh.jpg",
+    "rank": 185
+  },
+  {
+    "year": 1986,
+    "id": 160301,
+    "title": "Maison Ikkoku: Omoide no Photograph",
+    "slug": "/games/maison-ikkoku-omoide-no-photograph/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6oqs.jpg",
+    "rank": 186
+  },
+  {
+    "year": 1986,
+    "id": 26543,
+    "title": "Empire City: 1931",
+    "slug": "/games/empire-city-1931/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nwa.jpg",
+    "rank": 187
+  },
+  {
+    "year": 1986,
+    "id": 12778,
+    "title": "Starglider",
+    "slug": "/games/starglider/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/a8vcv9gilrrxetwfvtnj.jpg",
+    "rank": 188
+  },
+  {
+    "year": 1986,
+    "id": 13030,
+    "title": "The Sacred Armour of Antiriad",
+    "slug": "/games/the-sacred-armour-of-antiriad/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4xm2.jpg",
+    "rank": 189
+  },
+  {
+    "year": 1986,
+    "id": 40028,
+    "title": "Battle Lane Vol. 5",
+    "slug": "/games/battle-lane-vol-5/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67nz.jpg",
+    "rank": 190
+  },
+  {
+    "year": 1986,
+    "id": 17283,
+    "title": "Sky Kid Deluxe",
+    "slug": "/games/sky-kid-deluxe/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa50h.jpg",
+    "rank": 191
+  },
+  {
+    "year": 1986,
+    "id": 48271,
+    "title": "Taiyou no Shinden: Asteka II",
+    "slug": "/games/taiyou-no-shinden-asteka-ii/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod16c.jpg",
+    "rank": 192
+  },
+  {
+    "year": 1986,
+    "id": 41265,
+    "title": "Yokai Yashiki",
+    "slug": "/games/yokai-yashiki/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co97r6.jpg",
+    "rank": 193
+  },
+  {
+    "year": 1986,
+    "id": 36810,
+    "title": "Aliens: The Computer Game",
+    "slug": "/games/aliens-the-computer-game--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/zxulwefpui6xceshiuro.jpg",
+    "rank": 194
+  },
+  {
+    "year": 1986,
+    "id": 1633,
+    "title": "James Bond 007: Goldfinger",
+    "slug": "/games/james-bond-007-goldfinger/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dvx.jpg",
+    "rank": 195
+  },
+  {
+    "year": 1986,
+    "id": 12989,
+    "title": "Dan Dare: Pilot of the Future",
+    "slug": "/games/dan-dare-pilot-of-the-future/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co93i2.jpg",
+    "rank": 196
+  },
+  {
+    "year": 1986,
+    "id": 14546,
+    "title": "Portal",
+    "slug": "/games/portal--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4i78.jpg",
+    "rank": 197
+  },
+  {
+    "year": 1986,
+    "id": 2856,
+    "title": "Scooby-Doo",
+    "slug": "/games/scooby-doo/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/ecizntwgigveqis9sa27.jpg",
+    "rank": 198
+  },
+  {
+    "year": 1986,
+    "id": 26379,
+    "title": "Mind Walker",
+    "slug": "/games/mind-walker/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/pe7eyopsyhg8fbcwhxww.jpg",
+    "rank": 199
+  },
+  {
+    "year": 1986,
+    "id": 41758,
+    "title": "Castle Excellent",
+    "slug": "/games/castle-excellent/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/jouin61wj2fvbcfvwt1s.jpg",
+    "rank": 200
   },
   {
     "year": 1987,
@@ -16958,6 +20190,654 @@
     "slug": "/games/the-cyber-shinobi/",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co30io.jpg",
     "rank": 119
+  },
+  {
+    "year": 1990,
+    "id": 2382,
+    "title": "Burai Fighter",
+    "slug": "/games/burai-fighter/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pwu.jpg",
+    "rank": 120
+  },
+  {
+    "year": 1990,
+    "id": 93087,
+    "title": "Target Earth",
+    "slug": "/games/target-earth/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5fxr.jpg",
+    "rank": 121
+  },
+  {
+    "year": 1990,
+    "id": 48259,
+    "title": "Werewolf: The Last Warrior",
+    "slug": "/games/werewolf-the-last-warrior/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4erk.jpg",
+    "rank": 122
+  },
+  {
+    "year": 1990,
+    "id": 8881,
+    "title": "Hugo's House of Horrors",
+    "slug": "/games/hugos-house-of-horrors/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4pb8.jpg",
+    "rank": 123
+  },
+  {
+    "year": 1990,
+    "id": 18226,
+    "title": "Dragon Crystal",
+    "slug": "/games/dragon-crystal/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coapmx.jpg",
+    "rank": 124
+  },
+  {
+    "year": 1990,
+    "id": 48181,
+    "title": "Skate or Die 2: The Search for Double Trouble",
+    "slug": "/games/skate-or-die-2-the-search-for-double-trouble/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod1dw.jpg",
+    "rank": 125
+  },
+  {
+    "year": 1990,
+    "id": 4388,
+    "title": "Sol-Feace",
+    "slug": "/games/sol-feace/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/dnwvwzlzt2zwrl1maqqz.jpg",
+    "rank": 126
+  },
+  {
+    "year": 1990,
+    "id": 1934,
+    "title": "Red Baron",
+    "slug": "/games/red-baron/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21vc.jpg",
+    "rank": 127
+  },
+  {
+    "year": 1990,
+    "id": 12671,
+    "title": "Lotus Esprit Turbo Challenge",
+    "slug": "/games/lotus-esprit-turbo-challenge/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co84zb.jpg",
+    "rank": 128
+  },
+  {
+    "year": 1990,
+    "id": 4628,
+    "title": "Magic Jewelry",
+    "slug": "/games/magic-jewelry/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co49p9.jpg",
+    "rank": 129
+  },
+  {
+    "year": 1990,
+    "id": 164313,
+    "title": "Batman",
+    "slug": "/games/batman--4/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6l6c.jpg",
+    "rank": 130
+  },
+  {
+    "year": 1990,
+    "id": 48028,
+    "title": "Low G Man: The Low Gravity Man",
+    "slug": "/games/low-g-man-the-low-gravity-man/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2qlw.jpg",
+    "rank": 131
+  },
+  {
+    "year": 1990,
+    "id": 48922,
+    "title": "Wizards & Warriors X: Fortress of Fear",
+    "slug": "/games/wizards-and-warriors-x-fortress-of-fear/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co49ec.jpg",
+    "rank": 132
+  },
+  {
+    "year": 1990,
+    "id": 4497,
+    "title": "Star Control",
+    "slug": "/games/star-control/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rei.jpg",
+    "rank": 133
+  },
+  {
+    "year": 1990,
+    "id": 48224,
+    "title": "Pictionary: The Game of Video Quick Draw",
+    "slug": "/games/pictionary-the-game-of-video-quick-draw/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6olb.jpg",
+    "rank": 134
+  },
+  {
+    "year": 1990,
+    "id": 131462,
+    "title": "Batman",
+    "slug": "/games/batman/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3zcg.jpg",
+    "rank": 135
+  },
+  {
+    "year": 1990,
+    "id": 72809,
+    "title": "Pin-Bot",
+    "slug": "/games/pin-bot/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4etr.jpg",
+    "rank": 136
+  },
+  {
+    "year": 1990,
+    "id": 39889,
+    "title": "Ninja Combat",
+    "slug": "/games/ninja-combat/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7zw1.jpg",
+    "rank": 137
+  },
+  {
+    "year": 1990,
+    "id": 68337,
+    "title": "Mission: Impossible",
+    "slug": "/games/mission-impossible--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6orp.jpg",
+    "rank": 138
+  },
+  {
+    "year": 1990,
+    "id": 73083,
+    "title": "Downtown Nekketsu March Super-Awesome Field Day!",
+    "slug": "/games/downtown-nekketsu-march-super-awesome-field-day/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4vku.jpg",
+    "rank": 139
+  },
+  {
+    "year": 1990,
+    "id": 48091,
+    "title": "Rad Racer II",
+    "slug": "/games/rad-racer-ii/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wbs.jpg",
+    "rank": 140
+  },
+  {
+    "year": 1990,
+    "id": 39714,
+    "title": "Trio the Punch: Never Forget Me",
+    "slug": "/games/trio-the-punch-never-forget-me/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1iuc.jpg",
+    "rank": 141
+  },
+  {
+    "year": 1990,
+    "id": 40206,
+    "title": "League Bowling",
+    "slug": "/games/league-bowling/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co724b.jpg",
+    "rank": 142
+  },
+  {
+    "year": 1990,
+    "id": 9613,
+    "title": "King's Bounty",
+    "slug": "/games/kings-bounty/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dfq.jpg",
+    "rank": 143
+  },
+  {
+    "year": 1990,
+    "id": 46209,
+    "title": "Granada",
+    "slug": "/games/granada/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co56tn.jpg",
+    "rank": 144
+  },
+  {
+    "year": 1990,
+    "id": 46838,
+    "title": "The Super Spy",
+    "slug": "/games/the-super-spy/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8do1.jpg",
+    "rank": 145
+  },
+  {
+    "year": 1990,
+    "id": 12845,
+    "title": "Rod-Land",
+    "slug": "/games/rod-land/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8rqu.jpg",
+    "rank": 146
+  },
+  {
+    "year": 1990,
+    "id": 3034,
+    "title": "Mad Max",
+    "slug": "/games/mad-max-7d2a08e9-7426-428c-a1dc-de266c700342/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6o2u.jpg",
+    "rank": 147
+  },
+  {
+    "year": 1990,
+    "id": 12323,
+    "title": "Fatal Run",
+    "slug": "/games/fatal-run/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3qax.jpg",
+    "rank": 148
+  },
+  {
+    "year": 1990,
+    "id": 41111,
+    "title": "The Ninja Kids",
+    "slug": "/games/the-ninja-kids/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/dytpywxhijfnoalz3no3.jpg",
+    "rank": 149
+  },
+  {
+    "year": 1990,
+    "id": 18536,
+    "title": "Time Lord",
+    "slug": "/games/time-lord/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9v0k.jpg",
+    "rank": 150
+  },
+  {
+    "year": 1990,
+    "id": 8777,
+    "title": "The Adventures of Rad Gravity",
+    "slug": "/games/the-adventures-of-rad-gravity/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5agl.jpg",
+    "rank": 151
+  },
+  {
+    "year": 1990,
+    "id": 8451,
+    "title": "Disney's DuckTales: The Quest for Gold",
+    "slug": "/games/disneys-ducktales-the-quest-for-gold/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f73.jpg",
+    "rank": 152
+  },
+  {
+    "year": 1990,
+    "id": 100081,
+    "title": "Treasure Cove!",
+    "slug": "/games/treasure-cove--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5xp3.jpg",
+    "rank": 153
+  },
+  {
+    "year": 1990,
+    "id": 12203,
+    "title": "Rick Dangerous 2",
+    "slug": "/games/rick-dangerous-2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coctbt.jpg",
+    "rank": 154
+  },
+  {
+    "year": 1990,
+    "id": 39927,
+    "title": "The Cliffhanger: Edward Randy",
+    "slug": "/games/the-cliffhanger-edward-randy/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobd0j.jpg",
+    "rank": 155
+  },
+  {
+    "year": 1990,
+    "id": 48083,
+    "title": "Tecmo World Wrestling",
+    "slug": "/games/tecmo-world-wrestling/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6oxa.jpg",
+    "rank": 156
+  },
+  {
+    "year": 1990,
+    "id": 14442,
+    "title": "Worlds of Ultima: The Savage Empire",
+    "slug": "/games/worlds-of-ultima-the-savage-empire/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4atz.jpg",
+    "rank": 157
+  },
+  {
+    "year": 1990,
+    "id": 4464,
+    "title": "G-LOC: Air Battle",
+    "slug": "/games/g-loc-air-battle/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coad0b.jpg",
+    "rank": 158
+  },
+  {
+    "year": 1990,
+    "id": 39888,
+    "title": "Thunder Fox",
+    "slug": "/games/thunder-fox/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocmr1.jpg",
+    "rank": 159
+  },
+  {
+    "year": 1990,
+    "id": 7760,
+    "title": "Atomic Punk",
+    "slug": "/games/atomic-punk/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6l2d.jpg",
+    "rank": 160
+  },
+  {
+    "year": 1990,
+    "id": 12840,
+    "title": "Race Drivin'",
+    "slug": "/games/race-drivin/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9i1b.jpg",
+    "rank": 161
+  },
+  {
+    "year": 1990,
+    "id": 11867,
+    "title": "Basketbrawl",
+    "slug": "/games/basketbrawl/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co323c.jpg",
+    "rank": 162
+  },
+  {
+    "year": 1990,
+    "id": 13398,
+    "title": "Bigfoot",
+    "slug": "/games/bigfoot/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vpu.jpg",
+    "rank": 163
+  },
+  {
+    "year": 1990,
+    "id": 39283,
+    "title": "Nemo",
+    "slug": "/games/nemo/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/vfka4edekhvshasfddeb.jpg",
+    "rank": 164
+  },
+  {
+    "year": 1990,
+    "id": 12491,
+    "title": "Aero Blasters",
+    "slug": "/games/aero-blasters/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bnq.jpg",
+    "rank": 165
+  },
+  {
+    "year": 1990,
+    "id": 91874,
+    "title": "Vendetta",
+    "slug": "/games/vendetta/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22ra.jpg",
+    "rank": 166
+  },
+  {
+    "year": 1990,
+    "id": 18233,
+    "title": "Aerial Assault",
+    "slug": "/games/aerial-assault/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6yhx.jpg",
+    "rank": 167
+  },
+  {
+    "year": 1990,
+    "id": 136613,
+    "title": "Painter Momopie",
+    "slug": "/games/painter-momopie/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7edn.jpg",
+    "rank": 168
+  },
+  {
+    "year": 1990,
+    "id": 11896,
+    "title": "The Amazing Spider-Man",
+    "slug": "/games/the-amazing-spider-man--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co89oi.jpg",
+    "rank": 169
+  },
+  {
+    "year": 1990,
+    "id": 102254,
+    "title": "Captain Tsubasa Vol. II: Super Striker",
+    "slug": "/games/captain-tsubasa-vol-ii-super-striker/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod71m.jpg",
+    "rank": 170
+  },
+  {
+    "year": 1990,
+    "id": 5428,
+    "title": "Rise of the Dragon",
+    "slug": "/games/rise-of-the-dragon/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2y59.jpg",
+    "rank": 171
+  },
+  {
+    "year": 1990,
+    "id": 98727,
+    "title": "Sword Master",
+    "slug": "/games/sword-master--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6fgq.jpg",
+    "rank": 172
+  },
+  {
+    "year": 1990,
+    "id": 10585,
+    "title": "Elvira: Mistress of the Dark",
+    "slug": "/games/elvira-mistress-of-the-dark/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa3wz.jpg",
+    "rank": 173
+  },
+  {
+    "year": 1990,
+    "id": 38321,
+    "title": "SD The Great Battle: Aratanaru Chousen",
+    "slug": "/games/sd-the-great-battle-aratanaru-chousen/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ghk.jpg",
+    "rank": 174
+  },
+  {
+    "year": 1990,
+    "id": 94394,
+    "title": "Madou Monogatari 1-2-3",
+    "slug": "/games/madou-monogatari-1-2-3/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2z6o.jpg",
+    "rank": 175
+  },
+  {
+    "year": 1990,
+    "id": 12338,
+    "title": "Scrapyard Dog",
+    "slug": "/games/scrapyard-dog/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co38w7.jpg",
+    "rank": 176
+  },
+  {
+    "year": 1990,
+    "id": 5879,
+    "title": "Shadow of the Beast II",
+    "slug": "/games/shadow-of-the-beast-ii/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jhz.jpg",
+    "rank": 177
+  },
+  {
+    "year": 1990,
+    "id": 12040,
+    "title": "Days of Thunder",
+    "slug": "/games/days-of-thunder/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6yv0.jpg",
+    "rank": 178
+  },
+  {
+    "year": 1990,
+    "id": 71234,
+    "title": "Commander Keen: Invasion of the Vorticons",
+    "slug": "/games/commander-keen-invasion-of-the-vorticons/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4wno.jpg",
+    "rank": 179
+  },
+  {
+    "year": 1990,
+    "id": 37716,
+    "title": "Down Load",
+    "slug": "/games/down-load/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co636f.jpg",
+    "rank": 180
+  },
+  {
+    "year": 1990,
+    "id": 11985,
+    "title": "California Games II",
+    "slug": "/games/california-games-ii/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f79.jpg",
+    "rank": 181
+  },
+  {
+    "year": 1990,
+    "id": 46276,
+    "title": "Final Zone",
+    "slug": "/games/final-zone/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5lcn.jpg",
+    "rank": 182
+  },
+  {
+    "year": 1990,
+    "id": 72147,
+    "title": "Taipei",
+    "slug": "/games/taipei/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7miz.jpg",
+    "rank": 183
+  },
+  {
+    "year": 1990,
+    "id": 48230,
+    "title": "Swords and Serpents",
+    "slug": "/games/swords-and-serpents/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6oyn.jpg",
+    "rank": 184
+  },
+  {
+    "year": 1990,
+    "id": 48194,
+    "title": "NES Play Action Football",
+    "slug": "/games/nes-play-action-football/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6os5.jpg",
+    "rank": 185
+  },
+  {
+    "year": 1990,
+    "id": 42120,
+    "title": "Legendary Axe II",
+    "slug": "/games/legendary-axe-ii/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6iem.jpg",
+    "rank": 186
+  },
+  {
+    "year": 1990,
+    "id": 42114,
+    "title": "Chew-Man-Fu",
+    "slug": "/games/chew-man-fu/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co964w.jpg",
+    "rank": 187
+  },
+  {
+    "year": 1990,
+    "id": 48951,
+    "title": "Daedalian Opus",
+    "slug": "/games/daedalian-opus/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8hti.jpg",
+    "rank": 188
+  },
+  {
+    "year": 1990,
+    "id": 7473,
+    "title": "Jones in the Fast Lane",
+    "slug": "/games/jones-in-the-fast-lane/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5v8n.jpg",
+    "rank": 189
+  },
+  {
+    "year": 1990,
+    "id": 40563,
+    "title": "Palamedes",
+    "slug": "/games/palamedes/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ose.jpg",
+    "rank": 190
+  },
+  {
+    "year": 1990,
+    "id": 15241,
+    "title": "Kick Off 2",
+    "slug": "/games/kick-off-2/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co31gk.jpg",
+    "rank": 191
+  },
+  {
+    "year": 1990,
+    "id": 48095,
+    "title": "WCW: World Championship Wrestling",
+    "slug": "/games/wcw-world-championship-wrestling/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6oyx.jpg",
+    "rank": 192
+  },
+  {
+    "year": 1990,
+    "id": 144672,
+    "title": "Dragon Fighter",
+    "slug": "/games/dragon-fighter--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8d5v.jpg",
+    "rank": 193
+  },
+  {
+    "year": 1990,
+    "id": 48917,
+    "title": "Mercenary Force",
+    "slug": "/games/mercenary-force/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9hpp.jpg",
+    "rank": 194
+  },
+  {
+    "year": 1990,
+    "id": 5423,
+    "title": "PowerMonger",
+    "slug": "/games/powermonger--1/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21zk.jpg",
+    "rank": 195
+  },
+  {
+    "year": 1990,
+    "id": 5396,
+    "title": "Joe Montana Football",
+    "slug": "/games/joe-montana-football/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5mun.jpg",
+    "rank": 196
+  },
+  {
+    "year": 1990,
+    "id": 4400,
+    "title": "John Madden Football",
+    "slug": "/games/john-madden-football/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5muo.jpg",
+    "rank": 197
+  },
+  {
+    "year": 1990,
+    "id": 10445,
+    "title": "Air Duel",
+    "slug": "/games/air-duel/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7f1r.jpg",
+    "rank": 198
+  },
+  {
+    "year": 1990,
+    "id": 48258,
+    "title": "Wheel of Fortune: Family Edition",
+    "slug": "/games/wheel-of-fortune-family-edition/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6oyu.jpg",
+    "rank": 199
+  },
+  {
+    "year": 1990,
+    "id": 9875,
+    "title": "Barker Bill's Trick Shooting",
+    "slug": "/games/barker-bills-trick-shooting/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vph.jpg",
+    "rank": 200
   },
   {
     "year": 1991,
@@ -72958,5 +76838,29 @@
     "slug": "/games/he-is-coming/",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8u84.jpg",
     "rank": 200
+  },
+  {
+    "year": 2012,
+    "id": 1121,
+    "title": "Dear Esther",
+    "slug": "/games/dear-esther/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eez.jpg",
+    "rank": 105
+  },
+  {
+    "year": 2013,
+    "id": 1337,
+    "title": "The Stanley Parable",
+    "slug": "/games/the-stanley-parable/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rc9.jpg",
+    "rank": 25
+  },
+  {
+    "year": 2022,
+    "id": 119273,
+    "title": "The Stanley Parable: Ultra Deluxe",
+    "slug": "/games/the-stanley-parable-ultra-deluxe/",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4p71.jpg",
+    "rank": 45
   }
 ]
