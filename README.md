@@ -1,46 +1,59 @@
 # 50 Years of Video Game History (1975–2025)
 
-An interactive, static data visualization website recreating and expanding upon the charts from Mark Brown's **Game Maker's Toolkit (GMTK)** video: [*"The History of Every Video Game Genre"*](https://www.youtube.com/watch?v=Dbgdi7BzMR0).
+> An interactive data visualization explorer recreating and expanding upon the historical charts from Mark Brown's **Game Maker's Toolkit (GMTK)** video essay: [*"The History of Every Video Game Genre"*](https://www.youtube.com/watch?v=Dbgdi7BzMR0).
 
-## 🚀 Features
+🎮 **[Explore the Live Site](https://brusi.github.io/gmtk-video-game-genres/)**
 
-- **Interactive Genre Gallery**: Individual interactive cards for all 36 major video game genres with historical sparkline curves, total release counts, peak years, and video timestamps.
-- **Detailed Genre Modal**: Click any genre to see a full high-resolution graph with GMTK transcript commentary and quotes. Click on any year point along the curve to instantly inspect the top games released in that genre that year!
-- **Compare Mode**: Plot up to 8 genres simultaneously on a single comparative timeline (1975–2025) to see how genres rose, peaked, or displaced one another over time.
-- **Year-by-Year Scrubber (1975–2025)**: Scrub through five decades of gaming history to view genre distribution donut charts alongside top Backloggd games with cover art and rankings.
-- **Game Database Search**: Fast live search across the entire dataset of 9,120 games with cover art and direct links to Backloggd.
+---
+
+## 🕹️ Overview
+
+In December 2024, Mark Brown (Game Maker's Toolkit) published a deep dive into five decades of video game history, tracking how genres emerged, peaked, evolved, and faded between 1975 and 2025. 
+
+This project brings those charts to life as an open, fully interactive web application. You can explore individual genre trajectories, compare trends across genres, scrub through 50 years of gaming history year by year, and search through the top 200 games of each year.
+
+### At a Glance
+- 🕹️ **9,120 Games Cataloged**: Top 200 most popular games for each year from 1975 to 2025.
+- 🏷️ **36 Major Genres & Subgenres**: Normalized according to GMTK's taxonomy.
+- 📅 **50-Year Timeline**: Explore trends, peaks, golden ages, and shifts in player taste.
+- 🎬 **GMTK Video Integration**: Embedded commentary, timestamps, and quotes from the video essay.
+
+---
+
+## 🚀 Key Features
+
+- **Interactive Genre Gallery**: Browse visual cards for all 36 genres with sparkline trend curves, total game releases, peak historical years, and jump-links to video timestamps.
+- **Detailed Genre Deep Dive**: Click into any genre to view full-scale interactive graphs, GMTK script excerpts, and key highlights. Click any individual year point on the curve to inspect the top-rated games released for that genre in that year.
+- **Genre Comparison Tool**: Overlay up to 8 genres side-by-side on a synchronized comparative timeline (1975–2025) to discover how shifts occurred (e.g., Platformers giving way to FPS, or the rise of Survival and Battle Royale).
+- **Year-by-Year Explorer**: Scrub through any year from 1975 to 2025 to see genre market share represented on donut charts alongside the highest-ranked Backloggd games with box art and ratings.
+- **Searchable Game Database**: Instant client-side search across all 9,120 games with instant filtering, genre tags, cover art, and direct links to Backloggd entries.
+
+---
 
 ## 📊 Methodology & Data Sources
 
-The data pipeline directly replicates Mark Brown's methodology detailed in the video:
-1. **Top Games (1975–2025)**: Scraped the top 200 most popular games per year from [Backloggd](https://backloggd.com/) using the native `category:main_game` filter (excluding remakes, remasters, ports, and compilations).
-2. **Wikipedia Genre Scraping**: Extracted the infobox genre tags (`| genre = ...`) for all games using the MediaWiki API.
-3. **Taxonomy & Normalization**: Mapped raw tags into GMTK's canonical 36 genres and subgenres, producing year-by-year counts and historical timelines.
+The data pipeline directly replicates the methodology described by Mark Brown in the GMTK documentary:
 
-## 🌐 Deploying to GitHub Pages
+1. **Game Selection (1975–2025)**:
+   - Scraped the top 200 most popular games per year from [Backloggd](https://backloggd.com/).
+   - Applied the native `category:main_game` filter to exclude expansion packs, remakes, remasters, compilations, and ports, matching the video's dataset.
+2. **Genre Classification**:
+   - Extracted Wikipedia infobox genre tags (`| genre = ...`) via the MediaWiki API for each title.
+3. **Taxonomy & Normalization**:
+   - Mapped and normalized raw Wikipedia tags into GMTK's 36 canonical genre classifications to construct the longitudinal timeline.
 
-This site is 100% static (HTML5, CSS3, vanilla JavaScript, and Chart.js). It requires zero server runtimes or build steps and is ready to deploy immediately:
+---
 
-### Option A: From Repository Root
-1. Push this repository to GitHub.
-2. In your repository on GitHub, go to **Settings** > **Pages**.
-3. Under **Build and deployment** > **Source**, choose **Deploy from a branch**.
-4. Select the `main` branch and `/ (root)` folder, then click **Save**.
+## 🛠️ Built With
 
-### Option B: From the `/docs` Folder
-1. Under **Settings** > **Pages** > **Branch**, select `main` and choose `/docs` as the folder.
-2. Click **Save**.
+- **Frontend**: Pure HTML5, CSS3, and modern Vanilla JavaScript (no frameworks or heavy runtimes).
+- **Visualizations**: [Chart.js](https://www.chartjs.org/) for responsive line charts, sparklines, and genre distribution donut charts.
+- **Hosting**: Deployed directly via GitHub Pages as a fast, static client-side web application.
 
-## 💻 Running Locally
+---
 
-You can run the site locally using any static web server:
+## 🙏 Credits & Acknowledgments
 
-```bash
-# Using Node.js
-npx serve docs
-
-# Or using Python (if installed)
-python -m http.server 8000 --directory docs
-```
-
-Open `http://localhost:8000` (or `http://localhost:3000`) in your web browser.
+- **[Mark Brown / Game Maker's Toolkit](https://www.youtube.com/@GMTK)** for the original concept, historical research, and documentary video: [*"The History of Every Video Game Genre"*](https://www.youtube.com/watch?v=Dbgdi7BzMR0).
+- **[Backloggd](https://backloggd.com/)** for community game cataloging, popularity rankings, and game metadata.
+- **[Wikipedia](https://www.wikipedia.org/)** and its contributors for open video game infobox genre information.
