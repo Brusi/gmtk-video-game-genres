@@ -1,0 +1,1314 @@
+Hey, it's Mark. I've got a chart for you. It shows the number of platform games 
+released each year over the last 50 years. From the 1970s when the genre simply did 
+not exist, to its invention and evolution throughout the 1980s, a massive spike of 
+popularity at the beginning of the 1990s and then a pretty massive downfall 
+in the middle of that decade before settling into being a pretty standard and 
+familiar genre for the last 30 odd years. And you know, I think a graph like this, plus some 
+expert historical context to explain the various peaks and valleys, but a graph like this can give 
+you a pretty good understanding of how this genre has changed over the last 50 odd years, like 
+a history of the platformer in a single image. But what if I did this for every video game 
+genre? For every word and phrase and term we use to describe games from the beat 'em 
+up to the JRPG to the Metroidbrainia. Well, we could see the genres that exploded 
+into popularity before vanishing into thin air. We could see the genres that only appeared when the time and the technology 
+and the culture was right. We could see how one genre's meteoric rise 
+led to another's catastrophic downfall. And we could see shifting trends in the tastes 
+of game makers throughout the last 50 odd years. So that is exactly what I did. I used the website Backloggd to list the 
+top 200 most popular video games for each year from 1975 to 2025, ignoring 
+most remakes, ports, remasters, and compilations, giving me a list of about 
+10,000 video games from Gunfight to Super Mario Bros/ to Chrono Trigger to God of 
+War to The Witcher 3 to Clair Obscur. I say almost 10,000 because up until about 1980, there simply weren't 200 unique 
+video games released each year. With this massive list of games, all I 
+had to do then was figure out their genre. Now, I found the best source of 
+this information was Wikipedia. So, I built a Python script to scrape every 
+game's Wikipedia article and pull out the text next to the word genre in the info box on, 
+you know, the top right of each Wikipedia page. After a bit of time cleaning up the data (a 
+lot of time cleaning up the data, it was a bit of a mess), I was left with my master data set: 
+9,902 games in about 130 genres and sub genres. And then if you tally up the number of, say, point-and-click adventure games released each 
+year, you can generate a nifty little graph like this to show you how prolific that 
+genre was at different points in time. Now, of course, there will always be 
+biases and oversights in the data, so it's not perfect, but I think it 
+does give a good high-level overview in the shifting trends in the way we 
+talk about different types of game. And it shows you which games 
+were popular at different times, both with developers based on which 
+games were getting made and with players based on which games were put 
+into the top 200 ranking on Backloggd. And so, while it's not perfect, it does give us a good understanding of how things have 
+changed in the world of game design. And so, with that preamble out of the 
+way, I say let's just jump right into it. I'm Mark Brown. This is Game Makers Toolkit, and this is 
+the history of every video game genre ever. So, where do the first video game genres 
+come from? Well, unsurprisingly, they come from games and challenges and competitions 
+that predate the arrival of video games. Take for instance arcade games, as in the arcade games that existed before the likes 
+of Pong and Pac-Man and Donkey Kong. I'm talking about Pinball and Skee 
+Ball and that machine where you pay a penny to look through a slot and 
+see a photo of a lady in her pants. That sort of thing. These electromechanical machines 
+would prove very inspirational to the developers coming up with the 
+very first batch of video games. For instance - many of these 
+arcade games featured driving. Like Drive Mobile, from the 1940s, where you use a steering wheel to move a 
+picture of a car on a big rotating drum. And Sega's 1969 game Grand Prix, which 
+projected a scrolling road onto a screen. So, as game makers moved away 
+from electromechanical machines and towards video games - one 
+of the first major genres was... the racing game. That includes early titles like 
+Atari's Space Race from 1973, Atari's Gran Trak 10 from 1974, and 
+Dave Nutting's 280 ZZZAP from 1976. That's probably how you pronounce that. Games like these contributed to racing 
+being the first big genre in my dataset, as racing games were the most popular 
+type of game in 1975 and 1976. In fact, in that year, '76, almost a third 
+of all games were racing games of some sort. Including the controversial "Death Race" from Exidy - which has you running 
+over little pixelated people. It was the first game to grab 
+the attention of the news media, setting the scene for later video nasties 
+like Mortal Kombat and Grand Theft Auto. Now, many of these early racing games would take 
+place from a top-down or side-on perspective. An obvious technical limitation. But eventually developers figured out a few 
+technical tricks to fake a 3D perspective - as seen in Sega's 1981 game Turbo, Namco's Pole 
+Position from 1982, and Sega's OutRun from 1986. And then in the late 1980s, properly 
+polygonal 3D racers appeared - with games like Winning Run in 1988 
+and Indianapolis 500 in 1989. Before the one-two punch of Ridge 
+Racer in 1993 and Daytona USA in 1994, from back when Namco and Sega were constantly 
+fighting to one-up each other's arcade efforts. And so throughout the 70s, 80s, and 90s, the 
+racing game remained a popular and familiar genre. It was in the top 5 genres throughout the 1970s, 
+and then again at the turn of the millennium... with an obvious spike in the year 2000 - seeing about 24 different racing 
+games released that year. This gave us an era of hit franchises like 
+Need for Speed, Colin McRae, and Burnout. There are also racing sub-genres! So in 1988, Sega released Power Drift - a game that 
+ditched Ferraris and motorbikes for go-karts, This gave us the kart racer sub-genre that 
+would feature characters like Crash Bandicoot, Mario, Sonic, Mickey Mouse, and 
+certified Mondays hater Garfield. A quick note that when there's only 
+a limited number of games in a genre, I'll present it as a timeline 
+rather than a full graph. And, then, going back to Indianapolis 500, which 
+marketed itself as a "racing simulation", we've since seen a bunch of realistic racing sims like 
+Gran Turismo, Assetto Corsa, and Project CARS. There's also the vehicular combat genre, for 
+games where cars do battle with each other. Sometimes this is a racing sub-genre, with 
+games like Road Rash and Destruction Derby. But other times there's no racing at all - just 
+carnage, as seen in games like Twisted Metal. But, even with all of that, you can see a slow decline in the number 
+of racing games being released each year. From that massive peak in 2000, though to 
+just a handful being published each year. And ultimately that tracks 
+with what racing fans know. Many of the major franchises 
+have completely disappeared. Series like Burnout, Project Gotham Racing, 
+and Midnight Club have all but vanished. And outside of a few exceptions, you 
+don't see a lot of indie racing games to pick up what the major 
+publishers have put down. And so while I'm sure that racing 
+will always be a popular genre - it doesn't look like it will ever be as 
+prolific as it was during its heyday. Of course, driving games weren't the only type 
+of electromechanical game in early arcades. One of the most popular was pinball. And that made its way to video games, 
+as well, with titles like Video Pinball on the Atari 2600, Pinball on the NES, 
+and Bally Pin for the Bally Astrocade. But this genre has largely gone away - 
+with a few exceptions like Sonic Spinball, Pokémon Pinball, and Yoku's Island Express - which is a creative mix of 
+Metroidvania and pinball mechanics. Another early arcade favourite involved shooting 
+targets, using a physical gun-shaped peripheral. In fact, these electro-mechanical gun games go 
+all the way back to the 1930s - if not earlier. And companies like Sega, Nintendo, 
+Namco, and Midway made gun games, years before ever entering 
+the video game business. And so, once the appropriate 
+technology had been invented, the light gun shooter was another 
+obvious genre for video games to adapt. Both in the arcades - with games like 
+Operation Thunderbolt, and Cheyenne. And at home - with games like Duck Hunt, 
+Lethal Enforcers, and Yoshi's Safari. Like pinball, this genre would eventually die out. It received a shot in the arm with live-action 
+laserdisc games like Mad Dog McCree. And then another, with 3D games 
+like Virtua Cop and Time Crisis. But it wasn't enough to save the genre. The obvious death knell is the fact that 
+the technology behind light guns is just fundamentally incompatible 
+with modern flat-screen TVs. That certainly doesn't help. These are also a few games that work a lot like 
+light gun shooters but without the light gun. Games like Dynamite Duke and 
+some parts of Sunset Riders. But the so-called "shooting gallery" genre 
+has never been a particularly popular genre. So, early arcade games proved very 
+inspirational to video game designers, but that wasn't the only place to look. Consider Pong from 1972, 
+engineered by Allan Alcorn. Pong is arguably the world's first sports game. Yes, that's supposed to be 
+ping pong or table tennis. Just pretend the white rectangle is 
+Timothée Chalamet and you'll get it. Now, Pong was a huge hit. It's considered the world's first 
+commercially successful video game. I mean, the designers knew they had a huge 
+hit on their hands when the machines kept breaking down simply because there were 
+too many quarters jamming up the coin slot. And so thanks to the massive success of Pong, 
+many early video games were essentially just Pong. In the early 1970s, the video game industry, 
+if you could even call it that, was basically just a bunch of Pong clones made by companies 
+you've heard of like Taito, Sega, and Nintendo. Though some were at least creative 
+enough to change the gameplay to represent a different sport, like 
+hockey, soccer, or basketball. But, as games got more complex and designers got 
+more creative, by the early 80s we started getting more inventive sports games that actually captured 
+the specific sport on the box or arcade cabinet. Stuff like Track & Field, by Konami, in 
+1983, and Tennis, by Nintendo, in 1984. Just like racing, sports was a 
+very common theme for early games. In 1978 it was the most popular 
+genre of all the games in my dataset. And it would be in the top five 
+genres from 1975 through to 1990. And so while developers would eventually find 
+new ideas and subjects for games - making sports games less prolific from the 1990s and onwards 
+- it has stuck around as a video game genre. A familiar mainstay over the last 50 years. We can also zoom in to the data and 
+see how individual sports have fared. For instance, according to my dataset - only a few sports have maintained popularity 
+through all of the last 50 years. Like Basketball, with NBA 
+Jam and the NBA 2K series. Golf, with Tiger Woods games and Mario Golf. American football, with Tecmo Bowl and Madden NFL. And real football, with FIFA and Pro Evo. But many other sports have seen their 
+number of games sharply decline over time. Like - boxing was pretty big in the 1980s 
+but has only seen a few new games since then. And there's a similar story for 
+Tennis, Baseball, Ice Hockey, Athletics, Bowling, Fishing, Dodgeball, 
+Skeet-shooting, Skiing, and Volleyball. Meanwhile, other sports have only shown up 
+after becoming popular in the real world. Like skateboarding had a massive 
+boom in the 1980s - and that's when we got games like 720 Degrees, 
+California Games, and Skate or Die... ahead of Tony Hawk's Pro Skater and Skate. Likewise, snowboarding became mega popular 
+in 1998, when it first featured in the Winter Olympic Games - which is around the 
+same time we got games like Cool Boarders, Snowboard Kids, 1080 Snowboarding, and SSX. We see something similar for wrestling, 
+which got its first video game in 1983. But while some sports are more popular 
+than others - the sports genre, as a whole, has remained prolific 
+for all 50 years in my dataset. And it all goes back to Pong. Which actually brings us on to our next genre. So, with everyone and their 
+mum making Pong clones, Atari founder Nolan Bushnell 
+wanted to do something new. A Pong game that could be played in single-player. The idea was this: rotate the 
+screen 90 degrees, and replace your opponent with a wall of coloured bricks. And he put his best engineer on the 
+project: a bloke named Steve Jobs, who probably didn't go on to 
+do anything of importance. That game was, of course, 
+Breakout - released in 1976. And while a similar idea had already been done 
+a few years prior with Ramtek's Clean Sweep, Breakout was the, ahem, breakout success. Just like with Pong, the arcade business quickly 
+turned to churning out Breakout-style games. Including the first video games made by Konami. And the first game from Tōru Iwatani 
+- who would go on to make Pac-Man. And that all led to a 
+short-lived block-breaking fad... that would quickly fade away. Outside of a few anomalies like Arkanoid in 1986, and the manic roguelike 
+Ball x Pit released in 2025. But ultimately, Breakout was just one 
+tiny part of a much bigger movement. A new breed of games that were about 
+testing your reflexes, your aim, your quickfire decision-making, your skill. A genre that we would now call the action 
+game, or sometimes the arcade game. Now, these games were often pretty 
+simple, just a single screen and a clever idea that would challenge 
+you to say, "I bet I could do that. Hold my beer. I'm going in." Basically the video game equivalent 
+of, you know, Skee Ball or Whack-a-Mole. So that includes games like 1977's Canyon Bomber, which is a timing game about dropping 
+a bomb into a field of rocks. 1978's Avalanche, which is about preventing 
+falling rocks from dropping onto the ground. And 1979's Lunar Lander, which has you safely 
+guiding a landing module onto the Moon. And so in the 70s and 80s, this 
+sort of game was super popular. Arcade games were basically either racing 
+games, sports games, or action games. And in my dataset, action was the 
+most popular genre in the year 1977. From there, action games got more 
+complex and ambitious, year after year. Frogger in 1981. Q*Bert in 1982. Tapper in 1983. Paperboy in 1984. And Rampage in 1986. Each one was wildly different and unique. Often with weird and 
+wonderful new control schemes. And while we might now put them together in 
+the loose "action" genre, that's just because, otherwise, they'd have to be on 
+their own, in their own genres. Mark Cerny, who made Marble Madness, 
+said of early arcade games "I loved, more than anything else, 
+the variety of these games. That's the way it was in the arcades those days. You'd go in every week and you'd find 
+something totally new you'd never seen before". But this wouldn't last forever. And if we go back to the data we can see 
+a sharp drop-off at the end of the 1980s. While "action" was in the top 5 genres from 1975 
+to 1987, it went away in 1988 - never to return. So what the heck happened? It's not like video 
+games stopped having "action" in them, after all. Well - it's just that a few of 
+these exciting new action games would go on to spawn entire genres of their own. One game would come out and be so popular 
+that it would inspire dozens of clones and copycats - and eventually create a 
+whole new genre to hold them all. Some of these would be flash-in-the-pan fads, 
+like the block-breaker games I just mentioned. And also snake games - inspired by 
+the 1976 Gremlin game, Blockade. And, yes, that is the idea that led to the 
+Snake games on Nokia phones in the late 1990s. But other action games would inspire long-lasting 
+genres that didn't fizzle out after a few years. These are genres we still play today. But we'll tackle those, shortly. So, it's true that we do still use "action" to 
+describe a few weird, un-categorisable games that don't fit neatly into any of the established 
+genres - like Jet Set Radio and Katamari Damacy. Plus there's a recent spate of mobile 
+and indie games that harken back to those simple arcade thrills - games like Fruit 
+Ninja, Super Hexagon, and Superflight. And also - a game that could have 
+once been a full arcade game, might now be relegated to a "mini 
+game" inside of a larger product. Including party games, like 
+Mario Party and Sonic Shuffle. Or mini game collections, like Bishi 
+Bashi Special, Wario Ware, and UFO 50. But otherwise, action has basically 
+stopped being a genre in of itself and has instead become either a prefix for other 
+genres, as we will see later in this video, or an overarching mega category to 
+hold all of the genres that grew out of successful action games, which is 
+what we will look at in the next act. So, action games like Breakout and Blockade 
+would sometimes lead to short-lived genres, filled with games riffing on that idea. But, in 1978, there was one 
+action game that started a genre we're still playing today: the shoot 'em up. Now, space shooters have been a part of 
+games since, well, since games have existed. After all, the first video game ever 
+is often considered to be the ship vs ship dogfighting game Spacewar!, made 
+in 1961 for the PDP minicomputer at MIT. And there were some other spaceship-based 
+games in the very earliest days of the business - like the previously mentioned 
+Space Race in 1973, and Star Ship in 1977. But Space Invaders - released in 1978 - was 
+actually not really based on those games. Instead, it was more of a Breakout clone, as Taito engineer Tomohiro Nishikado wondered 
+what might happen if the blocks could fight back. Now, to call Space Invaders a monster 
+hit would be a disservice to monsters. It was massive both in Japan and internationally. By 1982 it had grossed over $3 billion. And it was so popular that many arcades in 
+Japan were simply called "Invader Houses", because that was the only machine 
+people were interested in. And so naturally, just like with 
+Pong and Breakout before it, that success led to the creation of many clones. In 1979 alone, we had Galaxian by Namco, Space 
+Attack by Sega, Cosmic Guerrilla by Universal, Space King by Konami, Ozma Wars by 
+SNK, and Space Fever by Nintendo. If a company was making games in the late 70s, 
+they probably made a Space Invaders clone. But, over time, things changed. Game makers kept the basic building 
+blocks of piloting a spaceship and shooting things - but they took that 
+idea in various different directions. Atari's Asteroids, which is, to be fair, more 
+inspired by Spacewar! than Space Invaders, let you move the ship around the whole screen. Tempest, also by Atari, created a 
+faux 3D effect by having you spin around the rim of a giant celestial Pringles can. In 1981, Defender added horizontal scrolling. Sega's Zaxxon, from 1982, was isometric. And Namco's Xevious, from 1983, firmly 
+established the vertical scrolling shooter, which would be the most popular 
+template for other developers to follow. Plus, in 1985, Sega's Space Harrier gave us the rail shooter - which is still used today 
+in games like Star Fox, from Nintendo. Now it's hard to overstate just how dominating 
+the shoot 'em up genre was in this era. Like - so big, it doesn't even fit on my graph. I'm gonna have to triple the y-axis for this one. That's better. So - it was bigger than sports. Bigger than racing. Bigger than action. In my dataset... of the 200 games from 1981, about 75 of 
+them were shoot 'em ups - almost 40 percent. That level of genre saturation 
+never happens again in my data. And from 1979 to 1986, it was the most popular genre of all - 
+year after year, eight years in a row. Now the reason why is that unlike the block 
+breaker and snake formulas I discussed earlier, the shoot 'em up was much more versatile. It was much more open to 
+design changes and evolutions. Which is why it wasn't just a flash-in-the-pan 
+fad: it was a fully-fledged genre. Complete with sub-genres. Like, in 1993, Toaplan released Batsugun - which 
+flooded the playfield with colourful ordinance, and started the "bullet hell" sub-genre 
+that birthed Dodonpachi and Touhou. And it's an idea that's still showing up 
+today with games like Furi and Returnal. But, ultimately, the shoot 'em up's 
+popularity would start to wane. In the late 1980s and through the 1990s, it lost its top spot as other types of 
+games started to dominate the charts. And from the 2000s onwards, the humble shoot 
+'em up went from gaming's first mega genre, to a niche pursuit for shmup super fans who 
+don't mind importing expensive games from Japan. But, really - the shoot 'em up's demise 
+started much earlier than that. As early as 1980, and the creation 
+of gaming's first mega mascot. So Namco designer Tōru Iwatani 
+- who got his start making those Breakout-style games - realised that 
+arcades were basically only interesting to boys because of the focus on 
+spaceships, aliens, and shooting. So he decided to make a game that 
+would be more universally appealing: a cute and colourful cartoon game about 
+gobbling down dots in a neon-lit maze. Now, Pac-Man was not the 
+first game to feature a maze. There were a few earlier games in this style, like Heiankyo Alien from 1979, and 
+Sega's Head On from the same year. But Pac-Man was a monster hit, 
+and when everyone caught Pac-Man Fever in 1980 there was an all-out 
+obsession with maze-style games. That includes Lady Bug, Guzzler, 
+Dig Dug, Pengo, Crystal Castles, Clu Clu Land, Devil World, and Bomberman. I mean, in 1981 alone, there were about 29 
+maze-like games released, all in the same year. All of these would create the 
+maze genre in the early 1980s... before it largely fizzled out 
+by the end of the same decade. But Pac-Man's legacy is, ultimately, 
+much bigger than this genre. Because Pac-Man was the first 
+proper video game character. A colourful mascot with a name, a face, 
+and a line of branded breakfast cereals. And he led the way for a 
+seismic industry shift away from faceless spaceships and towards characters. A trend that would absolutely 
+define the next big genre... That's right - let's talk about... the platform game. Now it's kind of hard to believe, but 
+it took a surprisingly long time for someone to come up with the idea of 
+making a video game character jump. Outside of the 1978 arcade game Frogs, 
+characters were staying firmly on the ground. But in 1980, things started to change. We got Crazy Climber from Nichibutsu - 
+which has a character scaling a skyscraper while dodging falling objects and angry gorillas. And also Space Panic from Universal - which 
+plays like the maze game Heiankyo Alien, but turned on its side - so your character now has to climb up ladders and fall down 
+holes to get around the play space. But they were both missing the jump. For that, we'd have to wait one more 
+year, for 1981's Donkey Kong, by Nintendo. Now, designer Shigeru Miyamoto 
+initially wanted the hero to dodge barrels by climbing up ladders and 
+simply waiting for the barrels to pass. But that felt a little passive. So Miyamoto added a "jump" button - and, at 
+that moment, the platformer was truly born. Just like before, the mega-successful Donkey Kong 
+quickly led to new games, riffing on this formula. Like BurgerTime by Data East, Kangaroo by Sun 
+Electronics, and Congo Bongo by Sega - plus the 8-bit Atari game Miner 2049er, which then inspired 
+the legendary British platformer, Manic Miner. If you know, you know. And then, inspired by the 
+Williams Electronics game Joust, Miyamoto put the Donkey Kong hero 
+into a whole new game - Mario Bros. - which kicked off the "beat up 
+all the baddies"-style platformer, leading to games like Bubble Bobble 
+and - decades later - Super Crate Box. Now most of these early games 
+played on a single screen. But the genre really came into its own when 
+technology allowed for scrolling levels, as seen in Jump Bug, Moon Patrol, and Pac-Land. And then in 1985 we got Capcom's 
+brutally hard Ghosts 'n' Goblins. But then, later that year, the most important 
+platformer of all: Super Mario Bros. The key part here was Mario's new jump. You see, in early arcade platformers, 
+characters had stiff, pre-calculated leaps that played out the exact same 
+way every time you hit the button. But Super Mario Bros was dynamic. You could pull off a billion different jumps 
+depending on your speed, your direction, and how long you held the jump button. So the platformer was now truly here. And throughout the 1980s and 1990s, dozens of new 
+platform games were released every single year - mostly on the new-fangled consoles being released, 
+like the NES, Master System, and Mega Drive. So there was Castlevania and Alex Kidd in 1986. Mega Man and Shinobi in 1987. Ninja Gaiden in 1988. And Sonic the Hedgehog in 1991. Plus a metric butt-tonne of 
+other forgotten cartoon mascots. Any Boogerman fans in the audience? Anyone want 
+to go on a "Pick and Flick Adventure" with me? Anyone? No? Nevermind. And so if we look at the data, we'll see where the shoot 'em up genre started to die off, 
+the platform genre absolutely blew up. And from 1989 to 1995, the platformer 
+was the most popular genre in my dataset. That's seven years in a row - peaking in 
+1991 with about 74 different platform games. That includes combat-heavy games like Super 
+Castlevania IV, Duke Nukem, and Shatterhand, as well as pure platformers like Sonic 
+the Hedgehog and Adventure Island II. But... despite all of this success - just a few 
+years later the genre would see a massive decline. You can see it right there, in the mid-nineties. Like, my dataset has 44 platform games released in 1995, but by the very next year that 
+number had halved to just 22 games. What the heck happened? Well, I reckon it was mostly the move to 3D. After all, this period marked 
+the launch of the Sega Saturn, the Sony PlayStation, and the Nintendo 64. This 3D technology would allow for 
+exciting new genres that would draw developers and players away from the platformer. But, also, developers simply found it a 
+struggle to make platformers work in 3D. Nintendo figured it out with 
+Super Mario 64, of course. But others found it hard to adapt. Crash Bandicoot developer Naughty Dog summed it 
+up nicely, saying "we worried about the camera, dizziness, and the player’s 
+ability to judge depth". Not to mention the whole "Sonic's Ass" 
+thing - basically, would anyone want a game where you spend the entire time 
+looking at Sonic the Hedgehog's butt? Wait, don't answer that. I already know the answer and it upsets me. But - while the platform game lost its 
+incredible dominance in the mid-1990s, it never really went away. It even came back as the most popular genre in my dataset in 2000 and 2001 with games 
+like Kirby 64 and Sonic Adventure 2. It's also the single most popular genre 
+in my entire dataset: of the 9,902 games, 1,273 of them are platformers 
+- about 12% of all games. And it has stayed in the top 5 genres from 
+1981 to 2024 without skipping a single year. That's crazy. That's thanks to new games from legacy heroes 
+like Mario, Sonic, Rayman, and Mega Man. As well as fresh indie takes like Super 
+Meat Boy, Celeste, and Shovel Knight. Plus - a handful of sub-genres. Like the "cinematic platformer". It was born with the slick, rotoscoped 
+Prince of Persia by Jordan Mechner, which spawned a number of platformers 
+that have more realistic physics and more considered movement than the goofy 
+ass moon gravity of Mario and Sonic. There's also the "endless runner", where 
+the character just constantly moves forward so you can focus on jumping - a type of 
+game that works wonderfully on mobile, which is why it's become more 
+popular since the late 2000s. And then - while most platformers are 
+simply about going from left to right, 1987's Metroid made navigation more complicated. You have to explore a large, sprawling, maze-like 
+map to find upgrades, pathways, and secret routes. Other developers would borrow this 
+map design: most notably Konami, with a number of Castlevania titles 
+on PlayStation 1 and Game Boy Advance. Which is when the genre name 
+"Metroidvania" was first thrown around. Initially it was used to differentiate between 
+the new Metroid-like Castlevania games and the older straightforward platformers - but it has 
+since been used to refer to a whole bunch of games that riff of the Metroid set-up - like 
+Hollow Knight, Nine Sols, and Blasphemous. So - just like the shoot 'em up before it, the platformer was - at one point in 
+time - the biggest genre in town. But the platform party 
+wasn't going to last forever. Partly because of the move to 3D. And partly because other genres 
+would appear to take the throne. Including one that didn't 
+dominate the platformer forever... but it did take its number one spot 
+for a few years in the late 1990s. To get to that next dominating 
+genre, we need to first talk about... the beat 'em up. Now, there were a few early games about beating people up - like Warrior in 
+1979 and Samurai in 1980. But in 1984 we suddenly got an 
+absolute glut of martial arts games. In the space of one year we 
+got Jordan Mechner's Karateka. Karate Champ from Data East. Kung Fu Master from Irem. And Yie Ar Kung-Fu from Konami. As well as Bruce Lee, Chinese Hero, and 
+Nintendo's street brawling game, Urban Champion. Perhaps it was inspired by the boom 
+in martial arts movies - Kung-Fu Master was actually a Jackie Chan 
+movie tie-in in Japan, after all. And that's actually the one 
+that stood out the most. Kung-Fu Master is strongly considered to 
+be the forefather of the beat 'em up genre. From there we saw a bunch more side-scrolling 
+brawlers in the same vein as Kung-Fu Master. But Renegade, released by Technōs Japan in 1986, 
+was the next evolutionary step as it added combos, tougher enemies, and the ability to move 
+in and out of the screen - giving us the familiar "belt scroll" feature that 
+would come to dominate the genre. In 1987, Technōs expanded on the idea even 
+further with the co-op game Double Dragon, which would firmly establish the beat 'em up 
+genre - both in the arcades and on console. And you can see that in the data - 
+from 1987 there was a sharp rise in the number of new beat 'em ups 
+being released year after year. That includes Sega's Altered Beast in 
+1988, Capcom's Final Fight in 1989, and the Mega Drive game Streets of Rage in 1991. There were also tonnes of beat 'em 
+ups based on hit IPs - like Teenage Mutant Ninja Turtles, The Simpsons, 
+Marvel Comics, and Alien vs. Predator. All leading to a spike in 1991, when about 23 different beat 'em 
+ups were released in the same year. Now the beat 'em up was never the 
+most popular genre in any year, but it was in the top five from 1988 to 1994. And while it was definitely not 
+as prolific as the platformer, it was ultimately part of that same 
+trend towards character-based games. That's why their spikes occur 
+at roughly the same time. And also their declines, as the beat 'em 
+up genre faded away in the mid-1990s. Of course, a few brilliant beat 'em 
+ups have been released since then. Like Sega's Dynamite Cop. Capcom's Viewtiful Joe. The Yakuza series - which are basically RPGs but 
+with street brawls instead of turn-based battles. As well as a host of charming retro 
+throwbacks like Scott Pilgrim vs. the World: The Game and Teenage Mutant 
+Ninja Turtles: Shredder's Revenge. But the genre was definitely 
+no longer the arcade favourite. And this time the killer was obvious. It was the fighting game. So, rewind the clock to Kung-Fu Master. Most of the time, the game sees you fighting waves of cannon fodder baddies who can 
+be defeated with a single kick. But at the end of each floor 
+there's a boss fight against a single overpowered enemy 
+with an actual health bar. This gave the game's designer, Takashi Nishiyama, an idea: what if he made a game that 
+was just all one-on-one boss fights? So he released Street Fighter, in 1987. A game that took the nascent 
+fighting game genre... absolutely nowhere. Yeah, the first Street Fighter was actually a bit 
+of a dud and did not inspire any obvious clones. Perhaps it was the weirdo arcade cabinet that had two massive pressure-sensitive buttons 
+that you had to slam with your fists. But the sequel, released in 1991 - and after Nishiyama had left Capcom 
+- was anything but a dud. Though, Capcom Yoshiki Okamoto clarifies that while "Street Fighter II may look 
+like a sequel to Street Fighter, ... we actually challenged ourselves to 
+create a new genre: competitive fighting." So, with its huge cast of memorable 
+characters, deep gameplay, awesome sprite work, and catchy music, Street 
+Fighter II was an absolute mega hit. It truly defined the genre. Before this we had games about fighting. After Street Fighter II, we had "fighting games". So, as you can see in the data, where the beat 'em 
+up faded away, the fighting game genre exploded. In the space of a couple years, the brawler 
+was almost dead while the fighting game had grown to be the most popular genre in 
+my dataset in 1996, 1997, and 1998. That's thanks to new franchises like Fatal Fury 
+- designed by Nishiyama, now working at SNK. The gory Mortal Kombat from Midway. Sega's 3D smash Virtua Fighter. And Namco's brilliant Tekken - that's Sega and 
+Namco fighting for the arcade crown, once again. Also, those last two proved that the fighting genre could survive the shift to 3D 
+- whereas the platformer struggled. This all led to a spike of popularity in 1996, when more than 30 fighting games 
+were released in the same year. There have also been a few sub-genres - like 
+the arena fighter, as seen in Power Stone. And the platform fighter - as 
+established by Super Smash Bros. But if you want more detail, I'd recommend Core-A Gaming's video on 
+"every fighting game type explained". There have also been weirdo experimental 
+offshoots like the behind-the-back fighting games Arms from Nintendo, 
+and the indie fencing game Nidhogg. So while the fighting game genre is 
+a ways off from its arcade heyday, it's still going steady with new entries in 
+popular series like Street Fighter and Tekken. Which is why the fighting game is 
+in the top five genres from 1993, all the way to 2006 - plus a 
+few random years after that. But, let's circle back to 
+the beat 'em up for a second. Because we can't talk about that genre without 
+mentioning another one: the hack and slash. Now this is a term originally used to 
+describe beat 'em ups that featured bladed weapons - like Capcom's Trojan, 
+Taito's Rastan, and Sega's Golden Axe. Looking back, it's a little silly to split these games into two distinct terms - seeing 
+as they play almost exactly the same. And in the data we can see the 
+beat 'em up and hack and slash appear and disappear at roughly the same time. But... the hack and slash then 
+saw something of a resurgence. That's thanks to a couple PlayStation 2 
+games that essentially redefined the term. So on the one hand, Dynasty 
+Warriors 2 featured epic-scale hack and slash battles against hordes of baddies. And this has led to endless sequels, 
+spin-offs, and side franchises, including games featuring characters from One Piece, 
+Dragon Quest, Persona, and The Legend of Zelda. And then on the other hand, there's Onimusha: 
+Warlords - a sort of samurai-flavoured Resident Evil, complete with the pre-rendered 
+backgrounds and slightly awkward tank controls. This ended up inspiring a bunch 
+of new games - like God of War, which was originally designed to 
+be Onimusha meets Greek mythology. And also Devil May Cry - a game 
+that tasks you with hacking and slashing enemies in the most stylish way possible, with the game even grading your ability to 
+mix up moves and juggle enemies in the air. DMC then led to a whole new wave of hack and 
+slash games like Bayonetta and Astral Chain - which are sometimes grouped into the sub-genre 
+of "character action" or "stylish action". This two-pronged reinvention has 
+meant that the hack and slash genre is actually more popular now than 
+it ever was during the arcade boom. And in most years, it's bigger than 
+the beat 'em up genre that birthed it. So - between beat 'em ups, fighting 
+games, and hack and slash games, there have been hundreds of games 
+about going toe-to-toe with enemies. But forget fists and forget swords. There's a weapon even more popular than both. Yeah, it's time to turn to the shooter. Not to be confused with the shoot 
+them up, that's for spaceship games. This is a genre about using a gun to shoot humans. Or aliens or zombies or demons or Nazis. Take your pick. Now, we've already talked about light 
+gun shooters and shooting galleries. So let's start somewhere else... Back in 1982, a clever bod at Taito had 
+an idea: take a shoot 'em up like Xevious, but replace the spaceship with 
+a little man holding a gun. The result was Front Line: a top-down military 
+game about running around and shooting enemies, before hopping into a tank 
+to lay waste to the bad guys. It was to be the first game in a 
+brand new genre: the run and gun. Front Line quickly spawned similar games, like 
+Commando by Capcom. And Ikari Warriors by SNK. And then, likely inspired by platform games, 
+developers turned the idea on its end with side-scrolling run and guns like Quartet by 
+Sega and - more famously - Contra, by Konami. So, through the late 1980s and early 1990s, 
+the run and gun was a pretty prolific genre. And clearly part of that same character-based 
+boom as platformers and beat 'em ups. And while the run and gun was 
+never the most popular genre in my dataset - it was at least in 
+the top 5 genres from 1990 to 1993. Oh, and an important side note that this genre 
+doesn't include games like Metroid and Mega Man. Sure - they feature both running and gunning, but the "run and gun" genre is more specifically 
+about fast-paced games with loads of bullets, cannon fodder enemies, and a focus on 
+shooting over platforming or navigation. Though, I'll admit that the 
+borders can be fuzzy at times. Now, sadly, the run and gun genre 
+would go dormant in the mid-90s. But a few games have kept this genre alive 
+- most notably SNK's Metal Slug series, and some indie instalments like Broforce, 
+and the masterpiece that is Cuphead. But the run and gun wasn't the only 
+genre of games about shooting people. There's a whole other branch on 
+the evolutionary tree of shooters. It's just this one isn't as well known. It doesn't have an established name. And many of the games in this group are put 
+under completely different genres on Wikipedia. But I personally think they should all be grouped together and put into the 
+same genre of top-down shooter. This kicks off with Gun Fight - apparently 
+the first arcade game to depict a gun. And fighting between two human characters. It was made by Tomohiro Nishikado - yeah, the Space Invaders guy - and it was inspired by 
+a Sega electromechanical game, of the same name. Now Gun Fight created a small fad of Wild West games like Outlaw on the Atari 
+2600 and Sheriff from Nintendo. And also a sequel - Boot Hill - 
+developed by a chap named Alan McNeil. Which is relevant because McNeil would go on to 
+make the game Berzerk - a top-down shooter with some similarities to Gun Fight, but now 
+with robots and a spooky digitised voice. ROBOT VOICE: Coins detected in pocket. Berzerk was pretty popular and 
+influenced a number of developers. Including Defender designer Eugene 
+Jarvis who thought the game was cool - but wondered if it might be better 
+if you could move and aim independently. So he made Robotron: 2048 - employing 
+a second joystick to control aiming. Jarvis would do this again with Smash TV. And then this small "twin-stick shooter" 
+sub-genre would see a resurgence when console controllers added a second analogue 
+stick - leading to games like Geometry Wars, Nuclear Throne, and The Binding of Isaac. Berzerk also inspired a chap called Silas Warner, who used the basic gameplay to make 
+Castle Wolfenstein on the Apple II. Remember that one. It will be important later. This top-down shooter genre also 
+includes a number of games that combined the maze game with the shoot 'em up. Games like Konami's Tutankham, 
+the Atari ST hit Time Bandit, and the Dungeons and Dragons-style Dandy. That last one inspired Asteroids developer Ed Logg to make Gauntlet: a dungeon-crawling 
+maze shooter with four-player co-op. Gauntlet was extremely popular, and 
+ended up influencing a bunch of games itself including Alien Breed, Gain 
+Ground, Helldivers, and Hotline Miami. So - all in all, the top-down shooter 
+encompasses a wide range of games, released across all five of the last five decades. But while it was never particularly 
+popular, one of these games would end up changing the shooter forever - 
+by helping establish the next genre: The first-person shooter Okay, so the idea of a first-person shooter 
+actually goes back surprisingly far, with games like Maze (or, sometimes, Maze War) in 1974, Tail 
+Gunner in 1979, and Atari's Battlezone in 1980. But whizzkid programmer John Carmack 
+wanted to blow them all out of the water, with a truly immersive 3D game that didn't 
+have to rely on simple vector lines. And so in 1991 he came up with Hovertank. He'd follow it up with Catacomb 3-D. But his big hit came in 1992 - when Carmack 
+and his team at id Software would be inspired by Castle Wolfenstein - yes, that old 
+top-down shooter - to make Wolfenstein 3D. A lightning-fast shooter with secrets, powerful weapons, gory kills, and a 
+mechanised Hitler as the final boss. And if there was any doubt that a new genre had just been born - id's next 
+game, Doom, had the final say. And so, as we can see in the data, the FPS took 
+off like a rocket after Doom's release in 1993. Year after year, more and more 
+first-person shooters were released. Like Marathon from Bungie, 
+Heretic from Raven Software, Duke Nukem 3D from 3D Realms, 
+and Blood from Monolith. They all played a lot like 
+Doom - to the point that magazines often referred to these early 
+first-person shooters as "Doom clones". But things would soon change. In 1996, id Software one-upped themselves 
+again with the polygon-based shooter Quake. In 1997, Goldeneye for Nintendo 64 would 
+prove that shooters can work on consoles, too. In 1998, Valve's Half-Life showed a 
+vision of first-person shooters with a greater focus on story and cinematic set pieces. 1999 saw Quake III Arena and 
+Unreal Tournament - showing that the first-person shooter was 
+perfect for online death-matches. As well as Medal of Honor - which helped 
+move the FPS away from sci-fi and fantasy, and towards real-world conflicts 
+like World War II and Vietnam. And, then, after all that meteoric 
+growth, the FPS has never gone away. It doesn't have that drop-off moment 
+like the platformer or the beat 'em up. It has been in the top 5 genres almost 
+every year since the new millennium. And it was the most popular genre 
+of all in two years: 2020 and 2023. Which is three whole decades 
+after the release of Doom. John Carmack says "I think that first-person 
+shooter is a stable genre that’s going to be here forever, just like there are 
+going to be driving games forever. There’s something just intrinsically rewarding about turning around a corner 
+and shooting at something". Oh - and, you know, it might be tempting to 
+say that the first-person shooter took over from the run-and-gun, just like how the 
+fighting game replaced the beat 'em up. I mean, look at the graphs! 
+It's an open and shut case! But I don't think that's true - simply because 
+the run and gun is a uniquely Japanese genre, and the first-person shooter is almost 
+exclusively made outside of Japan. So it's not like the developers of one sort 
+of game moved over to making the other. Anyway. There's also the third-person shooter, 
+which - according to the data - took a little longer to appear and has never 
+been quite as popular as the FPS. After some awkward early attempts like 
+Fade to Black in 1995 and MDK in 1997, it found its feet in the 2000s with 
+games like Max Payne, Ratchet & Clank... And - most importantly - Resident Evil 4. That one would influence games like Gears 
+of War and Uncharted: Drake's Fortune. And both first- and third-person shooters 
+have seen a number of sub-genres. There's the tactical shooter - games 
+like SWAT, Ghost Recon, and Rainbow Six. The immersive sim - games like 
+Deus Ex, Dishonored, and Prey, which give you more control over a systemic 
+world, and more options than just shooting. And, well, it's hard to keep track of all 
+the shooter sub-genres in recent years. Hero shooters, extraction 
+shooters, looter shooters, boomer shooters, and battle royale games. There's something for everyone! Uh, 
+if you like shooting people, that is. So the history of shooters is, I'll admit, 
+a twisty spaghetti mess of influences, offshoots, dead ends, and evolutionary branches. But once id Software made Wolfenstein 
+3D and Doom, everything just clicked. And since then we've seen dozens of first- 
+and third-person shooters released every year. And with that, we've covered 
+almost all of the genres that fit into that "action" mega 
+genre I mentioned earlier. So let's quickly talk about 
+the last one on my list... Rhythm games. The first rhythm game is generally 
+considered to be Parappa the Rapper, from 1996 - a truly charming 
+paper-thin cartoon about a rapping dog. It plays a bit like the '80s toy Simon: watch 
+the notes, and then play them back - on the beat. It was fresh and different - and part of a mandate within PlayStation to come up 
+with brand-new types of game. Parappa writer Gabin Ito says "we didn’t make 
+a good game for a pre-existing genre; instead, we presented a new model for a new type of 
+game, and I think we succeeded in that". They surely did. Though - the rhythm game would actually 
+get its defining game one year later. In 1997, Konami released Beatmania - an 
+arcade game that simulates DJing by having you press buttons and scratch records when a 
+falling icon reaches the bottom of the screen. This simple premise would become the template 
+for almost all rhythm games going forward. Konami followed it up with endless sequels 
+and spin-offs: most famously Dance Dance Revolution and Guitar Freaks, which would be, 
+essentially, cloned by Harmonix for Guitar Hero. Which in turn led to DJ Hero, Band Hero, and Rock Band - each packaged 
+with its own plastic peripheral, leading to a spike in rhythm games in 2009, 
+with about 11 games released that year. A few years later, however, 
+the fad just kinda faded away. And I think everyone was a bit sick of 
+all the tat clogging up their cupboards. The last Guitar Hero game and the last proper 
+Rock Band game were both released in 2015. But the genre didn't go away - games 
+like Beat Saber, Thumper, Just Dance, and Sayonara Wild Hearts have kept the 
+dream alive, just without the plastic shite. And rhythm elements have crept into 
+other genres - like the FPS Metal: Hellsinger and the hack and slash Hi-Fi Rush. Okay. So now that we've reached the year 2000... I think it's a good time for a bit of a 
+recap of what we've talked about so far. And a chance to see some of the 
+key genres all on the same graph. So, at the birth of the medium in 
+the 1970s, the earliest game genres were based on pre-existing games - 
+most notably racing... and sports. But developers soon started to experiment with other subjects - which gave us 
+the more general action genre. Some of those action games would be so influential 
+that they'd spawn entire genres of their own. Starting with Space Invaders, and the massive shoot 'em up genre 
+that persisted through the early 1980s. Then, into the early 1990s, we got a 
+number of genres that are all about controlling characters - like the platformer, primarily on consoles... and the beat 'em up... 
+and the run and gun, primarily in the arcade. And then as we move into 3D, we get slightly 
+more... grown up [genres], I guess you could say. The fighting game. The first-person 
+shooter. And the reinvented hack and slash. But - there's a genre that looms 
+large over all of them - a monster genre that was the most popular of all 
+for 20 of the 50 years in my dataset. But to get there... we need 
+to go down a different route. Because all of the genres we've talked about 
+so far have been primarily about action. You know, timing, reflexes, 
+quick-fire, decision-making. But there's another side to the coin. Games about thought, problem 
+solving, strategy, and brain power. These were mostly born on the 
+computer as nerdy PC players laughed at the simpletons wasting 
+their quarters on Space Invaders. Uh, excuse me. We're real gamers over here. We play with numbers. And so for the next act, let's move 
+away from action and talk about.... Let's start with a genre that often blurs 
+the line between action and thinking... the puzzle game. Yes, the puzzle genre features games 
+that have you sitting back and staring at your screen for twenty minutes 
+while you figure out the answer. But also, games that require such 
+quick reflexes that you can spin up an epic tournament between 
+the world's fastest players. But puzzle games didn't actually 
+appear for quite a few years. I mean, there are some early examples. Flag Capture is a sort of 
+prototypical Minesweeper for the Atari 2600. Codebreaker, from the same year, has... something to do with figuring out numbers, I 
+think? And Taito's Steel Worker, from 1980, has you plopping down pathways to stop a 
+wandering worker from falling to his death. They're sorta like puzzle games... but only just. And the term "puzzle" wasn't used very often. Steel Worker, for instance, was described 
+as a "game of strategy" on its arcade flyer. But throughout the 1980s, three games would come along that truly 
+defined what a puzzle game should be. In 1982, we got Soko-ban, a warehouse management game where you 
+have to push blocks around on a grid. Which would lead to a handful of box-shoving 
+games, like HAL Laboratory's Eggerland, and at least three Gameboy games 
+- Kwirk, Boxxle, and Mole Mania. Soko-ban also forged the template 
+for a puzzle game being a series of carefully curated brainteasers 
+put together by a game designer. Then in 1983, we got Lode Runner. It's based on Space Panic - that prototypical 
+platformer from earlier - but the focus is on solving conundrums, including player-made 
+stages built using a level editor. And because you control it like a platform game, we get the "puzzle platformer" sub-genre - 
+which would lead to games like Door Door, Solomon's Key, and The Lost Vikings. And finally in 198... well, it's complicated. But later that decade we got Tetris, made 
+by Alexey Pajitnov in the Soviet Union. It's the ultra-addictive block-dropping 
+phenomenon that can put you in such a trance-like state that Tetris 
+blocks might show up in your dreams. A real thing that scientists have studied. Now, much has been said about the race to snatch 
+the worldwide distribution rights to Tetris - but long story short, it finally released in the 
+West in 1988, published by Spectrum HoloByte. And it gained even more popularity a year later 
+when it launched alongside the Nintendo Game Boy. And this led to endless block-dropping 
+puzzle games, like Dr Mario, Columns, Puyo Puyo, Pac-Attack, Panel 
+de Pon, and Kirby's Avalanche. And none of which were 
+particularly subtle about it. Columns designer Hisaki Nimiya says, "Tetris had just become a big hit, 
+and a whole new market had emerged. From a business perspective, it was 
+decided that 'we need to ride this wave'." So these three games - plus a bunch more that 
+don't fit into those specific categories, like Minesweeper and Lemmings, created a genre 
+that looked as if it was going to grow and grow... until it didn't. In fact, the puzzle game actually 
+looked like it would completely die out. And in my dataset, not a single puzzle game 
+was released in the year 2002. Seriously. Even if I go beyond my top 200 games 
+cut-off, there really isn't much. Uh... a version of Puzzle Bobble 
+with characters from the anime Azumanga Daioh?! Pokémon Tetris for the 
+beloved Pokemon mini console? Zoocube?! Who remembers Zoocube?! Yeah, it was pretty dire. But... a few years later and 
+the puzzle game was back. And bigger than ever! But, you know 
+what? I'll come back to that later. For now... let's talk about 
+another thinking man's genre: turn-based strategy So, the idea of a strategy game obviously 
+predates video games by many millennia. From chess to kriegspiel to 
+risk, we've long played games about using strategy and tactics to 
+win made-up wars one turn at a time. And so, it was a natural fit for computer games. Now at the beginning, this 
+mostly came in two flavours. On the one hand there were digital 
+replications of known board games, with computerised versions of Othello, 
+Checkers, Backgammon, and Chess - creating a semi-popular "card and board" genre 
+that had quite a few games in the the 70s and 80s. That would eventually be replaced by 
+digital card games, like Hearthstone, Marvel Snap, and just a butt 
+load of Yu-Gi-Oh! games. But on the other hand, there were computerised 
+versions of wargames - you know, with the big maps sprawled over tables and 
+the little painted figurines. Many early strategy games took on that 
+flavour - including Empire in 1977, Starfleet Orion in 1978, and - over in 
+Japan - Gendai Daisenryaku, in 1985. This created a small wargame 
+genre in the 70s and 80s. But this was very much its own, niche pursuit. Like, take the magazine Computer + Video Games, 
+where the nerdy war simulations were given their own section, to silo them away from the cool 
+gamer games like Ikari Warriors and Gauntlet. Totally rad, dude. But, as time went on, we started to 
+see more lightweight, streamlined, and accessible strategy games that distanced 
+themselves from that wargaming past. Games like MULE, Defender of the Crown, 
+and - over in Japan - Famicom Wars. And, then, in 1991: Sid Meier's Civilization. This was a sprawling, globe-spanning 
+epic that saw you take your nation from a settler in antiquity through 
+to a modern day metropolis. It was based on existing stuff: board games, 
+SimCity, and wargames like Empire - but it put it all together in a way that 
+meant almost anyone could enjoy it. Don't take my word for it. Meier explains that "strategy used to be a bad 
+word as far as computer games are concerned. You know, ew, that's a strategy game. It's going to take forever and be complicated 
+and take an hour just to set it up. I think in a way, we kind of made the world safe 
+for strategy and it became a legitimate genre". And so, this led to a number of games 
+that built on Civilization - as part of a genre named "4X", for Explore, 
+Expand, Exploit and Exterminate. Games like Master of Orion, 
+Stellaris, and Humankind. And if you throw those in with other turn-based 
+strategy games, like Advance Wars and one half of every Total War game - we get a steady genre that 
+has kept on trucking for all of gaming history. And there are also a couple sub-genres, here. Like the artillery game - where you take turns 
+lining up shots to lob towards your opponent. The idea has been done for decades, but the 
+Worms series arguably made it most famous. There's also the turn-based tactics genre. It's largely credited to Julian Gollop who 
+released Rebelstar Raiders in 1984 - which was a strategy game, but focused on the 
+small-scale battles of a few individual troops. He'd come back to this idea in 1994 
+with the beloved X-COM: UFO Defense. Now this sub-genre didn't 
+really catch on at first, with just a few X-COM sequels 
+and spin-offs carrying the torch. That is, until Sid Meier's studio Firaxis 
+gave it a modern polish up in 2012, which gave the genre a second wind, and led to loads XCOM-like games such 
+as Into the Breach, Invisible Inc., Gears Tactics, and Tactical Breach Wizards. Another one, featuring Star Wars characters, just came out, literally while 
+I was working on this video. But despite all of these great games, and 
+a push towards more accessible design, the turn-based strategy genre 
+has never been the most popular. I mean, these niche and nerdy 
+games just can't compete with fast-paced thrills like Doom and Mario. But who says strategy games have to be slow? So, for the game Dune II, released in 1992, developer Westwood Studios 
+tried something different. Inspired by their success with real-time 
+role-playing games like Eye of the Beholder, they wanted to try a real-time... strategy game. They made a game where you couldn't 
+take ages to plan out your next move: you just had to come up with tactics on the fly. In Dune II, your strategic thinking was just 
+as important as your mouse-clicking speed. A few years later and developer Blizzard was like "that was rad! How come 
+nobody else has done this?". And so, in 1994, they released their own 
+real-time strategy game: Warcraft Orcs & Humans. They just weren't aware that 
+Westwood was also working on a follow-up to Dune II: 1995's Command & Conquer. So between these two games, the RTS was here. So, okay, sure - Dune II was not truly 
+the first real-time strategy game, with pre-existing games like The Ancient Art 
+of War and the Mega Drive game Herzog Zwei. But it was the one that catapulted 
+the genre into popularity - leading us to games like Age of Empires, 
+StarCraft, and Rise of Nations. And so, real-time strategy games would 
+actually overtake turn-based ones... but not forever. And ultimately, in recent years, 
+real-time and turn-based strategy games are roughly equivalent 
+in their limited popularity. And neither has been in the 
+top 5 genres in my dataset. But the RTS has led to some important sub-genres. To go along with turn-based tactics, 
+there are also real-time tactics games where you command a small group 
+of soldiers in dynamic battles. Games like Ogre Battle, Syndicate, and Commandos. As well as the other half of every Total War game. There's also grand strategy, which is like... a kingdom simulation game, with 
+some real-time strategy elements. I'll be honest: this one goes over my head, so I'm 
+gonna pass on trying to define this one better. I'll leave that to someone else. There's also the tower-defence game: 
+a super-simplified spin on the RTS that's exclusively about fending 
+off invaders by building turrets. There were early games like Atari's Rampart, and a mini-game in Final Fantasy VII 
+- but the genre came into its own... inside other strategy games. You see, StarCraft and Warcraft came 
+with custom map editors - and a popular idea was to make scenarios where you 
+defend a base from waves of enemies. This would eventually spin 
+off into standalone games, like Desktop Tower Defense and Bloons TD in 2007. And then Plants vs Zombies, 
+Kingdom Rush, and Thronefall. But that's not the only genre to 
+spin out of Blizzard level editors. Aeon of Strife in StarCraft, and then 
+Defense of the Ancients in Warcraft III, both feature a single powerful 
+unit with an entourage of minions. Which would serve as the basis for the 
+"Multiplayer online battle arena", or MOBA. Like tower defence, this would 
+spin off into standalone games like League of Legends, DOTA 
+2, and Heroes of the Storm. Plus, Legion TD - a mod for Warcraft III 
+- introduced the idea of an auto battler, which - once again - spun off into 
+dedicated games like Teamfight Tactics, Dota Underlords, and Super Auto Pets. As well as modes inside existing games 
+like Hearthstone and Clash Royale. These three would join many more genres that 
+started life as mods - like the original Team Fortress, which would one day lead to 
+the hero shooter, starting as a Quake mod. And the Battle Royale starter PUBG being a mod for the survival game DayZ... which 
+was in turn a mod for Arma 2. What! Finally, there's one more strategy sub-genre. Though this one is a tad contentious. So the 1989 Amiga game Populous is 
+basically a real-time strategy game, as two players plot to wipe 
+out each other's tribe. But because you can't give your subjects 
+direct orders, only suggestions, it's more typically referred to as a "god game". This term is sometimes just used to refer 
+to the games of designer Peter Molyneux, including Dungeon Keeper and Black & White. Sometimes it's used for any game where you play as 
+a god, including Act Rasier, Spore and From Dust. And sometimes it's used much more broadly, with 
+Computer Gaming World magazine using the term to refer to everything from Populous to Civilization, 
+to the games in our next category... simulation. Now, I've always found the genre 
+simulation to be a little confusing, as it can hold both SimCity and Powerwash 
+Simulator, two completely different games. But I think it's useful to think of 
+this as actually two different genres: simulation and simulator. I'll start with the first one. So, one of the very earliest games was 
+The Sumerian Game, released in 1964. It's a text-based game by designer Mabel Addis that puts you in charge of an 
+ancient city state in Sumer. It has you allocating workers and grain while dealing with natural disasters 
+and technological innovations. It is the first of what we might 
+call a management simulation game. A game that puts you in charge of 
+some kind of community or company and asks you to keep it running by 
+dealing with finances and personnel. There are a few more examples in the early 
+days of gaming, like Lemonade Stand, from 1973. Santa Paravia and Fiumaccio 
+from 1978 And Three Mile Island from 1979 - which has you 
+running a nuclear power plant, and trying to avoid the same real-life 
+meltdown that happened earlier that year. But the real breakout hit came, sort of, in 1984. So, that year, designer Will Wright released the 
+Commodore 64 shoot 'em up Raid on Bungeling Bay. And to make it, he created a world editing tool 
+that let him place down buildings and roads. Now he soon realised that this editor was 
+actually more fun than the game itself. So, he turned that into a game: 
+SimCity, released in 1989. An urban-planning, city-building, 
+management sim about raising taxes, building factories, and averting disasters. And it was unlike anything else 
+being released at the time. Which is true for a lot of games of this era. Wright explains "back then, every 
+game was sort of its own genre. All of the games coming out were 
+different from each other in some sense. So it felt like there was a 
+lot of unexplored territory." Now, SimCity didn't immediately lead 
+to loads more management games... The only notable one in the immediate 
+aftermath was Railroad Tycoon, from future Civilization maker Sid Meier. But, eventually, other developers 
+got the management bug. There was Theme Park in 1994. Theme Hospital in 1997. The first Anno game in 1998. Before long there were Sim 
+games. Theme games. Tycoon games. A whole bunch of different games, but all giving you the same fantasy 
+of managing some kind of business. Now, they typically fall into a few categories. There are those that let you run a 
+community or colony - as seen in SimCity, Pharoah, Tropico, and Cities: Skylines. This often overlaps with the 
+"city-building" sub-genre, which pretty much does what it says on the tin. But there are a few games that have the 
+building bit - but focus more on battles, like The Settlers and Stronghold. Or they just let you build without having to worry about taxes and income - 
+like Islanders and Townscaper. Another category is the amusement park manager, with Zoo Tycoon, Planet Coaster, 
+and Jurassic World Evolution. There are also sports management games - starting 
+with the first Football Manager game from 1982. And a more recent theme has 
+been the factory management sim, with games like Factorio and Satisfactory. But the most popular category, at least in my 
+dataset, is actually the farm management game. That's initially due to a 
+bunch of Harvest Moon games. And then the super casual Farmville and Hay Day. And finally Stardew Valley in 2016 - which is a 
+nostalgic throwback to the old Harvest Moon games, but also inspired a whole new batch of them, 
+like Coral Island and Fields of Mistria. There are other topics too, of course. There are management simulations that put 
+you in charge of a nuclear power planet, a game development studio, a government, 
+a criminal empire, a museum, and so on. This is still very fertile ground for 
+developers to explore - which is why management simulation games have actually been 
+trending upwards, with no signs of stopping. Simulations don't always have to be 
+about managing businesses, though. In 1970, British mathematician 
+John Conway showed how simple rules could lead to extremely complex 
+patterns in "Conway's Game of Life". And over the decades, more developers have used computers to simulate life 
+forms of different types. Giving us the life simulation genre. That started with Little Computer People in 1985. Then with some of Will Wright's experiments 
+after Sim City - like Sim Earth and Sim Ant. There was also Creatures, in 1996, which had surprisingly complex 
+AI in its weird furry critters. As well as Seaman, released in 1999, which 
+put a fish with a face onto your Dreamcast. Cool. The biggest game of the bunch, though, is 
+undoubtedly The Sims, also made by Will Wright. The original idea for the game was actually for 
+it to be a pretty dry interior decoration game, with computer people just there to 
+rate your furniture arrangements. But designers Roxy Wolosenko and 
+Claire Curtin convinced Wright to make it more about the people, their 
+motivations, and their relationships. The Sims and its sequels would make up most of the 
+life simulation games released after 2000 - but with a few exceptions, like Peter Molyneux's 
+Black & White, Will Wright's ambitious Spore, the bizarre Viva Piñata from Rare, 
+and Nintendo's Tomodachi Life games. There's also some crossover here with the 
+virtual pet genre - though these games usually have less complex AI, and are more 
+about letting you care for a single creature. Like with Tamagotchi; Hey 
+You, Pikachu!; and Nintendogs. So, simulation games are really about using the computer to simulate some kind 
+of dynamic and emergent system. Maybe a city filled with people and traffic. Or a creature with thoughts and feelings. And then you get to fiddle 
+with this system - often from a bird's-eye view and with god-like powers. But on the other hand, simulator games are about 
+being on the ground, and getting your hands dirty. So, first up is what I'm 
+calling the job simulator. These are games that let you play out the quote-unquote fantasy of 
+doing some interesting job. Like... uh 1984's Trashman. Who doesn't dream of being a bin man? Slightly more glamorous roles include 
+being a hacker in Introversion's Uplink, a surgeon in the DS game Trauma 
+Center, a chef in Cook, Serve, Delicious!, and the border guard of some dodgy 
+Eastern European state in Papers, Please. This was never the most popular genre. But in recent years, it has actually become way more prolific and it looks like 
+it's going to grow even further. I feel like 2022's Powerwash 
+Simulator really kicked things off. This game was extremely popular, leading to 
+a sequel and endless themed expansion packs. And since then, we've seen dozens and dozens 
+of games that let you perform interesting jobs. I guess developers realise that there 
+are fantasies beyond killing orcs, blowing up space-stations, and saving the world. I mean, in 2026, the most audacious 
+fantasy you can think of is, uh, steady and gainful employment. Bleak. There are also life simulators. Not to be confused with life simulations. Instead, these are games that give you the 
+experience of living an everyday existence. This also describes most of those farm management games like Harvest Moon and Stardew 
+Valley - so, they go in both genres. But perhaps the most life sim famous of 
+all is Nintendo's Animal Crossing - which is about living a calm and peaceful life, within 
+a tight-nit community, and without social media. Again - probably why this simple genre is 
+slowly becoming more popular over time. Bleak. I also feel like there's a case to be 
+made for a "creature simulator" genre, for games where you get to embody some non-human 
+entity, like with Octodad and Goat Simulator - but I'm not sure if there are enough examples to 
+make a full genre out of them, at least yet. But there definitely are enough games 
+for the vehicle simulator genre. Games where you get to drive or 
+pilot some interesting vehicle. That includes flight simulators, like 
+- well, Flight Simulator from 1979, as well as Pilotwings, the Microsoft 
+Flight Simulator series, and - oh! Don't forget about Kaze no Notam, the 
+Japanese-exclusive hot air balloon simulator. Where are my Notam heads at? Even more popular are air combat games - which 
+simulate realistic dog fights between planes. These were a big deal in the early 
+days of gaming - and Civilization maker Sid Meier got his start making such games. So in 1984 alone we saw F-15 Strike Eagle, F-16 Fighting Falcon, Raid over Moscow, 
+and Skyfox - all in the same year. The genre is less popular now - but you 
+do get the whole Ace Combat franchise, and the game you've seen advertised in 
+a hundred YouTube videos: War Thunder. Which brings me to today's sponsor, NordVPN. No, I'm just kidding. I don't do that. There are also spacecraft simulation games, 
+such as Elite and various Star Wars games. And there are submarine simulators 
+but they've pretty much all gone away. The only vehicle simulator type that's 
+really growing in popularity is road and rail vehicles, with games like Euro Truck 
+Simulator, Mud Runner, and My Summer Car. Planes and submarines are boring, apparently. Big ass hauler trucks and parcel 
+delivery engines are the new hotness. So - simulations and simulators of 
+all types have been around forever. But these genres are currently on the rise 
+- particularly management simulations, job simulators, and life simulators, and mostly thanks to indie developers who 
+are exploring this space to its fullest. Okay, enough of that. So, cast your mind back to when 
+we were talking about wargames and how they led to the strategy game genre. Well, wargames would actually worm 
+their way into games in another form and create a genre that had an 
+even bigger impact on the medium. Basically: back in the 1970s, Gary Gygax 
+came up with a diabolical combination: wargames, and Tolkien-style fantasy creatures. The output was, of course, Dungeons and Dragons. And, with that game being a massive hit among 
+nerds - many of the earliest computer games, built for bulky mainframe computers in colleges around 
+America, are basically just DnD in computer form - but this would give us the first 
+computer role-playing games. These were games like Orthanc, 
+Moria, and The Dungeon. And even though they came out in the 1970s, 
+don't be fooled into thinking they were crude. Not only did they have DnD staples 
+like stats, spells, characteristics, and equipment - but they even let you party up 
+with other players, over the early internet. But the genre really kicked off in the early 
+80s - now that computers could be brought home, with devices like the Apple 
+II and the Commodore PET.- That includes Rogue in 1980 - 
+though, we'll come back to that. That's a whole other thing. And then in 1981 - the double 
+whammy of the dungeon crawler Wizardry and the sprawling open world of Ultima. From here, the genre took off - with games like 
+The Bard's Tale, Dungeon Master, and Wasteland. But... this didn’t actually last very long. And we can see this in the graph - 
+a spike in the early 80s, but a slow trickle ever since - with just a handful 
+of notable games like Planescape: Torment, Star Wars: Knights of the Old Republic, 
+and - most recently - Baldur's Gate 3. But, then again, this is not 
+the whole story of the RPG. Not by a long shot. So, those early role-playing games, Ultima and 
+Wizardry, were also extremely popular in Japan. And it wouldn't be long before 
+Japanese developers would make their own, home-grown take on the genre. Mostly notably - Dragon Quest, made by Yuji Horii. Which is a simplified take on Ultima, 
+squished down to fit on the Nintendo Famicom, and given charming anime graphics by 
+Dragon Ball creator Akira Toriyama. This game would kick off a massively popular franchise - as big of a Japanese gaming 
+icon as Space Invaders and Super Mario. So while RPGs in the West would continue to 
+be made in the vein of Dungeons and Dragons, RPGs in Japan - often called 
+Japanese role-playing games, or JRPGs - would be made in 
+the vein of Dragon Quest. That meant more of an anime influence. It meant predefined protagonists, rather 
+than blank-slate character sheets. And it meant a focus on 
+working through a storyline, rather than taking on disconnected quests. So while the Computer RPG in the 
+West kinda dragged itself along, the JRPG went from strength to strength. With games like Final Fantasy, Chrono Trigger, Grandia, Pokémon, Persona, and 
+Clair Obscur: Expedition 33. That last one proving that Japanese 
+RPGs don't need to be made in Japan. Yeah, video game genre names can be pretty silly. And we haven't even gotten 
+to the really dumb ones yet. But this is still not the full story - because 
+the RPG has also spun off into another genre that's grown to be even more popular than either 
+the Computer or the Japanese role-playing game. So, several years before Dragon Quest, other 
+Japanese developers were taking influence from Western role-playing games like Ultima and 
+Wizardry, as well as Dungeons and Dragons itself. Which is when Xevious developer Masanobu Endō came up with the idea for a "fantasy Pac-Man" 
+- which became Tower of Druaga, in 1984. This game had elements from role-playing 
+games - like dungeon-crawling, fantasy monsters, items, and equipment. But instead of slow, turn-based battles, 
+you fight in, quick, real-time scraps. This would inspire Hydlide - which has 
+role-playing stats and experience points, but simple fast-paced battles. And the dungeon crawler Dragon Slayer, which runs in real-time so you can't 
+pause and think before taking your turn. Basically, these games combined role-playing 
+with action - giving us the Action RPG: a genre that has gone from strength to 
+strength as players adore the mix of fast-paced combat, with the addictive thrill 
+of levelling up and collecting equipment. That includes games and franchises 
+like Ys, Secret of Mana, Shenmue, Vagrant Story, and Kingdom Hearts. Plus Yakuza and Demons's Souls. That one also gave us a very specific 
+sub-genre that's still kinda being debated whether it even exists: the Soulslike, 
+which refers to the FromSoftware games - and those that mimic the combat and 
+difficulty seen in those games. So, the action RPG was quickly adopted in Japan. But it took a bit longer to catch on in the West. There are some early examples - like 
+Temple of Apshai, Eye of the Beholder, and the early Elder Scrolls games. But most agree that the trigger that 
+made this genre stick, was Diablo. The game was actually being developed as a more 
+traditional Computer RPG, with turn-based battles. But the guys at Blizzard - fresh off the 
+success of that real-time strategy game Warcraft - suggested that designer 
+David Brevik try this RPG in real-time. Brevik says "I remember I 
+clicked on the mouse and the warrior walked over and smacked the skeleton down and 
+I was like oh my god, that was awesome. And the sun shone through the 
+window and God passed by and the angels sang and sure enough that 
+was when the ARPG was kind of born". Which - wait, hol' up a minute. That means the action RPG inspired 
+the real-time strategy game. Which inspired the action RPG. Eh?! What? Ah well. Pretend that didn't happen. Because Diablo and its sequel were smash hits. And they proved a very important lesson 
+that wouldn't just change RPGs... but almost all games we play today. And that lesson is: if you slowly 
+dole out new skills, abilities, and power on a slow drip-feed - well, 
+that can be incredibly addictive. And so - it's not actually the case 
+that RPGs lost popularity in the West. It's just, after Diablo, developers 
+mostly wanted to do them as Action RPGs. So, we saw Gothic in 2001, Fable in 2004, Mass 
+Effect in 2007, and The Witcher 3 in 2015. Now you might have noticed that this is 
+the same graph as when I was talking about Japanese Action RPGs - and that's because 
+unlike turn-based role-playing games, action RPGs are generally not split 
+along Western and Japanese lines. You don't really get a "CARPG" and a "JARPG" genre.
+That's just too much. Too many letters. But, even if we combined the 
+turn-based RPGs into a single genre, you'd see that action RPGs 
+are generally more popular. In fact, the action RPG was the most popular genre of all in 2018 with games like Kingdom 
+Come: Deliverance and Monster Hunter: World - making it very comparable to other 
+action genres like the FPS and the platformer. There are also quite a few 
+role-playing sub-genres. There's the massively multiplayer 
+online role-playing game, or MMORPG. It had an early showing with the text-based 
+multi-user dungeon, or MUD - on Usenet. But the real deal was Ultima 
+Online - followed by EverQuest, Asheron's Call, World of Warcraft, and many more. The MMO would require a whole video 
+to itself, honestly - so I recommend this noclip interview with Ralph 
+Koster if you want to learn more about this massive genre. There's also tactical role-playing. This is for games where the turn-based 
+fights take place on large battlefields, where the positions of your party 
+members are really important. Examples include Fire Emblem, 
+Mega Man Battle Network, Valkyria Chronicles, and Final Fantasy Tactics. There's the dungeon crawler, for 
+games that focus on - well, dungeons. And finally, you've got monster-taming RPGs, where your party is made up of 
+critters who you collect and tame. The most famous franchise is of course, Pokémon. But you've also got the Shin Megami Tensei games, and some JRPG spin-offs 
+like Dragon Quest Monsters. So, between all of these games - from computer 
+RPGs like Wizardy to JRPGs like Dragon Quest, MMOs like World of Warcraft, action RPGs 
+like Diablo, and tactical role-playing games like Fire Emblem, the whole role-playing 
+super genre has been a significant part of gaming for the last 50 years. And it all goes back to Dungeons and Dragons... which would also give us our next genre. So, in 1976, William Crowther 
+made a game for his two daughters. He was inspired by DnD, but instead 
+of writing about fantasy kingdoms and evil monsters and magic missiles, 
+his game would be more grounded. It would just be about exploring 
+an underground cave network. The result was both the name of the game 
+and the genre it would create: adventure. So Adventure - which would soon be expanded 
+into Colossal Cave Adventure by fan Don Woods, described the world through text - like, "you are standing at the end of a 
+road before a small brick building. Around you is a forest. A small stream flows out of 
+the building and down a gully". You can then tell the computer what you 
+want to do with somewhat natural language. Though, only two words at a time. This ain't exactly ChatGPT. This imaginative game led to a 
+large number of text adventures. Sometimes called "interactive fiction". That includes games like Zork, Adventureland, 
+and The Hitchhiker's Guide to the Galaxy. That genre was popular in the 
+'70s and '80s, but naturally, as technology improved, the 
+text adventure died out. It's worth noting that there's a whole 
+cottage industry of independent interactive fiction games, made with tools like Twine 
+- though, none of them made my dataset. Now, one fan of Adventure was Roberta 
+Williams who was like "this is cool. I wanna make one. But why does it have to be all text?" 
+So for her debut game, Mystery House, in 1980, she would add visuals to 
+represent the current location. Giving us the next innovation: 
+the graphic adventure. This took over from interactive fiction, with games like King's Quest 
+- also by Roberta Williams. Space Quest. And Leisure Suit Larry. But the adventure genre was set to change 
+again - this time not with the visuals, but with the means of control. That came, first, with the 
+MacVenture game Deja Vu, where the developers questioned why you'd want 
+to use a text parser or a menu of options, now that we have these fancy, 
+new-fangled "mouse" things. Why not just point... and click? And so we got the point and click adventure. A genre that would give us such 
+treats at Monkey Island by LucasArts, The Longest Journey by Funcom, and Myst by Cyan. It grew out of the graphic adventure 
+to newfound heights of popularity. And combine them all together, and you 
+get the overarching adventure genre... a genre that grew and grew into to the 1990s... before plummeting into obscurity in the 2000s. Now, much has been written about 
+the reasons for this genre's death. Maybe it was the goofy moon logic puzzles. Or the fact that pointing and clicking 
+doesn't really work on a console controller. But I think the most compelling argument of 
+all is that it was killed by another genre. A genre that actually came from the same source. That same genre that had overtaken 
+all of the action genres. But, before we get to that... one last tangent. So, the adventure game, 
+ultimately, combines two things. Storytelling and puzzle-solving. But just how important is that second part? Now, Roberta Williams wasn't the only 
+one enamoured with text adventures. Over in Japan, Yuji Horii - the Dragon Quest guy - was playing imported interactive 
+fiction games, like Deadline by Infocom. And he decided to make a similar game. So in 1983 he released The Portopia 
+Serial Murder Case for Japanese PCs. And then ported it to the Nintendo 
+Famicom in 1985 - with a command list and point-and-click interface 
+to replace the text parser. This kicked off the adventure genre 
+in Japan - leading to dozens of games that are barely known in the West, 
+due to the obvious language barrier. But a few will be familiar to those of us outside 
+of Japan - like the Famicom Detective Club series by Nintendo, the Ace Attorney series by Capcom, 
+and Snatcher and Policenauts by Hideo Kojima. Kojima explains his desire to make an 
+adventure game by saying "Part of it was the impression that The Portopia 
+Serial Murder Case had left on me. And of course my desire to make movies 
+was part of it too, so I wanted to create a game with cinematic nuances, something with 
+a more developed world, story, and dialogue". But over time, developers began 
+to ask that question I just posed: how important are the puzzles? Could you make an adventure game without them - and just 
+use a game to tell an interesting story? That led to story-first adventure games like Dome, by System Sacom - as part 
+of its Novel Ware series. Otogirisō by Chunsoft - which 
+was labelled as a Sound Novel. And Shizuku, by Leaf, which was branded with 
+the term we'd now use for the genre at large - the visual novel. Over time, more and more visual novels would 
+be released - including outside of Japan, and by non-Japanese developers. Which partly explains the increasing 
+popularity on this graph - to be honest, it's hard to tell exactly how prolific this 
+genre has been over the years as most visual novels didn't make it into my dataset, 
+again, because of the language barrier. It's one of the limitations 
+of my approach, I will readily admit. Same goes for the visual novel sub-genre of dating 
+sim - which started with the 1995 game Dōkyūsei. Almost all of the dating sims in my dataset 
+are English-first games like Monster Prom, Date Everything!, and I Love You, Colonel Sanders! 
+A Finger Lickin' Good Dating Simulator. Unfortunately, you'll have to look elsewhere 
+for a deeper dive into this style of game. But, hopefully the point still stands: the adventure genre in Japan started as a 
+mix of puzzle-solving and story-telling, but visual novels found success by 
+ditching the puzzle-solving altogether. And the same thing would happen, 
+albeit it much later, in the West. So, in 1999, French developer David Cage 
+released Omikron: The Nomad Soul - an ambitious mash-up of demons, serial killers, 
+government conspiracies, and, uh, David Bowie. And he'd follow it up in 2005, with Indigo 
+Prophecy - this time a combination of Mayan history, 
+Artificial Intelligence, and casual racism. In terms of this game's genre, Cage 
+says "the closest I can think of is probably the adventure genre" - but 
+he notes that Indigo Prophecy has no traditional puzzles or inventory items, as it 
+focuses almost exclusively on the narrative. So he prefers to call it an "interactive 
+drama", because it "suggests the fact that the player acts and interacts in 
+a narrative and emotional experience". Cage would explore this idea even further with 
+Heavy Rain, released on PlayStation 3 in 2010. Which is a game that would completely change 
+the trajectory of another game developer. So, Telltale Games started life by trying to 
+bring back the largely dead point-and-click adventure genre, with games like Sam 
+and Max and Tales of Monkey Island. But when they saw Heavy Rain they were 
+like, okay, that's cool, let's do that. Which led to the Telltale Game that 
+everyone loves and remembers... uh, Jurassic Park. Yeeeah, okay, it might not be 
+Telltale's most famous game. But it was the start of a new 
+direction for the company. A move to reduce the puzzles and, in their place, add in more cinematic 
+cutscenes and quick time events. Their next game, The Walking Dead, went much 
+further with tricky moral choices that would change the direction of the story, and affect 
+how characters think about you in the future. From there, the interactive 
+drama would gain momentum. There were more Telltale games, like 
+The Wolf Among Us and Game of Thrones. More Quantic Dream games like Beyond: 
+Two Souls and Detroit: Become Human. And others too, like Life is Strange and Dispatch. Just like the visual novel, the interactive 
+drama grew out of the adventure - by reducing or removing the puzzles to focus on 
+storytelling, dialogue, and drama. But could you also do that with a 
+genre that gave us Doom and Duke Nukem? Well, in 2008, academic Dan Pinchbeck 
+released Dear Esther - a quiet, contemplative and poetic game - built 
+in the engine that powers Half-Life 2. And then fan, and DICE environment 
+artist Robert Briscoe later worked with Pinchbeck to remake it as a 
+standalone, commercial game in 2012. Pincheck wanted to show that a first-person 
+game could be immersive, captivating, and a great canvas for storytelling 
+- even if you remove the shooting, the puzzle-solving, and the endless action. The idea wasn't without contention some players 
+derisively called it a "walking simulator", because moving around is basically 
+the only interactive part of the game. But, for others, it was the start of an exciting 
+new way to tell stories with video games. It led to games like Gone Home, The Vanishing 
+of Ethan Carter, and Firewatch - all proving that the goofy "walking simulator" 
+genre was, actually, a legitimate one. Because, between visual 
+novels, interactive dramas, and walking simulators, game developers 
+have proven again and again that there is room for games that are almost 
+exclusively about storytelling. You don't need puzzles, or combat, or action. Instead, developers can make use of the unique 
+properties of games - like branching storylines, dialogue choices, immersive 3D worlds, and 
+mechanics that are layered with meaning. They can use those to tell stories that 
+would be impossible in any other medium. And so as developers continue to use games to 
+tell stories, beyond the three genres I've just discussed - I think we probably just need a 
+general "narrative" genre to hold them all. Otherwise we'll end up in 
+a situation where Venba - a beautiful game about the immigration experience, as told through simple cooking mini-games - gets 
+put into the family, puzzle, or trivia sections. Or where Florence - a charming 
+relationship drama, told through a series of vignettes - gets classified as an 
+adventure, family, or mini-game collection. If we had a catch-all narrative 
+genre, we could hopefully move on from tedious conversations about is 
+Mixtape even a video game, maaaaaan. Now I will admit that 
+"narrative" is a tag on Steam. But a history of every Steam tag ever... is a video for someone else. I'm tired. This was a lot of work. And we haven't even talked about... So, roll back the clock to the 1970s. And game developer Warren Robinett was - like Roberta Williams and Yuji Horii - 
+slightly obsessed with Adventure. And he wanted to make a similar game. Though - this time - not just with graphics, but 
+with direct control over the player character. And with more action-heavy elements 
+like being chased by dragons. The result was Adventure for the Atari 2600. Yes, it has the same name. Yes, that's slightly confusing. But, just like how we went from 
+role-playing to action role-playing, this Atari game combined action and adventure 
+to create the action-adventure genre. And if you need a more modern example 
+- consider the Legend of Zelda series, which designer Shigeru Miyamoto refers 
+to as "a real-time adventure game". It has elements of adventure games - like 
+exploration, storytelling, and puzzle-solving. But it also has elements from action 
+games - you have direct control over Link, there's real-time combat, and 
+there are consequences for failure. Now, in the early days - basically, the 2D era 
+of gaming - the term was used somewhat sparingly. For the most part, games fell neatly 
+onto one side of the coin or the other. Games were either focused on action - like with 
+run and gun, beat 'em up, and platformer games. Or they were focused on exploration and storytelling - like role-playing 
+and point and click adventure games. Only a few games found themselves 
+in that iffy middle ground - like the aforementioned Legend of Zelda, 
+Startropics, and Ecco the Dolphin. Plus, the isometric games made by 
+Rare - before they were called Rare. These were also sometimes called "arcade 
+adventure" games, in magazines of the day. But as games went 3D, things started to change. Oops. We're going to need to triple 
+the y-axis again, aren't we? So there was Tomb Raider, by Core Design, in 1996. Metal Gear Solid, by Hideo 
+Kojima and Konami, in 1998. And Grand Theft Auto III, by Rockstar, in 2001. These games didn't fit into the simple, single-lane genres of the 2D era - they 
+were fully immersive, multi-modal... action-adventures. And they were just the start. By 2002, 20 percent of all games in my dataset 
+were action-adventure games - including GTA: Vice City, The Wind Waker, Metroid Prime, 
+Mafia, Splinter Cell, and Star Fox Adventures. The action-adventure was absolutely
+massive, eclipsing all other types of game. It was the biggest genre of all in 1999. And then again in 2002 - which is when it would 
+stay on top, every year, for 16 years straight. And then it was top again in 2019. And again in 2021. And it likely contributed to 
+the downfall of other video game genres - like the point and click 
+adventure, and the platformer - because it could incorporate elements that used 
+to be exclusive to other types of games. Like, Grand Theft Auto is at times a racing game, a third-person shooter, a beat 
+'em up, and a job simulator. Uncharted is a third-person shooter, 
+an adventure game, and a platformer. And Assassin's Creed is a mix of platformer, 
+hack and slash, action RPG, and adventure. And that includes other elements, too. Like stealth. Which started with games such as
+Metal Gear on the MSX and the original Castle Wolfenstein. But is now more commonly used as 
+another element in action-adventure games. And open world. Which is arguably more of a structure than a genre, but since Grand Theft Auto III, 
+it has become a key part of many action-adventure games like 
+Assassin's Creed, and Far Cry. And so in some ways, it felt like the 
+action-adventure was the final genre. The one that every other genre was building up to. In 2004, Tomb Raider designer Toby Gard said "talking in terms of genre is 
+virtually worthless these days. You have to hyphenate so many things together just 
+to describe a game; it becomes a bit pointless". And... so was there even any 
+point coming up with new genres? Because, if we look at all the major 
+genres we've talked about so far... Well, in the 1970s we got sports, racing, 
+action, adventure, and the shoot 'em up. In the 1980s we got the platformer, 
+the computer RPG, the run and gun, the beat 'em up, the JRPG, the 
+puzzle game, and the management game And in the 1990s we got the modern strategy game, 
+the fighting game, the real-time strategy game, the first-person shooter, the rhythm game, 
+the action RPG, and the stealth game. But in the 2000s? I guess we got 
+the reinvented hack and slash. And the proper open world game. But other than that... new genres just sorta vanished. It's like everything had been discovered 
+and video game design was finished. Roll credits, achievement unlocked. But of course, that's not actually what happened. Other genres would eventually topple 
+the action adventures dominance. And more importantly, other 
+genres would be discovered. Lots of them, in fact. So, what happened? Well, this time it 
+wasn't about some new technology being invented or some lone clever clogs 
+coming up with some brand new idea. This time it was a fundamental shift in the 
+way games were made, sold, and distributed. By the mid-2000s, two major things had 
+changed about how games were made and sold. For one, games used to be 
+relatively cheap to make, and a very small team of people 
+could put together a hit game. Wolfenstein 3D has 10 people in its credits. Super Mario Bros has 7. Pong has 1. This meant you could try a brand new idea, even if there was no existing 
+proof it would be successful. As Sid Meier explained in 2007, "the graphics 
+and the sound technology were limited, so the investment wasn't so high to make a game. It was a little less risky, so 
+we could take a chance with games because they didn't cost as much money [to make]." To that point, Sid actually did 
+all the graphics for his early games - until finally hiring an 
+artist for Silent Service in 1985. But as games got more complicated and graphically 
+impressive, budgets started to balloon. Big games now required teams of 100 plus people, 
+and they cost tens of millions of dollars to make. So they would inevitably be backed by publishers 
+with deep pockets - but small appetites for risk. Will Wright explained in 2000, "most 
+large companies seem a bit too risk-averse when it comes to developing new 
+ideas outside of the mainstream. Everyone is getting very good at 
+milking their cash-cow sequels but very few are putting substantial investments into 
+developing new genres, or taking bold risks". But okay, there's like an obvious solution 
+here, right? Forget the publisher. Just make a really small game with a tiny 
+crew of people and sell it for cheap. Except the other thing that had changed 
+was the way games were distributed. So, there were arcade machines and 
+consoles, which of course required working with manufacturers and 
+publishers and distributors. But you could also just put your game 
+onto a floppy disc or a cassette tape, put it into a Ziploc bag, and 
+post it to your customers. That's how genre pioneers like John Carmack, Sid Meier, and Peter Molyneux 
+got their start in this industry. For instance - id Software gave away the 
+first few levels of Wolfenstein 3D, for free, hosting the file on their FTP server. If you liked what you'd played, you 
+could send a cheque or a wodge of cash in an envelope - and get the rest of the 
+game posted back to you in a few weeks. It was called "shareware". But, over time, those methods all but went away. Sure - you could still make games independently 
+- just look at the avalanche of Flash games released in the 2000s - but there were 
+no obvious routes to sell those games. Instead, everything had to be distributed in a shiny box - and had to fight for 
+the same Wal-Mart shelf space. Plus - that shelf space increasingly 
+favoured console games over PC. In a 2002 issue of Game Developer Magazine, 
+columnist Jeff James said "from the standpoint of the independent game developer, the current system 
+increasingly favours large software publishers with the distribution and marketing muscle needed 
+to get vital shelf presence at retail outlets". Which, I think helps explain the 
+dominance of the action-adventure genre. Like, in 2002, how could you compete with Grand 
+Theft Auto: Vice City or The Legend of Zelda: The Wind Waker? These games have 
+massive 3D worlds, rich stories, and mechanics from a whole bunch of 
+different game genres all put together. And you're bringing Zoocube? You think Zoocube can cut it? For $50?! Sorry. Sorry. So, games had gone from a space where 
+a small company or just a few hobbyists could make and sell a video game and maybe 
+discover a whole new genre in the process. It had gone from that to a place 
+where a small number of large risk averse companies were controlling 
+what games were made and sold. And this led to a stagnation of creativity. But... in that same 2002 magazine column, 
+Valve's Gabe Newell said he hoped his new fangled "Steam" platform (never heard of it)...
+He hoped it might one day allow for "riskier game designs and alternative 
+content development models to flourish". And then, in 2006, Peter Molyneux 
+envisioned a sort of "experimental" section on Microsoft's new 
+Xbox Live Arcade service. A place to host creative new games - and 
+maybe waive the $10,000 developer kit fee. And this world that Gabe Newell 
+and Peter Molyneu envisioned, well, by the end of the decade, it would be reality. In the 2000s, PopCap brought back shareware, in order to sell its casual puzzle games 
+like Bejewelled, Bookworm, and Peggle. Which inspired other casual game 
+portals, like Big Fish Gaming. Microsoft started working with a few 
+independent developers to bring their games to Xbox Live Arcade - including 
+PopCap, GarageGames, and NinjaBee. Then they added Braid, Castle Crashers, 
+Super Meat Boy, and Fez - before opening the floodgates to thousands of games 
+made by individuals and small teams. Sony and Nintendo joined in, later on. In 2008, Apple opened the App Store - 
+letting anyone make a game for the iPhone. Hey, I recognise that guy! Google Play, then 
+named Android Market, launched that same year. In 2012, Valve introduced Steam Greenlight, which would let indie developers submit 
+their games to be added to the platform. And in 2017, it launched 
+Steam Direct to let anyone submit a game - as long as you paid the $100 fee. With this, the independent developer was back. You could make small games, with small teams, and distribute them on one of these 
+platforms at a small price point. That allowed creativity to flourish 
+- and it let developers return to genres that had seemingly become unsustainable. Like - consider the puzzle genre. It was dead and buried in 2002 - without a 
+single game in my data set for that year. But with those new distribution methods... well, the casual space gave us Bejeweled in 
+2001, Zuma in 2003, and Mystery Case Files: Huntsville in 2005 - which started 
+the hidden object game sub-genre. On mobile, there was Angry Birds in 2009, Where's 
+My Water? in 2011, and Candy Crush Saga in 2012. And in the indie space, well... We got physics-based puzzle games 
+like Word of Goo and Human Fall Flat. Deduction-based detective games like Return 
+of the Obra Dinn and Case of the Golden Idol. And problem-solving automation games 
+like SpaceChem and Infinifactory. We got the Metroidbrania - yes, really 
+- which are games about finding and applying knowledge around the world - 
+Outer Wilds, being the best example. Plus, the block-pushing sub-genre, that started with Soko-ban, got new games like 
+Stephen's Sausage Roll and Patrick's Parabox. All of these games meant that puzzle - 
+as a genre - had a dramatic comeback. From being almost completely forgotten, to being a strong and popular genre 
+that's slowly trending upwards. And the puzzle-platformer saw newfound popularity 
+with games like Braid, Limbo, Fez, and Cocoon. I even made one! Like before, the puzzle-platformer 
+almost vanished... but it came back as a strong indie favourite. Plus - look at how the 
+adventure genre took a break, but then came back with an upward trajectory. For one, that's because the 
+point-and-click adventure received new indie releases like Gemini 
+Rue, Botanicula, and Thimbleweed Park. But we've also seen an increasing number of games that have adventurous gameplay - 
+you know, a focus on exploration, puzzle-solving, and storytelling - but not 
+necessarily with a point-and-click interface. In fact, Monkey Island designer 
+Ron Gilbert has referred to games like Blue Prince and Lorelei and the Laser 
+Eyes as "the future for adventure games". And to be truthful, almost every genre has been 
+resurrected, to some degree, by independent developers who played these games as kids - and 
+wanted to bring them back for a new audience. The platformer, the beat 'em 
+up, the farm life simulator, the Metroidvania, the run and gun, the 
+shoot 'em up, the top-down shooter. Even the block breaker and the maze game. But for some genres, indie developers 
+didn't just bring that type of game back. They completely reinvented 
+what that genre could be. I'll start, with horror. Now horror has been a part of games forever. A few early games that traded on being 
+spooky include 3D Monster Maze in 1982, Ghost Manor in 1983, Ubisoft's Zombi in 
+1986, and the utterly absurd Chiller in 1986 - a light gun shooter with a level set 
+in a gruesome and bloody torture chamber. It's from the same people who 
+made Death Race - presumably they were trying to double-dip 
+on those controversy headlines. It didn't work - Exidy stopped making games a 
+couple years later and went defunct in 1999. But ultimately horror was just a 
+theme, for games in other genres. Like the spooky Halloween platformers 
+Ghosts 'n' Goblins and Castlevania. In 1992, though, we got a game that 
+would help make horror a bona fide genre. Alone in the Dark, by Infogrames. Now this was clearly 
+inspired by adventure games - with its inventory management and its environmental puzzles 
+- but it also has combat against monsters. And the game would directly influence Shinji 
+Mikami to make Resident Evil, in 1996. And this would create the "survival horror" 
+genre - which includes a bunch more Resident Evil games - but also other franchises like Silent 
+Hill, Dino Crisis, Fatal Frame, and Dead Space. All games where you fight zombies and 
+other monsters, while solving puzzles, carefully managing your resources, 
+and trying to avoid a grisly death. But then, independent developers 
+started to tackle the genre. And they started questioning those genre tenets. For instance, Thomas Grip removed combat 
+and death from his games Penumbra: Black Plague and Amnesia: The Dark Descent - 
+and found that it made the game more scary. Grip says, "with combat gone, players 
+approach the game quite differently. The enemies were seen as more frightening. And players started to notice, 
+experience-wise, more important things". Amnesia would then inspire more 
+combat-free horror games like Slender: The Eight Pages, Visage, and Outlast. And then consider a game like Five 
+Nights at Freddy's - a game about simply watching CCTV monitors and 
+trying not to poop your pants. No inventory management, no combat, no movement. It's a long way from Resident Evil, right? Basically: indie developers realised 
+that you don't necessarily need combat, inventory management, and the fear of death. Horror is such a strong emotion that you can 
+make a game that's simply about being scared. And so if you consider "horror" its own genre, separate from "survival horror", well it has 
+exploded in popularity in the last decade. It not only eclipsed survival 
+horror entirely but in 2022, it became the most popular genre in my 
+dataset, with 19 games in this genre. It's also huge on itch.io, with over 
+100,000 games tagged with "horror". That makes it bigger than other "real" 
+genres like shooter, RPG, and strategy. And on Steam, there are over 30,000 games tagged with horror - but only 7,000 
+tagged with "survival horror". And this has been a common thing for indie 
+developers to do - to strip a genre back to its foundations and build upwards from there, 
+expanding the narrow definitions of that genre. Like - Reigns is technically a strategy game. That's what it says on Wikipedia, after all. But it's nothing like Civilization or Starcraft. But no genre has been as radically 
+reinvented by indie developers... as the roguelike. So, remember Rogue? That was like 30 minutes ago. Or 15 if you're watching on 2x speed. It's fine. I understand. We're all busy people. So Rogue was part of that early 
+band of computer role-playing games that were trying to digitise 
+the Dungeons and Dragons experience. But this one had a unique twist - instead of 
+giving the dungeon a predetermined layout, the map would be generated 
+randomly on each play session. One of the designers, Glenn Wichman, 
+explains that this was "so we could be challenged by our own creation, and so we 
+could come back and play it over and over". Also: dying in the dungeon was permanent. Instead of loading back to some earlier save you'd have to start all over again 
+- with a fresh dungeon layout. Throughout the 1980s, Rogue was a 
+popular game to clone - especially because the game was a freely distributed 
+executable on minicomputer systems for several years before it was sold as 
+a commercial product through Epyx. So, games like Hack, Moria, and 
+Angband all cropped up - which led to fans coining the catch-all term "roguelike". The genre was also picked up in Japan. Just like how Yuji Horii was inspired by 
+Ultima and Wizardry to make Dragon Quest, his colleague Koichi Nakamura was inspired 
+by Rogue to create Mystery Dungeon, in 1993. And this spawned a whole bunch of dungeon 
+crawling RPGs with randomised dungeons - sometimes featuring characters from other franchises 
+like Dragon Quest, Final Fantasy, and Pokémon. There's even a roguelike sequel to Tower of Druaga - the game that kicked 
+off the action RPG in Japan. Despite all this, the 
+roguelike stayed pretty niche. That is, until... something happened. That something was Derek Yu: an indie game maker 
+behind games like Eternal Daughter and Aquaria. For his next game he wanted to 
+combine his two childhood favourites. He took the platforming action of a game 
+like Super Mario Bros., and he combined it with the randomised level layouts and 
+permadeath of a Roguelike - like Hack. The result of this unconventional 
+pair-up was Spelunky: a punishing platformer where the layout of the 
+levels changes every time you perish. Released for free online, 
+Spelunky quickly gained fans. Including other indie developers who were inspired to implement those 
+roguelike rules in other genres. Which led to games like The Binding 
+of Isaac and FTL: Faster Than Light. FTL designer Jay Ma said "I did play 
+a ton of traditional roguelikes in the previous few years, but it 
+was only Spelunky Classic that made me think about how the principles of 
+roguelikes could apply to other genres". From there, the roguelike genre exploded. Risk of Rain, Rogue Legacy, Nuclear 
+Throne, Downwell, Enter the Gungeon. It's exactly like Pong, Breakout, 
+and Space Invaders, 30-odd years ago: one popular game created a cottage 
+industry of developers all exploring and experimenting from the same seed of an idea. A particularly important one was Slay the Spire, which mixed the roguelike with a 
+deckbuilding card game like Ascension. This would influence Luck Be a Landlord, which would inspire Balatro - and now suddenly we 
+have a whole subgenre of deckbuilding roguelikes. Hey, I made one of those, too. And there's also Vampire Survivors - 
+which created the super trendy "bullet heaven" sub-genre that's still all over Steam. Oh, and I'm not going to get into 
+the whole roguelike / roguelite thing because I don't even really know 
+what the difference is these days. A lot of games on Steam are tagged with both. With all of these creative twists on 
+the formula, the roguelike has gone from a niche and forgettable RPG sub-genre 
+to one of the most prolific genres in gaming. In fact, in 2025 it became the final 
+most popular genre in my dataset. With about 20 roguelikes 
+released in the same year. Okay, sure - it was actually 
+tied with action-adventure. But, hey, roguelike is better for the video. So, indie developers revived 
+dormant genres like the run and gun, Metroidvania, and point-and-click adventure. And they completely reimagined the roguelike 
+and removed survival from survival horror. But they also came up with 
+whole new genres that have barely any basis in the games of years gone by. Like - the incremental game. So, in 2002, developer Eric Fredricksen 
+released Progress Quest - a satirical game that made fun of shallow 
+MMO experiences like EverQuest. In this game, battles just play 
+themselves while you sit back and watch. Then, [in 2010], academic Ian Bogost made 
+Cow Clicker - a satirical game that made fun of shallow Facebook games like Farmville. In this game, you just click 
+a cow and a number goes up. Both Progress Quest and Cow Clicker 
+reduced the original games to their foundations - to reveal that they were 
+passive, shallow, and built to addict. The only problem: both 
+games became hugely popular. “Whether I like it or not," says Bogost, "Cow Clicker was easily the most 
+successful game I have ever produced". Cow Clicker went viral and picked 
+up more than 50,000 players. And Progress Quest was popular too - Bethesda boss Todd Howard even named it as an 
+inspiration for Fallout Shelter. And so, ultimately, these games spawned 
+clones and copycats that went beyond parody. Cookie Clicker in 2013, AdVenture 
+Capitalist in 2014, and Nodebuster in 2024. By now the incremental game 
+(or sometimes clicker or idle game) had become a 
+legitimate genre - and growing. There are more than 9,000 games tagged 
+incremental on Steam, after all. And while my graph cuts off in 2025 
+because this year isn't through... there would be about 10 
+incremental games in 2026's data. Not bad for a genre that started as a joke. Next up: sandbox. Now, the term sandbox was commonly used 
+before the rise of modern indie games. Magazines used it to describe simulation 
+games like The Sims and RollerCoaster Tycoon. And, for a while, it was basically 
+synonymous with "open world" - like, in 2006, Eurogamer called Grand Theft Auto 
+"the most famous sandbox game of them all". It's also sometimes used for games 
+where you can make your own levels. Wikipedia editors refer to all the LittleBigPlanet 
+games as sandbox games, for instance. But I think the term "game creation 
+system" is better for that - covering everything from Pinball Construction 
+Set to Super Mario Maker and Dreams. But the term sandbox has taken on a new 
+meaning in the last couple of decades. It now more commonly refers to games where the 
+player is allowed to come up with their own goals. For instance Garry's Mod - first 
+released in 2004 - is a freeform playground that simply lets you mess 
+around with the Half-Life 2 engine. You can spawn in non-player characters and props, you can toy with the physics, you 
+can even write your own scripts. And players found they could have 
+plenty of fun - without ol' Garry needing to come in and set up rules and goals. Players used GMod to make Machinima films, and new multiplayer game modes like 
+Prop Hunt, and just noodle around. It proved that a game could be 
+fun, without a formal structure. And profitable, too: Garry's Mod was named the 
+best-selling PC-exclusive game ever in 2024. Then in 2011, we got Minecraft. The base idea of mining and placing blocks in a big 3D grid was taken from the 
+death-match FPS Infiniminer. But what made Minecraft truly 
+great was its open-ended structure. You could be a builder, a farmer, a 
+warrior, a sculptor, a redstone coder. Sure - there is a boss and end 
+credits, but that's not the point. The point is for you to find the point - alone, with friends, or in front 
+of an audience of millions. It's also the overall best-selling 
+video game of all time. So - you know, maybe there's something 
+in this whole sandbox genre thingy. New sandbox games are kinda rare - it's 
+hard to compete with Minecraft, after all. But between Astroneer, Teardown, Satisfactory, 
+and Tiny Glade - it's a genre that has come into its own since the rise of the modern indie 
+game, and is probably going to grow even bigger. Now, indie devs removed the survival from 
+survival horror, in order to focus on the spooks. But that didn't mean it went away entirely: 
+it's just become a genre in its own right. The survival game. A genre about needing to find food 
+and shelter to stave off death. Those mechanics can be found in 
+some earlier games like STALKER, some of the old roguelike games, and 
+the educational title The Oregon Trail. But it's ultimately Minecraft, again, 
+that turned survival into its own genre. The blocky building game does have a creative mode 
+where you can just build to your heart's content. But in survival mode you must hunt for food 
+in order to stave off hunger and stay alive. This would inspire games like 
+Don't Starve, Raft, and Subnautica. Minecraft's survival mechanics are quite 
+simple, though - so other games would go deeper. The Long Dark is about managing your temperature. DayZ has a multiplayer focus. And Pacific Drive puts you 
+in a dilapidated vehicle. Between all these twists and experiments, the new survival genre has been 
+growing over the last few years. Now, the fun thing about indie 
+games is just how varied they are. On the one hand, you've got extremely 
+hardcore and punishing genres like survival and roguelike - where one poor decision can 
+lead to permanent death and a total restart. But on the other hand, we've seen a 
+huge upswell in so-called cozy games, which are about comfort, relaxation, and 
+almost never punishing the player for failure. Games like A Little to the Left and Kind Words. There are some earlier examples of chill and cozy 
+games, like Harvest Moon and Animal Crossing. But this is an entirely modern 
+trend, circa 2019 or so. And some have linked its rise to the 
+Covid-19 pandemic, as both developers and players looked for relaxing experiences to 
+take them away from the stresses of lockdown. The first cozy games were 
+only named such in retrospect. Bad Viking - who made the atmospheric 
+Strange Horticulture - says "we didn't set out to make cosy games, but by 
+happy accident our Strange Games are". But as the genre has grown in 
+popularity and profitability, and as wholesome and cozy festivals 
+started to crop up, more and more cozy games have been released - giving us a 
+genre that looks set to grow and grow. Same goes for our last, and most 
+stupidly named genre: friendslop. Again, this one largely came out of lockdown. People were looking for ways to socialise and interact with each other - and 
+games were the perfect spot. Like, Among Us - a forgotten 2018 game 
+about trying to get away with murder on a spaceship - suddenly became one of 
+the most-played Steam games of 2020. It also kickstarted the 
+small social deduction genre. Also Phasmophobia - a co-op horror game 
+released at the end of 2020 - was a giant hit. Before long, developers cottoned on to the fact that players wanted 
+something akin to a hangout game. A cheap, replayable, multiplayer experience 
+that had just enough gameplay to keep you busy - but not so much that it would get 
+in the way of conversation and jokes. Games like Peak, Lethal Company, and 
+R.E.P.O would firmly establish the friendslop genre - a genre that 
+shows no signs of slowing down. So - here's the thing. It's not like indie games 
+killed the action-adventure. There were about 20 of them 
+released in 2025 - both from the big publishers and from indie developers. And we don't see an immediate, crash-out, drop-off like we did with previous top genres 
+like the shoot 'em up and the platformer. It's more that there are just 
+so many types of game now. Like, if we tally up the total number 
+of genres represented each year, it just keeps going up and up and up - showing 
+a greater variety of games to pick from. But it also means that there's 
+no obvious winning genre that dominates everything else for years on end. And so since 2018 we've seen different top 
+genres each year - including the action RPG, the first-person shooter, horror, and 
+even brand new genres like the roguelike. So that is the history of every video game genre. From ancient game types like the shoot 'em up 
+and the maze game, to rad 90s favourites like the fighting game and the first-person shooter, 
+to modern indie categories like cozy and survival. Okay - sure - I did miss out a few. Just a handful that didn't fit 
+my neat and orderly narrative. Like... casino games, that let you 
+play digital blackjack and poker. Educational games that teach 
+you maths, typing, history, art, or the experience of dying of dysentery. Quiz and trivia games, usually 
+based on TV game shows. There was sadly a complete lack 
+of Buzz recognition in my dataset. You've also got FMV games, for those that play 
+video of real-life actors or pre-drawn cartoons. Not sure if that's truly a game 
+genre or just an art style. There are art games, for games that 
+use mechanics for more emotive, artistic, or psychadelic purposes. Exercise games, to help move 
+your stinky sedentary body. And location-based games for a new batch of mobile 
+apps that make you visit places in the real world. But that really is it! Uh... for now at least. Because new genres will always be discovered. I mean, as I made this video I was 
+seeing people talk about tidy-up games. Or is that sortslop? Arrange 'em up? I dunno. But more game types will arrive as developers 
+experiment with removing features from genres, by combining two genres together, by changing 
+the fantasy of a genre or changing the controls of a genre, or most importantly, by just 
+ignoring genres entirely and making cool stuff. Because here's the thing, genres aren't recipes 
+or factory moulds that developers use to make their games perfectly conform to 
+some specific category of game. They're just loose categories of common mechanics, fantasies, and ideas that we can use to 
+group together similar types of game. They are useful, absolutely, but 
+they are also messy, confusing, convoluted, and ultimately subjective. Like depending on which store 
+you go to, Prince of Persia: The Lost Crown might be an action game, an 
+adventure game, an action adventure game, a platform game, a hack and slash 
+game, or a, uh, graphic adventure game. What the hell, PlayStation? So, I've done my best to describe all 
+100 plus genres, but I'm sure there will be instances where I've put a game 
+in a genre that you do not agree with, or I've misnamed a genre, or I 
+have forgotten a genre entirely. I look forward to hearing your spirited 
+arguments in the comments down below. Until then, I'll say goodbye 
+and catch you in the next video, which hopefully doesn't take 
+3 months for me to make. Oops. Bye-bye.

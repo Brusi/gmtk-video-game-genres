@@ -1,0 +1,340 @@
+Line 4: released each year over the last 50 years.
+Line 5: [00:09] From the 1970s when the genre simply did 
+Line 12: familiar genre for the last 30 odd years.
+Line 13: [00:30] And you know, I think a graph like this, plus some 
+Line 15: [00:37] peaks and valleys, but a graph like this can give 
+Line 16: you a pretty good understanding of how this genre
+Line 20: genre? For every word and phrase and term we
+Line 23: [01:04] Well, we could see the genres that exploded 
+Line 25: [01:11] We could see the genres that only appeared when
+Line 28: [01:17] We could see how one genre's meteoric rise 
+Line 34: top 200 most popular video games for each
+Line 43: video games released each year.
+Line 45: had to do then was figure out their genre.
+Line 50: [02:23] text next to the word genre in the info box on, 
+Line 55: 9,902 games in about 130 genres and sub genres.
+Line 58: year, you can generate a nifty little graph
+Line 60: genre was at different points in time.
+Line 80: the history of every video game genre ever.
+Line 81: [03:53] So, where do the first video game genres 
+Line 107: of the first major genres was...
+Line 115: being the first big genre in my dataset,
+Line 116: [05:21] as racing games were the most popular 
+Line 143: racing game remained a popular and familiar genre.
+Line 144: [06:47] It was in the top 5 genres throughout the 1970s, 
+Line 151: [07:01] There are also racing sub-genres! So in 1988,
+Line 154: [07:12] This gave us the kart racer sub-genre that 
+Line 159: a limited number of games in a genre,
+Line 160: [07:27] I'll present it as a timeline 
+Line 161: rather than a full graph.
+Line 166: [07:46] There's also the vehicular combat genre, for 
+Line 168: [07:52] Sometimes this is a racing sub-genre, with 
+Line 174: of racing games being released each year.
+Line 188: will always be a popular genre - it
+Line 193: [08:52] One of the most popular was pinball.
+Line 198: [09:06] But this genre has largely gone away - 
+Line 214: obvious genre for video games to adapt.
+Line 219: [10:03] Like pinball, this genre would eventually die out.
+Line 224: [10:16] But it wasn't enough to save the genre.
+Line 225: [10:19] The obvious death knell is the fact that 
+Line 234: [10:40] But the so-called "shooting gallery" genre 
+Line 235: has never been a particularly popular genre.
+Line 271: [12:18] In 1978 it was the most popular 
+Line 272: genre of all the games in my dataset.
+Line 274: genres from 1975 through to 1990.
+Line 278: - it has stuck around as a video game genre.
+Line 282: [12:50] For instance, according to my dataset - only a few
+Line 313: than others - the sports genre,
+Line 315: for all 50 years in my dataset.
+Line 317: [14:26] Which actually brings us on to our next genre.
+Line 351: [15:56] A genre that we would now call the action 
+Line 371: [16:51] And in my dataset, action was the 
+Line 372: most popular genre in the year 1977.
+Line 384: the loose "action" genre, that's just because,
+Line 386: their own, in their own genres.
+Line 397: [17:58] While "action" was in the top 5 genres from 1975 
+Line 403: [18:17] would go on to spawn entire genres of their own.
+Line 407: whole new genre to hold them all.
+Line 415: genres that didn't fizzle out after a few years.
+Line 416: [18:54] These are genres we still play today.
+Line 421: genres - like Jet Set Radio and Katamari Damacy.
+Line 435: stopped being a genre in of itself and
+Line 437: genres, as we will see later in this video,
+Line 439: hold all of the genres that grew out
+Line 443: would sometimes lead to short-lived genres,
+Line 447: [20:27] genre we're still playing today: the shoot 'em up.
+Line 495: [23:00] shooter, which would be the most popular 
+Line 501: the shoot 'em up genre was in this era.
+Line 502: [23:22] Like - so big, it doesn't even fit on my graph.
+Line 508: [23:37] In my dataset...
+Line 511: [23:45] That level of genre saturation 
+Line 514: [23:53] it was the most popular genre of all - 
+Line 522: fad: it was a fully-fledged genre.
+Line 523: [24:20] Complete with sub-genres.
+Line 526: [24:29] and started the "bullet hell" sub-genre 
+Line 536: 'em up went from gaming's first mega genre,
+Line 568: maze genre in the early 1980s...
+Line 572: much bigger than this genre.
+Line 581: define the next big genre...
+Line 626: [29:06] But the genre really came into its own when 
+Line 636: [29:38] leaps that played out the exact same 
+Line 657: [30:38] shoot 'em up genre started to die off, 
+Line 658: the platform genre absolutely blew up.
+Line 660: was the most popular genre in my dataset.
+Line 668: years later the genre would see a massive decline.
+Line 670: [31:21] Like, my dataset has 44 platform games released in
+Line 679: exciting new genres that would draw
+Line 699: [32:34] It even came back as the most popular genre in my
+Line 702: [32:44] It's also the single most popular genre 
+Line 706: [32:57] And it has stayed in the top 5 genres from 
+Line 713: [33:19] Plus - a handful of sub-genres.
+Line 736: [34:17] Which is when the genre name 
+Line 746: time - the biggest genre in town.
+Line 750: [34:51] And partly because other genres 
+Line 757: genre, we need to first talk about...
+Line 778: be the forefather of the beat 'em up genre.
+Line 786: would come to dominate the genre.
+Line 790: genre - both in the arcades and on console.
+Line 806: most popular genre in any year,
+Line 815: up genre faded away in the mid-1990s.
+Line 826: [38:12] But the genre was definitely 
+Line 843: fighting game genre...
+Line 857: create a new genre: competitive fighting."
+Line 862: [39:46] It truly defined the genre.
+Line 866: up faded away, the fighting game genre exploded.
+Line 869: [40:08] grown to be the most popular genre in 
+Line 870: my dataset in 1996, 1997, and 1998.
+Line 878: [40:37] genre could survive the shift to 3D 
+Line 883: [40:50] There have also been a few sub-genres - like 
+Line 894: [41:17] So while the fighting game genre is 
+Line 899: in the top five genres from 1993,
+Line 904: [41:43] Because we can't talk about that genre without 
+Line 942: [43:23] which are sometimes grouped into the sub-genre 
+Line 945: meant that the hack and slash genre
+Line 949: the beat 'em up genre that birthed it.
+Line 959: [44:11] This is a genre about using a gun to shoot humans.
+Line 974: brand new genre: the run and gun.
+Line 982: the run and gun was a pretty prolific genre.
+Line 986: never the most popular genre
+Line 987: [45:34] in my dataset - it was at least in 
+Line 988: the top 5 genres from 1990 to 1993.
+Line 989: [45:40] Oh, and an important side note that this genre 
+Line 992: [45:51] but the "run and gun" genre is more specifically 
+Line 998: [46:07] Now, sadly, the run and gun genre 
+Line 1000: [46:11] But a few games have kept this genre alive 
+Line 1005: genre of games about shooting people.
+Line 1011: under completely different genres on Wikipedia.
+Line 1014: same genre of top-down shooter.
+Line 1041: sub-genre would see a resurgence when
+Line 1050: [48:23] This top-down shooter genre also 
+Line 1069: by helping establish the next genre:
+Line 1088: [50:17] And if there was any doubt that a new genre
+Line 1123: [51:53] It has been in the top 5 genres almost 
+Line 1125: [51:58] And it was the most popular genre 
+Line 1130: shooter is a stable genre that’s going to be
+Line 1140: [52:32] I mean, look at the graphs! 
+Line 1143: the run and gun is a uniquely Japanese genre,
+Line 1161: have seen a number of sub-genres.
+Line 1169: the shooter sub-genres in recent years.
+Line 1183: almost all of the genres that
+Line 1185: genre I mentioned earlier.
+Line 1199: a good game for a pre-existing genre; instead,
+Line 1226: [56:18] But the genre didn't go away - games 
+Line 1231: other genres - like the FPS Metal:
+Line 1237: key genres all on the same graph.
+Line 1239: the 1970s, the earliest game genres
+Line 1244: the more general action genre.
+Line 1246: that they'd spawn entire genres of their own.
+Line 1248: [57:15] and the massive shoot 'em up genre 
+Line 1251: number of genres that are all about
+Line 1256: more... grown up [genres], I guess you could
+Line 1259: [57:50] But - there's a genre that looms 
+Line 1261: [57:56] genre that was the most popular of all 
+Line 1262: for 20 of the 50 years in my dataset.
+Line 1265: [58:07] Because all of the genres we've talked about 
+Line 1281: [58:47] Let's start with a genre that often blurs 
+Line 1284: [58:55] Yes, the puzzle genre features games 
+Line 1327: [60:40] we get the "puzzle platformer" sub-genre - 
+Line 1357: [61:55] like Minesweeper and Lemmings, created a genre 
+Line 1362: [62:08] And in my dataset, not a single puzzle game 
+Line 1377: another thinking man's genre: turn-based strategy
+Line 1391: [63:27] creating a semi-popular "card and board" genre 
+Line 1406: genre in the 70s and 80s.
+Line 1435: for strategy and it became a legitimate genre".
+Line 1438: [65:29] a genre named "4X", for Explore, 
+Line 1444: [65:45] every Total War game - we get a steady genre that 
+Line 1446: [65:51] And there are also a couple sub-genres, here.
+Line 1451: [66:05] There's also the turn-based tactics genre.
+Line 1458: [66:26] Now this sub-genre didn't 
+Line 1464: [66:38] which gave the genre a second wind,
+Line 1473: [67:01] the turn-based strategy genre 
+Line 1474: has never been the most popular.
+Line 1505: the genre into popularity - leading
+Line 1516: top 5 genres in my dataset.
+Line 1517: [68:47] But the RTS has led to some important sub-genres.
+Line 1536: - but the genre came into its own...
+Line 1547: [70:03] But that's not the only genre to 
+Line 1566: [70:44] These three would join many more genres that 
+Line 1574: [71:04] Finally, there's one more strategy sub-genre.
+Line 1587: a god, including Act Rasier, Spore and From Dust.
+Line 1592: [71:53] Now, I've always found the genre 
+Line 1597: this as actually two different genres:
+Line 1638: game was sort of its own genre.
+Line 1663: "city-building" sub-genre,
+Line 1679: [75:22] But the most popular category, at least in my 
+Line 1706: [76:28] Giving us the life simulation genre.
+Line 1733: virtual pet genre - though these games
+Line 1761: [78:44] This was never the most popular genre.
+Line 1784: Valley - so, they go in both genres.
+Line 1789: [79:49] Again - probably why this simple genre is 
+Line 1793: made for a "creature simulator" genre,
+Line 1797: make a full genre out of them, at least yet.
+Line 1799: for the vehicle simulator genre.
+Line 1817: [81:01] The genre is less popular now - but you 
+Line 1836: [81:48] But these genres are currently on the rise 
+Line 1844: [82:07] and how they led to the strategy game genre.
+Line 1847: [82:14] and create a genre that had an 
+Line 1848: even bigger impact on the medium.
+Line 1867: [83:09] But the genre really kicked off in the early 
+Line 1877: [83:31] From here, the genre took off - with games like 
+Line 1880: [83:40] And we can see this in the graph - 
+Line 1893: [84:09] their own, home-grown take on the genre.
+Line 1897: [84:20] and given charming anime graphics by 
+Line 1922: [85:23] Yeah, video game genre names can be pretty silly.
+Line 1926: the RPG has also spun off into another genre
+Line 1949: [86:35] a genre that has gone from strength to 
+Line 1958: sub-genre that's still kinda being
+Line 1969: made this genre stick, was Diablo.
+Line 2006: the same graph as when I was talking about
+Line 2011: [89:07] You don't really get a "CARPG" and a "JARPG" genre.
+Line 2015: turn-based RPGs into a single genre,
+Line 2018: [89:24] In fact, the action RPG was the most popular genre
+Line 2022: action genres like the FPS and the platformer.
+Line 2024: role-playing sub-genres.
+Line 2035: Koster if you want to learn more about this massive genre.
+Line 2058: super genre has been a
+Line 2061: [91:09] which would also give us our next genre.
+Line 2071: and the genre it would create: adventure.
+Line 2089: [92:16] That genre was popular in the 
+Line 2096: - though, none of them made my dataset.
+Line 2105: the graphic adventure.
+Line 2111: [93:02] But the adventure genre was set to change 
+Line 2122: [93:27] A genre that would give us such 
+Line 2125: [93:37] It grew out of the graphic adventure 
+Line 2128: get the overarching adventure genre...
+Line 2129: [93:47] a genre that grew and grew into to the 1990s...
+Line 2132: the reasons for this genre's death.
+Line 2134: [94:02] Or the fact that pointing and clicking 
+Line 2137: all is that it was killed by another genre.
+Line 2138: [94:13] A genre that actually came from the same source.
+Line 2139: [94:17] That same genre that had overtaken 
+Line 2140: all of the action genres.
+Line 2158: [95:06] This kicked off the adventure genre 
+Line 2185: the term we'd now use for the genre at large -
+Line 2191: popularity on this graph - to be honest,
+Line 2193: genre has been over the years as most visual
+Line 2194: [96:37] novels didn't make it into my dataset, 
+Line 2198: [96:46] Same goes for the visual novel sub-genre of dating 
+Line 2200: [96:54] Almost all of the dating sims in my dataset 
+Line 2207: [97:12] the adventure genre in Japan started as a 
+Line 2221: [97:48] In terms of this game's genre, Cage 
+Line 2223: [97:53] probably the adventure genre" - but 
+Line 2237: [98:28] adventure genre, with games like Sam 
+Line 2267: genre that gave us Doom and Duke Nukem?
+Line 2290: genre was, actually, a legitimate one.
+Line 2305: tell stories, beyond the three genres I've just
+Line 2307: general "narrative" genre to hold them all.
+Line 2318: genre, we could hopefully move on
+Line 2333: [102:30] Though - this time - not just with graphics, but 
+Line 2343: to create the action-adventure genre.
+Line 2380: [104:36] single-lane genres of the 2D era - they 
+Line 2384: [104:46] By 2002, 20 percent of all games in my dataset 
+Line 2390: [105:06] It was the biggest genre of all in 1999.
+Line 2397: [105:26] game genres - like the point and click 
+Line 2416: [106:13] Which is arguably more of a structure than a genre,
+Line 2422: action-adventure was the final genre.
+Line 2423: [106:30] The one that every other genre was building up to.
+Line 2425: [106:37] "talking in terms of genre is 
+Line 2430: point coming up with new genres?
+Line 2432: genres we've talked about so far...
+Line 2447: [107:36] new genres just sorta vanished.
+Line 2452: [107:49] Other genres would eventually topple 
+Line 2455: genres would be discovered.
+Line 2475: [108:44] As Sid Meier explained in 2007, "the graphics 
+Line 2482: all the graphics for his early
+Line 2485: [109:09] But as games got more complicated and graphically 
+Line 2498: developing new genres, or taking bold risks".
+Line 2513: [110:19] That's how genre pioneers like John Carmack,
+Line 2541: dominance of the action-adventure genre.
+Line 2547: different game genres all put together.
+Line 2554: discover a whole new genre in the process.
+Line 2607: [114:48] genres that had seemingly become unsustainable.
+Line 2608: [114:52] Like - consider the puzzle genre.
+Line 2615: the hidden object game sub-genre.
+Line 2629: [115:54] Plus, the block-pushing sub-genre,
+Line 2633: as a genre - had a dramatic comeback.
+Line 2635: [116:11] to being a strong and popular genre 
+Line 2644: adventure genre took a break,
+Line 2659: [117:11] And to be truthful, almost every genre has been 
+Line 2668: [117:34] But for some genres, indie developers 
+Line 2671: what that genre could be.
+Line 2687: theme, for games in other genres.
+Line 2691: would help make horror a bona fide genre.
+Line 2699: genre - which includes a bunch more Resident
+Line 2707: started to tackle the genre.
+Line 2708: [119:22] And they started questioning those genre tenets.
+Line 2732: [120:22] And so if you consider "horror" its own genre,
+Line 2737: [120:36] it became the most popular genre in my 
+Line 2738: dataset, with 19 games in this genre.
+Line 2742: genres like shooter, RPG, and strategy.
+Line 2747: developers to do - to strip a genre back to
+Line 2749: expanding the narrow definitions of that genre.
+Line 2753: [121:18] But no genre has been as radically 
+Line 2786: [122:30] The genre was also picked up in Japan.
+Line 2817: roguelike rules in other genres.
+Line 2825: roguelikes could apply to other genres".
+Line 2826: [124:07] From there, the roguelike genre exploded.
+Line 2839: have a whole subgenre of deckbuilding roguelikes.
+Line 2843: [124:51] heaven" sub-genre that's still all over Steam.
+Line 2851: [125:15] from a niche and forgettable RPG sub-genre 
+Line 2852: to one of the most prolific genres in gaming.
+Line 2854: most popular genre in my dataset.
+Line 2861: dormant genres like the run and gun,
+Line 2866: whole new genres that have
+Line 2901: legitimate genre - and growing.
+Line 2904: [127:25] And while my graph cuts off in 2025 
+Line 2908: [127:34] Not bad for a genre that started as a joke.
+Line 2963: in this whole sandbox genre thingy.
+Line 2967: and Tiny Glade - it's a genre that has come
+Line 2973: it's just become a genre in its own right.
+Line 2975: [130:26] A genre about needing to find food 
+Line 2982: that turned survival into its own genre.
+Line 2996: [131:16] the new survival genre has been 
+Line 3001: hardcore and punishing genres like survival
+Line 3023: [132:25] But as the genre has grown in 
+Line 3028: genre that looks set to grow and grow.
+Line 3030: stupidly named genre: friendslop.
+Line 3033: [132:51] interact with each other - and 
+Line 3040: small social deduction genre.
+Line 3044: [133:17] to the fact that players wanted 
+Line 3052: [133:36] friendslop genre - a genre that 
+Line 3061: [133:57] drop-off like we did with previous top genres 
+Line 3066: of genres represented each year,
+Line 3070: no obvious winning genre that
+Line 3073: genres each year - including the action RPG,
+Line 3075: even brand new genres like the roguelike.
+Line 3076: [134:43] So that is the history of every video game genre.
+Line 3092: of Buzz recognition in my dataset.
+Line 3096: genre or just an art style.
+Line 3106: [136:03] Because new genres will always be discovered.
+Line 3111: experiment with removing features from genres,
+Line 3112: [136:21] by combining two genres together, by changing 
+Line 3113: the fantasy of a genre or changing the controls
+Line 3114: [136:27] of a genre, or most importantly, by just 
+Line 3115: ignoring genres entirely and making cool stuff.
+Line 3116: [136:34] Because here's the thing, genres aren't recipes 
+Line 3131: game, or a, uh, graphic adventure game.
+Line 3134: 100 plus genres, but I'm sure there
+Line 3136: in a genre that you do not agree with,
+Line 3137: [137:27] or I've misnamed a genre, or I 
+Line 3138: have forgotten a genre entirely.

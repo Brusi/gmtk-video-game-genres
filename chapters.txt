@@ -1,0 +1,43 @@
+[00:00] Intro
+[03:53] Racing
+[08:47] Pinball
+[09:20] Light Gun
+[10:46] Sports
+[14:30] Action
+[20:07] Shoot 'em up
+[25:18] Maze
+[27:04] Platform
+[35:05] Beat 'em up
+[38:22] Fighting
+[41:39] Hack and Slash
+[44:04] Run and Gun
+[46:23] Top-Down Shooter
+[49:21] First-Person Shooter
+[54:24] Rhythm
+[56:38] Action Recap
+[58:46] Puzzle
+[62:46] Turn-Based Strategy
+[67:17] Real-Time Strategy
+[71:53] Management Simulation
+[76:09] Life Simulation
+[78:07] Job Simulator
+[79:22] Life Simulator
+[80:11] Vehicle Simulator
+[82:02] Computer Role-Playing
+[84:00] Japanese Role-Playing
+[85:41] Action Role-Playing
+[91:13] Adventure
+[94:24] Visual Novel
+[97:27] Interactive Drama
+[99:37] Walking Simulator
+[102:10] Action Adventure
+[106:47] The Industry
+[113:19] Indie Games
+[117:43] Horror
+[121:23] Roguelike
+[125:38] Incremental
+[127:37] Sandbox
+[130:12] Survival
+[131:21] Cozy
+[132:39] Friendslop
+[133:40] Conclusion

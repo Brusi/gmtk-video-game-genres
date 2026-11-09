@@ -1,0 +1,79 @@
+Line 13: [00:30] And you know, I think a graph like this, plus some 
+Line 15: [00:37] peaks and valleys, but a graph like this can give 
+Line 34: top 200 most popular video games for each
+Line 58: year, you can generate a nifty little graph
+Line 115: being the first big genre in my dataset,
+Line 116: [05:21] as racing games were the most popular 
+Line 144: [06:47] It was in the top 5 genres throughout the 1970s, 
+Line 160: [07:27] I'll present it as a timeline 
+Line 161: rather than a full graph.
+Line 193: [08:52] One of the most popular was pinball.
+Line 271: [12:18] In 1978 it was the most popular 
+Line 272: genre of all the games in my dataset.
+Line 315: for all 50 years in my dataset.
+Line 331: Breakout - released in 1976.
+Line 345: Ball x Pit released in 2025.
+Line 371: [16:51] And in my dataset, action was the 
+Line 372: most popular genre in the year 1977.
+Line 397: [17:58] While "action" was in the top 5 genres from 1975 
+Line 458: [21:05] But Space Invaders - released in 1978 - was 
+Line 495: [23:00] shooter, which would be the most popular 
+Line 502: [23:22] Like - so big, it doesn't even fit on my graph.
+Line 508: [23:37] In my dataset...
+Line 510: them were shoot 'em ups - almost 40 percent.
+Line 514: [23:53] it was the most popular genre of all - 
+Line 660: was the most popular genre in my dataset.
+Line 661: [30:52] That's seven years in a row - peaking in 
+Line 670: [31:21] Like, my dataset has 44 platform games released in
+Line 699: [32:34] It even came back as the most popular genre in my
+Line 702: [32:44] It's also the single most popular genre 
+Line 705: - about 12% of all games.
+Line 706: [32:57] And it has stayed in the top 5 genres from 
+Line 804: ups were released in the same year.
+Line 806: most popular genre in any year,
+Line 850: [39:15] But the sequel, released in 1991 - and after
+Line 869: [40:08] grown to be the most popular genre in 
+Line 882: were released in the same year.
+Line 986: never the most popular genre
+Line 987: [45:34] in my dataset - it was at least in 
+Line 988: the top 5 genres from 1990 to 1993.
+Line 1123: [51:53] It has been in the top 5 genres almost 
+Line 1125: [51:58] And it was the most popular genre 
+Line 1140: [52:32] I mean, look at the graphs! 
+Line 1225: Rock Band game were both released in 2015.
+Line 1237: key genres all on the same graph.
+Line 1261: [57:56] genre that was the most popular of all 
+Line 1262: for 20 of the 50 years in my dataset.
+Line 1340: [61:15] long story short, it finally released in the 
+Line 1362: [62:08] And in my dataset, not a single puzzle game 
+Line 1363: was released in the year 2002. Seriously.
+Line 1474: has never been the most popular.
+Line 1479: [67:17] So, for the game Dune II, released in 1992,
+Line 1516: top 5 genres in my dataset.
+Line 1601: The Sumerian Game, released in 1964.
+Line 1630: SimCity, released in 1989.
+Line 1679: [75:22] But the most popular category, at least in my 
+Line 1713: [76:48] As well as Seaman, released in 1999, which 
+Line 1761: [78:44] This was never the most popular genre.
+Line 1880: [83:40] And we can see this in the graph - 
+Line 1897: [84:20] and given charming anime graphics by 
+Line 2006: the same graph as when I was talking about
+Line 2018: [89:24] In fact, the action RPG was the most popular genre
+Line 2105: the graphic adventure.
+Line 2125: [93:37] It grew out of the graphic adventure 
+Line 2191: popularity on this graph - to be honest,
+Line 2200: [96:54] Almost all of the dating sims in my dataset 
+Line 2333: [102:30] Though - this time - not just with graphics, but 
+Line 2384: [104:46] By 2002, 20 percent of all games in my dataset 
+Line 2475: [108:44] As Sid Meier explained in 2007, "the graphics 
+Line 2482: all the graphics for his early
+Line 2485: [109:09] But as games got more complicated and graphically 
+Line 2527: [110:56] released in the 2000s - but there were 
+Line 2737: [120:36] it became the most popular genre in my 
+Line 2854: most popular genre in my dataset.
+Line 2856: released in the same year.
+Line 2904: [127:25] And while my graph cuts off in 2025 
+Line 2931: released in 2004 - is a freeform
+Line 3058: released in 2025 - both from
+Line 3092: of Buzz recognition in my dataset.
+Line 3131: game, or a, uh, graphic adventure game.

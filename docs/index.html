@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>50 Years of Video Game History | GMTK Interactive Charts</title>
+  <meta name="description" content="Interactive graphs and data visualization of every video game genre from 1975 to 2025 based on Mark Brown's Game Maker's Toolkit analysis.">
+  <link rel="stylesheet" href="./style.css">
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-brand">
+        <span class="gmtk-badge">GMTK</span>
+        <h1 class="site-title">The History of Every Video Game Genre</h1>
+      </div>
+      <p class="site-subtitle">
+        An interactive data explorer mapping the rise, peak, and evolution of video game genres from <strong>1975 to 2025</strong>. Based on the documentary by Mark Brown (Game Maker's Toolkit), cataloging top games from Backloggd and genre taxonomy from Wikipedia.
+      </p>
+      <div class="header-stats">
+        <span class="stat-pill">🕹️ <strong>9,120</strong> Games Tracked</span>
+        <span class="stat-pill">🏷️ <strong>36</strong> Major Genres</span>
+        <span class="stat-pill">📅 <strong>50</strong> Years (1975–2025)</span>
+        <a href="https://www.youtube.com/watch?v=Dbgdi7BzMR0" target="_blank" rel="noopener" class="video-link-btn">
+          ▶ Watch Original Video (YouTube)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <nav class="nav-tabs">
+    <div class="container tabs-wrapper">
+      <button class="tab-btn active" data-tab="gallery">
+        <span class="tab-icon">📊</span> Genre Gallery
+      </button>
+      <button class="tab-btn" data-tab="compare">
+        <span class="tab-icon">📈</span> Compare Genres
+      </button>
+      <button class="tab-btn" data-tab="timeline">
+        <span class="tab-icon">📅</span> Year Explorer (1975–2025)
+      </button>
+      <button class="tab-btn" data-tab="search">
+        <span class="tab-icon">🔍</span> Game Search
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main Views Container -->
+  <main class="container">
+    <div id="loading-indicator"></div>
+
+    <!-- 1. GENRE GALLERY VIEW -->
+    <section id="tab-gallery" class="tab-view active">
+      <div class="controls-bar">
+        <div class="search-input-wrapper">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="genre-search-input" class="search-input" placeholder="Filter genres (e.g. Platformer, RPG, Racing)...">
+        </div>
+        <div class="filter-group">
+          <span id="genre-count-label">Loading genres...</span>
+          <label for="genre-sort-select">Sort by:</label>
+          <select id="genre-sort-select" class="select-custom">
+            <option value="total-desc">Total Games (High to Low)</option>
+            <option value="total-asc">Total Games (Low to High)</option>
+            <option value="peak-desc">Peak Year (Newest First)</option>
+            <option value="peak-asc">Peak Year (Oldest First)</option>
+            <option value="alpha">Alphabetical (A-Z)</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="genre-grid" class="genre-grid">
+        <!-- Rendered via app.js -->
+      </div>
+    </section>
+
+    <!-- 2. COMPARE VIEW -->
+    <section id="tab-compare" class="tab-view">
+      <div style="margin-bottom: 16px;">
+        <h2 style="font-size: 1.4rem; font-weight: 800; margin-bottom: 4px;">Compare Genre Trajectories</h2>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+          Select up to 8 genres to plot on the same historical timeline (1975–2025):
+        </p>
+      </div>
+
+      <div id="compare-chips-container" class="compare-selector">
+        <!-- Genre toggle chips rendered via app.js -->
+      </div>
+
+      <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 20px; height: 480px;">
+        <canvas id="compare-chart-canvas"></canvas>
+      </div>
+    </section>
+
+    <!-- 3. YEAR EXPLORER VIEW -->
+    <section id="tab-timeline" class="tab-view">
+      <div class="scrubber-layout">
+        <div class="timeline-controller">
+          <div style="font-size: 0.9rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;">Selected Year</div>
+          <div id="current-year-number" class="current-year-display">2002</div>
+          <p id="year-games-count" style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 8px;">Loading games...</p>
+          
+          <input type="range" id="year-slider" class="year-slider" min="1975" max="2025" value="2002" step="1">
+          <div class="slider-ticks">
+            <span>1975</span>
+            <span>1985</span>
+            <span>1995</span>
+            <span>2005</span>
+            <span>2015</span>
+            <span>2025</span>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px;">
+          <!-- Genre Breakdown Donut -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 20px; height: 320px;">
+            <h3 style="font-size: 1rem; font-weight: 700; margin-bottom: 12px;">Genre Distribution in this Year</h3>
+            <div style="height: 240px; position: relative;">
+              <canvas id="year-breakdown-canvas"></canvas>
+            </div>
+          </div>
+
+          <!-- Top Games in this Year -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 20px;">
+            <h3 style="font-size: 1rem; font-weight: 700; margin-bottom: 8px;">Top Popular Games in this Year</h3>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 12px;">From Backloggd ranking (excluding remakes & ports)</p>
+            <div id="year-games-grid" class="games-grid" style="max-height: 500px; overflow-y: auto;">
+              <!-- Games rendered via app.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. GAME SEARCH VIEW -->
+    <section id="tab-search" class="tab-view">
+      <div class="controls-bar">
+        <div class="search-input-wrapper" style="max-width: 500px;">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="db-search-input" class="search-input" placeholder="Search 9,120 games (e.g. Chrono Trigger, Doom, Celeste)...">
+        </div>
+        <span id="db-search-count" style="font-size: 0.85rem; color: var(--text-muted);"></span>
+      </div>
+
+      <div id="db-search-results" class="games-grid" style="margin-top: 20px;">
+        <p style="color: var(--text-muted); padding: 20px;">Type a title above to search through all 9,120 games from 1975 to 2025.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Genre Detail Modal -->
+  <div id="genre-modal" class="modal-overlay">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div>
+          <h2 id="modal-genre-title" style="font-size: 1.5rem; font-weight: 800;">Genre Title</h2>
+          <p id="modal-genre-stats" style="font-size: 0.85rem; color: var(--text-muted);">Stats</p>
+        </div>
+        <button id="modal-close-btn" class="modal-close-btn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="modal-video-quote" class="video-quote-box">
+          <!-- Quote rendered via app.js -->
+        </div>
+
+        <h3 class="modal-section-title">Historical Release Trend (1975–2025)</h3>
+        <div class="modal-chart-wrapper">
+          <canvas id="modal-chart-canvas"></canvas>
+        </div>
+
+        <h3 id="modal-games-title" class="modal-section-title">Games in this Genre</h3>
+        <div id="modal-games-list" class="games-grid">
+          <!-- Games rendered via app.js -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>
+        Data compiled from <a href="https://backloggd.com" target="_blank" rel="noopener">Backloggd</a> and <a href="https://en.wikipedia.org" target="_blank" rel="noopener">Wikipedia</a> based on the methodology created by <a href="https://gamemakerstoolkit.com" target="_blank" rel="noopener">Game Maker's Toolkit</a> (Mark Brown).
+      </p>
+      <p style="margin-top: 6px; font-size: 0.8rem; color: var(--text-subtle);">
+        Built for static hosting on GitHub Pages.
+      </p>
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

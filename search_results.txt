@@ -1,0 +1,345 @@
+--- MATCH FOR "wikipedia" at line 47 ---
+[02:08] With this massive list of games, all I 
+had to do then was figure out their genre.
+[02:13] Now, I found the best source of 
+this information was Wikipedia.
+[02:17] So, I built a Python script to scrape every 
+game's Wikipedia article and pull out the
+[02:23] text next to the word genre in the info box on, 
+you know, the top right of each Wikipedia page.
+[02:29] After a bit of time cleaning up the data (a 
+--- MATCH FOR "wikipedia" at line 49 ---
+[02:13] Now, I found the best source of 
+this information was Wikipedia.
+[02:17] So, I built a Python script to scrape every 
+game's Wikipedia article and pull out the
+[02:23] text next to the word genre in the info box on, 
+you know, the top right of each Wikipedia page.
+[02:29] After a bit of time cleaning up the data (a 
+lot of time cleaning up the data, it was a bit
+[02:34] of a mess), I was left with my master data set: 
+--- MATCH FOR "wikipedia" at line 51 ---
+[02:17] So, I built a Python script to scrape every 
+game's Wikipedia article and pull out the
+[02:23] text next to the word genre in the info box on, 
+you know, the top right of each Wikipedia page.
+[02:29] After a bit of time cleaning up the data (a 
+lot of time cleaning up the data, it was a bit
+[02:34] of a mess), I was left with my master data set: 
+9,902 games in about 130 genres and sub genres.
+[02:45] And then if you tally up the number of, say,
+--- MATCH FOR "wikipedia" at line 1011 ---
+[46:32] It's just this one isn't as well known.
+[46:34] It doesn't have an established name.
+[46:37] And many of the games in this group are put 
+under completely different genres on Wikipedia.
+[46:42] But I personally think they should all be
+[46:44] grouped together and put into the 
+same genre of top-down shooter.
+[46:50] This kicks off with Gun Fight - apparently 
+the first arcade game to depict a gun.
+--- MATCH FOR "wikipedia" at line 2751 ---
+[121:01] its foundations and build upwards from there, 
+expanding the narrow definitions of that genre.
+[121:07] Like - Reigns is technically a strategy game.
+[121:11] That's what it says on Wikipedia, after all.
+[121:14] But it's nothing like Civilization or Starcraft.
+[121:18] But no genre has been as radically 
+reinvented by indie developers...
+[121:23] as the roguelike.
+[121:26] So, remember Rogue? That was like 30 minutes ago.
+--- MATCH FOR "wikipedia" at line 2920 ---
+"the most famous sandbox game of them all".
+[128:00] It's also sometimes used for games 
+where you can make your own levels.
+[128:04] Wikipedia editors refer to all the LittleBigPlanet 
+games as sandbox games, for instance.
+[128:09] But I think the term "game creation 
+system" is better for that - covering
+[128:14] everything from Pinball Construction 
+Set to Super Mario Maker and Dreams.
+
+====================
+
+--- MATCH FOR "backloggd" at line 33 ---
+[01:23] And we could see shifting trends in the tastes 
+of game makers throughout the last 50 odd years.
+[01:30] So that is exactly what I did.
+[01:33] I used the website Backloggd to list the 
+top 200 most popular video games for each
+[01:38] year from 1975 to 2025, ignoring 
+most remakes, ports, remasters,
+[01:46] and compilations, giving me a list of about 
+10,000 video games from Gunfight to Super
+--- MATCH FOR "backloggd" at line 72 ---
+[03:14] both with developers based on which 
+games were getting made and with
+[03:18] players based on which games were put 
+into the top 200 ranking on Backloggd.
+[03:24] And so, while it's not perfect, it does give us a
+[03:26] good understanding of how things have 
+changed in the world of game design.
+[03:30] And so, with that preamble out of the 
+way, I say let's just jump right into it.
+
+====================
+
+--- MATCH FOR "cleaning" at line 52 ---
+game's Wikipedia article and pull out the
+[02:23] text next to the word genre in the info box on, 
+you know, the top right of each Wikipedia page.
+[02:29] After a bit of time cleaning up the data (a 
+lot of time cleaning up the data, it was a bit
+[02:34] of a mess), I was left with my master data set: 
+9,902 games in about 130 genres and sub genres.
+[02:45] And then if you tally up the number of, say,
+[02:48] point-and-click adventure games released each 
+--- MATCH FOR "cleaning" at line 53 ---
+[02:23] text next to the word genre in the info box on, 
+you know, the top right of each Wikipedia page.
+[02:29] After a bit of time cleaning up the data (a 
+lot of time cleaning up the data, it was a bit
+[02:34] of a mess), I was left with my master data set: 
+9,902 games in about 130 genres and sub genres.
+[02:45] And then if you tally up the number of, say,
+[02:48] point-and-click adventure games released each 
+year, you can generate a nifty little graph
+
+====================
+
+--- MATCH FOR "sub-genre" at line 151 ---
+games released that year.
+[06:54] This gave us an era of hit franchises like 
+Need for Speed, Colin McRae, and Burnout.
+[07:01] There are also racing sub-genres! So in 1988,
+[07:06] Sega released Power Drift - a game that 
+ditched Ferraris and motorbikes for go-karts,
+[07:12] This gave us the kart racer sub-genre that 
+would feature characters like Crash Bandicoot,
+[07:18] Mario, Sonic, Mickey Mouse, and 
+--- MATCH FOR "sub-genre" at line 154 ---
+[07:01] There are also racing sub-genres! So in 1988,
+[07:06] Sega released Power Drift - a game that 
+ditched Ferraris and motorbikes for go-karts,
+[07:12] This gave us the kart racer sub-genre that 
+would feature characters like Crash Bandicoot,
+[07:18] Mario, Sonic, Mickey Mouse, and 
+certified Mondays hater Garfield.
+[07:23] A quick note that when there's only 
+a limited number of games in a genre,
+--- MATCH FOR "sub-genre" at line 168 ---
+Gran Turismo, Assetto Corsa, and Project CARS.
+[07:46] There's also the vehicular combat genre, for 
+games where cars do battle with each other.
+[07:52] Sometimes this is a racing sub-genre, with 
+games like Road Rash and Destruction Derby.
+[07:57] But other times there's no racing at all - just 
+carnage, as seen in games like Twisted Metal.
+[08:03] But, even with all of that,
+[08:05] you can see a slow decline in the number 
+--- MATCH FOR "sub-genre" at line 523 ---
+design changes and evolutions.
+[24:14] Which is why it wasn't just a flash-in-the-pan 
+fad: it was a fully-fledged genre.
+[24:20] Complete with sub-genres.
+[24:22] Like, in 1993, Toaplan released Batsugun - which 
+flooded the playfield with colourful ordinance,
+[24:29] and started the "bullet hell" sub-genre 
+that birthed Dodonpachi and Touhou.
+[24:34] And it's an idea that's still showing up 
+--- MATCH FOR "sub-genre" at line 526 ---
+[24:20] Complete with sub-genres.
+[24:22] Like, in 1993, Toaplan released Batsugun - which 
+flooded the playfield with colourful ordinance,
+[24:29] and started the "bullet hell" sub-genre 
+that birthed Dodonpachi and Touhou.
+[24:34] And it's an idea that's still showing up 
+today with games like Furi and Returnal.
+[24:40] But, ultimately, the shoot 'em up's 
+popularity would start to wane.
+--- MATCH FOR "sub-genre" at line 713 ---
+like Mario, Sonic, Rayman, and Mega Man.
+[33:13] As well as fresh indie takes like Super 
+Meat Boy, Celeste, and Shovel Knight.
+[33:19] Plus - a handful of sub-genres.
+[33:21] Like the "cinematic platformer".
+[33:24] It was born with the slick, rotoscoped 
+Prince of Persia by Jordan Mechner,
+[33:28] which spawned a number of platformers 
+that have more realistic physics and
+--- MATCH FOR "sub-genre" at line 883 ---
+[40:42] This all led to a spike of popularity in 1996,
+[40:46] when more than 30 fighting games 
+were released in the same year.
+[40:50] There have also been a few sub-genres - like 
+the arena fighter, as seen in Power Stone.
+[40:56] And the platform fighter - as 
+established by Super Smash Bros.
+[41:00] But if you want more detail,
+[41:01] I'd recommend Core-A Gaming's video on 
+--- MATCH FOR "sub-genre" at line 942 ---
+mix up moves and juggle enemies in the air.
+[43:18] DMC then led to a whole new wave of hack and 
+slash games like Bayonetta and Astral Chain -
+[43:23] which are sometimes grouped into the sub-genre 
+of "character action" or "stylish action".
+[43:29] This two-pronged reinvention has 
+meant that the hack and slash genre
+[43:33] is actually more popular now than 
+it ever was during the arcade boom.
+--- MATCH FOR "sub-genre" at line 1041 ---
+a second joystick to control aiming.
+[47:56] Jarvis would do this again with Smash TV.
+[47:59] And then this small "twin-stick shooter" 
+sub-genre would see a resurgence when
+[48:03] console controllers added a second analogue 
+stick - leading to games like Geometry Wars,
+[48:08] Nuclear Throne, and The Binding of Isaac.
+[48:11] Berzerk also inspired a chap called Silas Warner,
+[48:14] who used the basic gameplay to make 
+--- MATCH FOR "sub-genre" at line 1161 ---
+[53:18] That one would influence games like Gears 
+of War and Uncharted: Drake's Fortune.
+[53:24] And both first- and third-person shooters 
+have seen a number of sub-genres.
+[53:29] There's the tactical shooter - games 
+like SWAT, Ghost Recon, and Rainbow Six.
+[53:35] The immersive sim - games like 
+Deus Ex, Dishonored, and Prey,
+[53:39] which give you more control over a systemic 
+--- MATCH FOR "sub-genre" at line 1169 ---
+[53:39] which give you more control over a systemic 
+world, and more options than just shooting.
+[53:45] And, well, it's hard to keep track of all 
+the shooter sub-genres in recent years.
+[53:50] Hero shooters, extraction 
+shooters, looter shooters,
+[53:53] boomer shooters, and battle royale games.
+[53:56] There's something for everyone! Uh, 
+if you like shooting people, that is.
+
+====================
+
+--- MATCH FOR "master data" at line 54 ---
+you know, the top right of each Wikipedia page.
+[02:29] After a bit of time cleaning up the data (a 
+lot of time cleaning up the data, it was a bit
+[02:34] of a mess), I was left with my master data set: 
+9,902 games in about 130 genres and sub genres.
+[02:45] And then if you tally up the number of, say,
+[02:48] point-and-click adventure games released each 
+year, you can generate a nifty little graph
+[02:52] like this to show you how prolific that 
+
+====================
+
+--- MATCH FOR "dataset" at line 115 ---
+Dave Nutting's 280 ZZZAP from 1976.
+[05:14] That's probably how you pronounce that.
+[05:16] Games like these contributed to racing 
+being the first big genre in my dataset,
+[05:21] as racing games were the most popular 
+type of game in 1975 and 1976.
+[05:28] In fact, in that year, '76, almost a third 
+of all games were racing games of some sort.
+[05:34] Including the controversial "Death Race" from
+--- MATCH FOR "dataset" at line 272 ---
+[12:13] Just like racing, sports was a 
+very common theme for early games.
+[12:18] In 1978 it was the most popular 
+genre of all the games in my dataset.
+[12:24] And it would be in the top five 
+genres from 1975 through to 1990.
+[12:29] And so while developers would eventually find 
+new ideas and subjects for games - making sports
+[12:35] games less prolific from the 1990s and onwards 
+--- MATCH FOR "dataset" at line 282 ---
+[12:41] A familiar mainstay over the last 50 years.
+[12:45] We can also zoom in to the data and 
+see how individual sports have fared.
+[12:50] For instance, according to my dataset - only a few
+[12:53] sports have maintained popularity 
+through all of the last 50 years.
+[12:57] Like Basketball, with NBA 
+Jam and the NBA 2K series.
+[13:03] Golf, with Tiger Woods games and Mario Golf.
+--- MATCH FOR "dataset" at line 315 ---
+[14:14] But while some sports are more popular 
+than others - the sports genre,
+[14:18] as a whole, has remained prolific 
+for all 50 years in my dataset.
+[14:23] And it all goes back to Pong.
+[14:26] Which actually brings us on to our next genre.
+[14:31] So, with everyone and their 
+mum making Pong clones,
+[14:34] Atari founder Nolan Bushnell 
+--- MATCH FOR "dataset" at line 371 ---
+sort of game was super popular.
+[16:44] Arcade games were basically either racing 
+games, sports games, or action games.
+[16:51] And in my dataset, action was the 
+most popular genre in the year 1977.
+[16:58] From there, action games got more 
+complex and ambitious, year after year.
+[17:04] Frogger in 1981.
+[17:06] Q*Bert in 1982.
+--- MATCH FOR "dataset" at line 508 ---
+[23:31] So - it was bigger than sports.
+[23:34] Bigger than racing.
+[23:35] Bigger than action.
+[23:37] In my dataset...
+[23:38] of the 200 games from 1981, about 75 of 
+them were shoot 'em ups - almost 40 percent.
+[23:45] That level of genre saturation 
+never happens again in my data.
+[23:50] And from 1979 to 1986,
+--- MATCH FOR "dataset" at line 660 ---
+[30:38] shoot 'em up genre started to die off, 
+the platform genre absolutely blew up.
+[30:44] And from 1989 to 1995, the platformer 
+was the most popular genre in my dataset.
+[30:52] That's seven years in a row - peaking in 
+1991 with about 74 different platform games.
+[30:59] That includes combat-heavy games like Super 
+Castlevania IV, Duke Nukem, and Shatterhand,
+[31:05] as well as pure platformers like Sonic 
+--- MATCH FOR "dataset" at line 670 ---
+[31:10] But... despite all of this success - just a few 
+years later the genre would see a massive decline.
+[31:18] You can see it right there, in the mid-nineties.
+[31:21] Like, my dataset has 44 platform games released in
+[31:25] 1995, but by the very next year that 
+number had halved to just 22 games.
+[31:31] What the heck happened?
+[31:33] Well, I reckon it was mostly the move to 3D.
+[31:37] After all, this period marked 
+--- MATCH FOR "dataset" at line 700 ---
+incredible dominance in the mid-1990s,
+[32:33] it never really went away.
+[32:34] It even came back as the most popular genre in my
+[32:37] dataset in 2000 and 2001 with games 
+like Kirby 64 and Sonic Adventure 2.
+[32:44] It's also the single most popular genre 
+in my entire dataset: of the 9,902 games,
+[32:51] 1,273 of them are platformers 
+- about 12% of all games.
+--- MATCH FOR "dataset" at line 703 ---
+[32:37] dataset in 2000 and 2001 with games 
+like Kirby 64 and Sonic Adventure 2.
+[32:44] It's also the single most popular genre 
+in my entire dataset: of the 9,902 games,
+[32:51] 1,273 of them are platformers 
+- about 12% of all games.
+[32:57] And it has stayed in the top 5 genres from 
+1981 to 2024 without skipping a single year.
+[33:05] That's crazy.
+--- MATCH FOR "dataset" at line 870 ---
+[40:03] In the space of a couple years, the brawler 
+was almost dead while the fighting game had
+[40:08] grown to be the most popular genre in 
+my dataset in 1996, 1997, and 1998.
+[40:16] That's thanks to new franchises like Fatal Fury 
+- designed by Nishiyama, now working at SNK.
+[40:22] The gory Mortal Kombat from Midway.
+[40:24] Sega's 3D smash Virtua Fighter.
+[40:27] And Namco's brilliant Tekken - that's Sega and 
