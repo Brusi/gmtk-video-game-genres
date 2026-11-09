@@ -8,10 +8,50 @@ const STATE = {
   currentYear: 2002,
   selectedCompareGenres: ['Platformer', 'First-Person Shooter', 'Action-Adventure', 'Fighting', 'Shoot \'em up'],
   activeTab: 'gallery',
-  sortOption: 'total-desc',
+  sortOption: 'video-order',
   searchQuery: '',
   charts: {}
 };
+
+// Chronological order as introduced in Mark Brown's GMTK video
+const VIDEO_ORDER = [
+  'Racing',
+  'Pinball',
+  'Light Gun',
+  'Sports',
+  'Action',
+  'Shoot \'em up',
+  'Maze',
+  'Platformer',
+  'Beat \'em up',
+  'Fighting',
+  'Hack and Slash',
+  'Run and Gun',
+  'Top-Down Shooter',
+  'First-Person Shooter',
+  'Third-Person Shooter',
+  'Rhythm',
+  'Puzzle',
+  'Turn-Based Strategy',
+  'Real-Time Strategy',
+  'Management Simulation',
+  'Life Simulation',
+  'Vehicle Simulation',
+  'Computer RPG',
+  'Action RPG',
+  'Role-Playing (General)',
+  'Adventure',
+  'Visual Novel',
+  'Interactive Drama',
+  'Walking Simulator',
+  'Action-Adventure',
+  'Horror',
+  'Roguelike',
+  'Incremental',
+  'Sandbox',
+  'Survival',
+  'Party / Minigame'
+];
 
 // Genre Color Palette
 const PALETTE = [
@@ -106,7 +146,13 @@ function renderGallery() {
   );
 
   // Sort
-  if (STATE.sortOption === 'total-desc') {
+  if (STATE.sortOption === 'video-order') {
+    filtered.sort((a, b) => {
+      const idxA = VIDEO_ORDER.indexOf(a.genre);
+      const idxB = VIDEO_ORDER.indexOf(b.genre);
+      return (idxA === -1 ? 999 : idxA) - (idxB === -1 ? 999 : idxB);
+    });
+  } else if (STATE.sortOption === 'total-desc') {
     filtered.sort((a, b) => b.totalGames - a.totalGames);
   } else if (STATE.sortOption === 'total-asc') {
     filtered.sort((a, b) => a.totalGames - b.totalGames);
