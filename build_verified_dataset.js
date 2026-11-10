@@ -107,7 +107,7 @@ function runDatasetRebuild() {
 
     const isCrpg = (
       /\bcrpg\b|\bcomputer role-playing\b|\bwestern (?:role-playing|rpg)\b|\bdungeon crawl(?:er|ing)?\b|\bmmorpg\b/i.test(titleLower + ' ' + raw) ||
-      /eye of the beholder|might and magic|\bwizardry\b|\bultima\b|dungeon master|bard's tale|\brogue\b|beneath apple manor|the dungeon|moria|oubliette|akalabeth|\beamon\b|star warrior|treasure of tarmin|the lords of midnight|questron|doomdark|phantasie|autoduel|starflight|\bwasteland\b|pool of radiance|hillsfar|curse of the azure bonds|hero's quest|baldur's gate|planescape|\bfallout\b|icewind dale|\barcanum\b|neverwinter|knights of the old republic|\bkotor\b|pillars of eternity|divinity: original sin|disco elysium|world of warcraft|everquest|\brunescape\b|asheron/i.test(titleLower)
+      /eye of the beholder|might and magic|\bwizardry\b|\bultima\b|dungeon master|bard's tale|\brogue\b(?! (?:company|squadron|legacy|leader|galaxy|warrior|incursion|trip|enforcer|in space|ops|factor))|beneath apple manor|the dungeon|moria|oubliette|akalabeth|\beamon\b|star warrior|treasure of tarmin|the lords of midnight|questron|doomdark|phantasie|autoduel|starflight|\bwasteland\b|pool of radiance|hillsfar|curse of the azure bonds|hero's quest|baldur's gate|planescape|\bfallout\b|icewind dale|\barcanum\b|neverwinter|knights of the old republic|\bkotor\b|pillars of eternity|divinity: original sin|disco elysium|world of warcraft|everquest|\brunescape\b|asheron/i.test(titleLower)
     );
 
     const hasRpgTag = genres.some(g => g.includes('Role-Playing') || g.includes('RPG')) || /role-playing|rpg|crpg|jrpg|arpg/i.test(raw);
@@ -151,6 +151,12 @@ function runDatasetRebuild() {
     if (/dear esther|stanley parable|firewatch|gone home|vanishing of ethan carter|everybody's gone to the rapture|what remains of edith finch|beginner's guide|tacoma|virginia|proteus|kid a mnesia|thirty flights of loving|baby steps|scanner sombre|before your eyes/i.test(titleLower)) {
       if (!genres.includes('Walking Simulator')) genres.push('Walking Simulator');
       genres = genres.filter(x => x !== 'Action-Adventure' && x !== 'Action');
+    }
+
+    // 14. Specific Game Corrections
+    // Brawl Stars is a mobile top-down twin-stick arena hero shooter, NOT an RTS or FPS
+    if (titleLower === 'brawl stars') {
+      genres = ['Top-Down Shooter', 'Action'];
     }
 
     // 10. Fallback for completely uncategorized early arcade games

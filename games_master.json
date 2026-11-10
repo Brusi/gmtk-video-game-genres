@@ -52929,7 +52929,7 @@
     "wikiTitle": "Star Wars: Rogue Squadron",
     "rawGenre": "[[Action game|Action]], [[Arcade flight]]",
     "genres": [
-      "Computer Role-Playing"
+      "Action"
     ]
   },
   {
@@ -61152,7 +61152,7 @@
     "wikiTitle": "Star Wars Rogue Squadron II: Rogue Leader",
     "rawGenre": "[[Action game|Action]], [[arcade flight]]",
     "genres": [
-      "Computer Role-Playing"
+      "Action"
     ]
   },
   {
@@ -67171,7 +67171,7 @@
     "wikiTitle": "Star Wars Rogue Squadron III: Rebel Strike",
     "rawGenre": "[[Action game|Action]]",
     "genres": [
-      "Computer Role-Playing"
+      "Action"
     ]
   },
   {
@@ -72614,7 +72614,7 @@
     "wikiTitle": "Rogue Galaxy",
     "rawGenre": "[[Action role-playing game|Action role-playing]]",
     "genres": [
-      "Computer Role-Playing"
+      "Action Role-Playing"
     ]
   },
   {
@@ -84087,8 +84087,7 @@
     "wikiTitle": "Rogue Warrior (video game)",
     "rawGenre": "[[First-person shooter]]",
     "genres": [
-      "First-Person Shooter",
-      "Computer Role-Playing"
+      "First-Person Shooter"
     ]
   },
   {
@@ -93002,8 +93001,7 @@
     "rawGenre": "[[Platform game|Platform]], [[roguelike]], [[metroidvania]]",
     "genres": [
       "Platformer",
-      "Roguelike",
-      "Computer Role-Playing"
+      "Roguelike"
     ]
   },
   {
@@ -106303,8 +106301,7 @@
     "wikiTitle": "Brawl Stars",
     "rawGenre": "[[Multiplayer online battle arena|MOBA]], [[hero shooter]]",
     "genres": [
-      "First-Person Shooter",
-      "Real-Time Strategy"
+      "Top-Down Shooter"
     ]
   },
   {
@@ -111886,8 +111883,7 @@
     "rawGenre": "[[Third-person shooter]], [[tactical shooter]], [[hero shooter]]",
     "genres": [
       "First-Person Shooter",
-      "Third-Person Shooter",
-      "Computer Role-Playing"
+      "Third-Person Shooter"
     ]
   },
   {
@@ -117194,8 +117190,7 @@
     "rawGenre": "[[Platform game|Platform]], [[roguelike]], [[metroidvania]]",
     "genres": [
       "Platformer",
-      "Roguelike",
-      "Computer Role-Playing"
+      "Roguelike"
     ]
   },
   {
@@ -121733,7 +121728,6 @@
     "wikiTitle": "Marvel Rivals",
     "rawGenre": "{{ubl|[[Third-person shooter]]|[[Hero shooter]]}}",
     "genres": [
-      "First-Person Shooter",
       "Third-Person Shooter"
     ]
   },

@@ -162,7 +162,7 @@ const GENRE_RULES = [
       /\bfps\b/i,
       /\btactical shooter\b/i,
       /\bboomer shooter\b/i,
-      /\bhero shooter\b/i,
+      /\bfirst-person hero shooter\b/i,
       /\bextraction shooter\b/i,
       /\blooter shooter\b/i,
       /\bbattle royale\b/i
