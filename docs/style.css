@@ -68,15 +68,16 @@ body {
   display: flex;
   align-items: center;
   gap: 14px;
+  flex-wrap: wrap;
   margin-bottom: 12px;
 }
 
 .gmtk-badge {
   background: var(--accent-red);
   color: #fff;
-  font-weight: 800;
-  font-size: 0.85rem;
-  letter-spacing: 1.5px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
   padding: 4px 10px;
   border-radius: var(--radius-sm);
   text-transform: uppercase;

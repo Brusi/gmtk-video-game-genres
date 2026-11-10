@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>50 Years of Video Game History | GMTK Interactive Charts</title>
-  <meta name="description" content="Interactive graphs and data visualization of every video game genre from 1975 to 2025 based on Mark Brown's Game Maker's Toolkit analysis.">
+  <title>50 Years of Video Game History | Interactive Fan Explorer (Inspired by GMTK)</title>
+  <meta name="description" content="Independent interactive data visualization of video game genres from 1975 to 2025, inspired by Mark Brown's Game Maker's Toolkit documentary. Not affiliated with GMTK.">
   <link rel="stylesheet" href="./style.css">
   <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
@@ -15,17 +15,17 @@
   <header class="site-header">
     <div class="container">
       <div class="header-brand">
-        <span class="gmtk-badge">GMTK</span>
+        <span class="gmtk-badge">Unofficial Fan Project</span>
         <h1 class="site-title">The History of Every Video Game Genre</h1>
       </div>
       <p class="site-subtitle">
-        An interactive data explorer mapping the rise, peak, and evolution of video game genres from <strong>1975 to 2025</strong>. Based on the documentary by Mark Brown (Game Maker's Toolkit), cataloging top games from Backloggd and genre taxonomy from Wikipedia.
+        An interactive data explorer mapping the rise, peak, and evolution of video game genres from <strong>1975 to 2025</strong>. Inspired by Mark Brown's documentary video essay on <a href="https://www.youtube.com/@GMTK" target="_blank" rel="noopener">Game Maker's Toolkit (GMTK)</a>. <em>(Independent tribute project; not created by or affiliated with GMTK)</em>.
       </p>
       <div class="header-stats">
         <span class="stat-pill">🕹️ <strong>9,608</strong> Games Tracked</span>
         <span class="stat-pill">🏷️ <strong>36</strong> Major Genres</span>
         <span class="stat-pill">📅 <strong>50</strong> Years (1975–2025)</span>
-        <a href="https://www.youtube.com/watch?v=Dbgdi7BzMR0" target="_blank" rel="noopener" class="video-link-btn">
+        <a href="https://www.youtube.com/watch?v=Dbgdi7BzMR0" target="_blank" rel="noopener" class="video-link-btn" title="Watch Mark Brown's original documentary on YouTube">
           ▶ Watch Original Video (YouTube)
         </a>
       </div>
@@ -65,7 +65,7 @@
           <span id="genre-count-label">Loading genres...</span>
           <label for="genre-sort-select">Sort by:</label>
           <select id="genre-sort-select" class="select-custom">
-            <option value="video-order" selected>GMTK Video Order (Original)</option>
+            <option value="video-order" selected>Original Video Order</option>
             <option value="total-desc">Total Games (High to Low)</option>
             <option value="total-asc">Total Games (Low to High)</option>
             <option value="peak-desc">Peak Year (Newest First)</option>
@@ -194,10 +194,10 @@
   <footer>
     <div class="container">
       <p>
-        Data compiled from <a href="https://backloggd.com" target="_blank" rel="noopener">Backloggd</a> and <a href="https://en.wikipedia.org" target="_blank" rel="noopener">Wikipedia</a> based on the methodology created by <a href="https://gamemakerstoolkit.com" target="_blank" rel="noopener">Game Maker's Toolkit</a> (Mark Brown).
+        Data compiled from <a href="https://backloggd.com" target="_blank" rel="noopener">Backloggd</a> and <a href="https://en.wikipedia.org" target="_blank" rel="noopener">Wikipedia</a> inspired by the research methodology showcased by <a href="https://www.youtube.com/@GMTK" target="_blank" rel="noopener">Game Maker's Toolkit</a> (Mark Brown).
       </p>
-      <p style="margin-top: 6px; font-size: 0.8rem; color: var(--text-subtle);">
-        Built for static hosting on GitHub Pages.
+      <p style="margin-top: 8px; font-size: 0.8rem; color: var(--text-subtle);">
+        Independent fan project • Not created by, affiliated with, or endorsed by Game Maker's Toolkit or Mark Brown • <a href="https://www.youtube.com/watch?v=Dbgdi7BzMR0" target="_blank" rel="noopener" style="color: var(--accent-red); text-decoration: underline;">Watch the original documentary on YouTube</a>
       </p>
     </div>
   </footer>

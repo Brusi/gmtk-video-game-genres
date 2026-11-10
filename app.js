@@ -275,7 +275,7 @@ function openGenreModal(g) {
   const quoteEl = document.getElementById('modal-video-quote');
   if (g.commentary) {
     quoteEl.style.display = 'block';
-    quoteEl.innerHTML = `<strong>GMTK Commentary:</strong> "${g.commentary}" ${g.videoTimestamp ? `<em>(${g.videoTimestamp})</em>` : ''}`;
+    quoteEl.innerHTML = `<strong>Original Video Commentary:</strong> "${g.commentary}" ${g.videoTimestamp ? `<em>(${g.videoTimestamp})</em>` : ''}`;
   } else {
     quoteEl.style.display = 'none';
   }
