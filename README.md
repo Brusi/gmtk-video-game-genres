@@ -18,14 +18,14 @@ This independent fan project brings those historical curves to life as an open, 
 - 🕹️ **9,608 Games Cataloged**: Top 200 most popular games for each year from 1975 to 2025.
 - 🏷️ **36 Canonical Genres**: Normalized according to the video's genre taxonomy.
 - 📅 **50-Year Timeline**: Explore trends, peaks, golden ages, and shifts in player taste.
-- 🎬 **Original Video Integration**: Chapter timestamps, quotes, and direct links to the GMTK video essay.
+- 🎬 **Original Video Integration**: Chapter timestamps and direct links to the GMTK video essay.
 
 ---
 
 ## 🚀 Key Features
 
 - **Interactive Genre Gallery**: Browse visual cards for all 36 genres with sparkline trend curves, total game releases, peak historical years, and jump-links to video timestamps. Sort by the original video chronological order, popularity, or peak year.
-- **Detailed Genre Deep Dive**: Click into any genre to view full-scale interactive graphs, video commentary excerpts, and key highlights. Click any individual year point on the curve to inspect the top-rated games released for that genre in that year.
+- **Detailed Genre Deep Dive**: Click into any genre to view full-scale interactive graphs and key historical milestones. Click any individual year point on the curve to inspect the top-rated games released for that genre in that year.
 - **Genre Comparison Tool**: Overlay up to 8 genres side-by-side on a synchronized comparative timeline (1975–2025) to discover how shifts occurred (e.g., Platformers giving way to FPS, or the rise of Survival and Battle Royale).
 - **Year-by-Year Explorer**: Scrub through any year from 1975 to 2025 with an interactive horizontal bar chart sorted from most games to least games, alongside the highest-ranked Backloggd games with box art and ratings.
 - **Searchable Game Database**: Instant client-side search across all 9,608 games with instant filtering, genre tags, cover art, and direct links to Backloggd entries.

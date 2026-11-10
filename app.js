@@ -271,14 +271,6 @@ function openGenreModal(g) {
   document.getElementById('modal-genre-title').textContent = g.genre;
   document.getElementById('modal-genre-stats').textContent = 
     `Total: ${g.totalGames} games • Peak: ${g.peakYear} (${g.peakCount} games) • ${((g.totalGames / (STATE.compactGames.length || 9608)) * 100).toFixed(1)}% of all games`;
-  
-  const quoteEl = document.getElementById('modal-video-quote');
-  if (g.commentary) {
-    quoteEl.style.display = 'block';
-    quoteEl.innerHTML = `<strong>Original Video Commentary:</strong> "${g.commentary}" ${g.videoTimestamp ? `<em>(${g.videoTimestamp})</em>` : ''}`;
-  } else {
-    quoteEl.style.display = 'none';
-  }
 
   // Render modal chart
   const years = Array.from({ length: 51 }, (_, i) => 1975 + i);

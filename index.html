@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>50 Years of Video Game History | Interactive Fan Explorer (Inspired by GMTK)</title>
   <meta name="description" content="Independent interactive data visualization of video game genres from 1975 to 2025, inspired by Mark Brown's Game Maker's Toolkit documentary. Not affiliated with GMTK.">
-  <link rel="stylesheet" href="./style.css?v=2">
+  <link rel="stylesheet" href="./style.css">
   <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 </head>
@@ -173,10 +173,6 @@
         <button id="modal-close-btn" class="modal-close-btn">&times;</button>
       </div>
       <div class="modal-body">
-        <div id="modal-video-quote" class="video-quote-box">
-          <!-- Quote rendered via app.js -->
-        </div>
-
         <h3 class="modal-section-title">Historical Release Trend (1975–2025)</h3>
         <div class="modal-chart-wrapper">
           <canvas id="modal-chart-canvas"></canvas>
@@ -202,6 +198,6 @@
     </div>
   </footer>
 
-  <script src="./app.js?v=2"></script>
+  <script src="./app.js"></script>
 </body>
 </html>

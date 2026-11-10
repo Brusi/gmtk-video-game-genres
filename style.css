@@ -452,17 +452,6 @@ main {
   gap: 8px;
 }
 
-.video-quote-box {
-  background: rgba(255, 71, 87, 0.08);
-  border-left: 3px solid var(--accent-red);
-  padding: 14px 18px;
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-  margin-bottom: 24px;
-  font-size: 0.95rem;
-  color: #e2e8f5;
-  font-style: italic;
-}
-
 /* Games Grid */
 .games-grid {
   display: grid;
