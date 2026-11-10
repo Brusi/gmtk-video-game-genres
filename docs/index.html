@@ -117,20 +117,28 @@
           </div>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px;">
-          <!-- Genre Breakdown Donut -->
-          <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 20px; height: 320px;">
-            <h3 style="font-size: 1rem; font-weight: 700; margin-bottom: 12px;">Genre Distribution in this Year</h3>
-            <div style="height: 240px; position: relative;">
-              <canvas id="year-breakdown-canvas"></canvas>
+        <div class="year-explorer-grid">
+          <!-- Genre Breakdown Horizontal Bar Chart -->
+          <div class="year-breakdown-card">
+            <div class="breakdown-header">
+              <div>
+                <h3 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 4px;">Genre Distribution in this Year</h3>
+                <p id="year-breakdown-subtitle" style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0;">Active genres sorted by number of games</p>
+              </div>
+              <span id="year-active-genres-badge" class="badge"></span>
+            </div>
+            <div id="year-chart-scroll-container" class="year-chart-scroll-container">
+              <div id="year-chart-wrapper" style="position: relative; width: 100%;">
+                <canvas id="year-breakdown-canvas"></canvas>
+              </div>
             </div>
           </div>
 
           <!-- Top Games in this Year -->
-          <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 20px;">
-            <h3 style="font-size: 1rem; font-weight: 700; margin-bottom: 8px;">Top Popular Games in this Year</h3>
+          <div class="year-games-card">
+            <h3 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 4px;">Top Popular Games in this Year</h3>
             <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 12px;">From Backloggd ranking (excluding remakes & ports)</p>
-            <div id="year-games-grid" class="games-grid" style="max-height: 500px; overflow-y: auto;">
+            <div id="year-games-grid" class="games-grid">
               <!-- Games rendered via app.js -->
             </div>
           </div>
@@ -143,13 +151,13 @@
       <div class="controls-bar">
         <div class="search-input-wrapper" style="max-width: 500px;">
           <span class="search-icon">🔍</span>
-          <input type="text" id="db-search-input" class="search-input" placeholder="Search 9,120 games (e.g. Chrono Trigger, Doom, Celeste)...">
+          <input type="text" id="db-search-input" class="search-input" placeholder="Search 9,608 games (e.g. Chrono Trigger, Doom, Celeste)...">
         </div>
         <span id="db-search-count" style="font-size: 0.85rem; color: var(--text-muted);"></span>
       </div>
 
       <div id="db-search-results" class="games-grid" style="margin-top: 20px;">
-        <p style="color: var(--text-muted); padding: 20px;">Type a title above to search through all 9,120 games from 1975 to 2025.</p>
+        <p style="color: var(--text-muted); padding: 20px;">Type a title above to search through all 9,608 games from 1975 to 2025.</p>
       </div>
     </section>
   </main>

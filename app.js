@@ -182,7 +182,7 @@ function renderGallery() {
       </div>
       <div class="genre-card-stats">
         <span><strong>${g.totalGames}</strong> games</span>
-        <span><strong>${((g.totalGames / 9120) * 100).toFixed(1)}%</strong> of dataset</span>
+        <span><strong>${((g.totalGames / (STATE.compactGames.length || 9608)) * 100).toFixed(1)}%</strong> of dataset</span>
       </div>
       <div class="genre-sparkline-wrapper">
         <canvas id="sparkline-${idx}"></canvas>
@@ -270,7 +270,7 @@ function openGenreModal(g) {
   const modal = document.getElementById('genre-modal');
   document.getElementById('modal-genre-title').textContent = g.genre;
   document.getElementById('modal-genre-stats').textContent = 
-    `Total: ${g.totalGames} games • Peak: ${g.peakYear} (${g.peakCount} games) • ${((g.totalGames / 9120) * 100).toFixed(1)}% of all games`;
+    `Total: ${g.totalGames} games • Peak: ${g.peakYear} (${g.peakCount} games) • ${((g.totalGames / (STATE.compactGames.length || 9608)) * 100).toFixed(1)}% of all games`;
   
   const quoteEl = document.getElementById('modal-video-quote');
   if (g.commentary) {
@@ -405,42 +405,111 @@ function renderYearView(year) {
 
   // Games for this year
   const gamesThisYear = STATE.compactGames.filter(g => g.y === year);
-  document.getElementById('year-games-count').textContent = `${gamesThisYear.length} games tracked`;
+  document.getElementById('year-games-count').textContent = `${gamesThisYear.length} games tracked in ${year}`;
 
-  // Genre breakdown for this year
+  // Genre breakdown for this year: sorted descending from most games (top) to least games (bottom)
   const countsThisYear = STATE.yearlyCounts[year] || {};
-  const genreEntries = Object.entries(countsThisYear).filter(([_, c]) => c > 0).sort((a, b) => b[1] - a[1]);
+  const genreEntries = Object.entries(countsThisYear)
+    .filter(([_, c]) => c > 0)
+    .sort((a, b) => b[1] - a[1]);
 
-  const ctx = document.getElementById('year-breakdown-canvas').getContext('2d');
-  if (yearBreakdownChart) yearBreakdownChart.destroy();
-
-  const topGenres = genreEntries.slice(0, 10);
-  const otherSum = genreEntries.slice(10).reduce((acc, curr) => acc + curr[1], 0);
-  if (otherSum > 0) {
-    topGenres.push(['Other Genres', otherSum]);
+  const badge = document.getElementById('year-active-genres-badge');
+  if (badge) {
+    badge.textContent = `${genreEntries.length} active genres`;
   }
 
+  const canvas = document.getElementById('year-breakdown-canvas');
+  const ctx = canvas.getContext('2d');
+  if (yearBreakdownChart) yearBreakdownChart.destroy();
+
+  // Dynamic height so each horizontal bar and its label has comfortable height and spacing
+  const chartWrapper = document.getElementById('year-chart-wrapper');
+  const barSpacing = 28;
+  const computedHeight = Math.max(320, genreEntries.length * barSpacing + 40);
+  if (chartWrapper) {
+    chartWrapper.style.height = `${computedHeight}px`;
+  }
+
+  const maxVal = Math.max(...genreEntries.map(g => g[1]), 1);
+
   yearBreakdownChart = new Chart(ctx, {
-    type: 'doughnut',
+    type: 'bar',
     data: {
-      labels: topGenres.map(g => g[0]),
+      labels: genreEntries.map(g => g[0]),
       datasets: [{
-        data: topGenres.map(g => g[1]),
-        backgroundColor: topGenres.map((_, i) => getGenreColor(i)),
-        borderColor: '#131722',
-        borderWidth: 2
+        label: 'Games',
+        data: genreEntries.map(g => g[1]),
+        backgroundColor: genreEntries.map(g => getGenreColor(VIDEO_ORDER.indexOf(g[0]))),
+        hoverBackgroundColor: '#ffffff',
+        borderRadius: 4,
+        borderSkipped: false,
+        barPercentage: 0.72,
+        categoryPercentage: 0.88
       }]
     },
     options: {
+      indexAxis: 'y',
       responsive: true,
       maintainAspectRatio: false,
+      onClick: (evt, elements) => {
+        if (elements && elements.length > 0) {
+          const idx = elements[0].index;
+          const genreName = genreEntries[idx][0];
+          const genreData = STATE.summary.find(s => s.genre === genreName);
+          if (genreData) openGenreModal(genreData);
+        }
+      },
+      onHover: (evt, elements) => {
+        evt.native.target.style.cursor = elements.length ? 'pointer' : 'default';
+      },
+      layout: {
+        padding: { right: 55, top: 4, bottom: 4, left: 0 }
+      },
       plugins: {
-        legend: {
-          position: 'right',
-          labels: { color: '#f0f3fa', boxWidth: 14, font: { size: 11 } }
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: 'rgba(19, 23, 34, 0.95)',
+          titleColor: '#ffffff',
+          bodyColor: '#f0f3fa',
+          borderColor: '#2a2e39',
+          borderWidth: 1,
+          padding: 10,
+          callbacks: {
+            label: (ctx) => ` ${ctx.raw} games (${Math.round((ctx.raw / (gamesThisYear.length || 1)) * 100)}% of this year)`
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: 'rgba(255, 255, 255, 0.06)' },
+          ticks: { color: '#8c96ac', font: { size: 10 }, precision: 0 },
+          suggestedMax: Math.ceil(maxVal * 1.15)
+        },
+        y: {
+          grid: { display: false },
+          ticks: {
+            color: '#f0f3fa',
+            font: { size: 11, weight: '600', family: 'Inter, system-ui, sans-serif' }
+          }
         }
       }
-    }
+    },
+    plugins: [{
+      id: 'barCounts',
+      afterDatasetsDraw(chart) {
+        const { ctx } = chart;
+        const meta = chart.getDatasetMeta(0);
+        meta.data.forEach((bar, index) => {
+          const val = chart.data.datasets[0].data[index];
+          ctx.save();
+          ctx.font = 'bold 11px Inter, system-ui, sans-serif';
+          ctx.fillStyle = '#a0aec0';
+          ctx.textBaseline = 'middle';
+          ctx.fillText(`${val}`, bar.x + 8, bar.y);
+          ctx.restore();
+        });
+      }
+    }]
   });
 
   // Top Games grid
@@ -571,7 +640,7 @@ function setupGameSearch() {
   function performSearch() {
     const q = searchInput.value.toLowerCase().trim();
     if (!q) {
-      resultsContainer.innerHTML = '<p style="color: #8c96ac; padding: 20px;">Type a title above to search through all 9,120 games from 1975 to 2025.</p>';
+      resultsContainer.innerHTML = `<p style="color: #8c96ac; padding: 20px;">Type a title above to search through all ${(STATE.compactGames.length || 9608).toLocaleString()} games from 1975 to 2025.</p>`;
       countLabel.textContent = '';
       return;
     }
